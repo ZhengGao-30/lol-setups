@@ -1,0 +1,1494 @@
+RiotPlatformGameId,group,MatchId,first3_blue,first3_red,race,outcome
+LOLTMNT01_296586,ATAKHAN,2025 Season World Championship/Play-In_Play-In_1,105.0,inf,blue,red
+LOLTMNT01_296586,BARON_NASHOR,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,neither
+LOLTMNT01_296586,DRAGON,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,neither
+LOLTMNT01_296586,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,60.0,inf,blue,blue
+LOLTMNT01_296586,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_296586,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,15.0,inf,blue,blue
+LOLTMNT01_296586,HORDE,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_296586,RIFTHERALD,2025 Season World Championship/Play-In_Play-In_1,15.0,inf,blue,blue
+LOLTMNT01_296589,ATAKHAN,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_296589,BARON_NASHOR,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,neither
+LOLTMNT01_296589,DRAGON,2025 Season World Championship/Play-In_Play-In_1,inf,165.0,red,blue
+LOLTMNT01_296589,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_296589,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,0.0,inf,blue,blue
+LOLTMNT01_296589,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,-30.0,inf,blue,red
+LOLTMNT01_296589,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,15.0,red,red
+LOLTMNT01_296589,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_296589,HORDE,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_296589,RIFTHERALD,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_296718,ATAKHAN,2025 Season World Championship/Main Event_Round 1_2,75.0,15.0,red,blue
+LOLTMNT01_296718,BARON_NASHOR,2025 Season World Championship/Main Event_Round 1_2,inf,inf,tie,neither
+LOLTMNT01_296718,DRAGON,2025 Season World Championship/Main Event_Round 1_2,120.0,inf,blue,blue
+LOLTMNT01_296718,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_2,inf,inf,tie,red
+LOLTMNT01_296718,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_2,inf,inf,tie,blue
+LOLTMNT01_296718,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_2,0.0,inf,blue,blue
+LOLTMNT01_296718,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_2,15.0,inf,blue,blue
+LOLTMNT01_296718,HORDE,2025 Season World Championship/Main Event_Round 1_2,inf,inf,tie,blue
+LOLTMNT01_296718,RIFTHERALD,2025 Season World Championship/Main Event_Round 1_2,inf,inf,tie,blue
+LOLTMNT01_296748,ATAKHAN,2025 Season World Championship/Main Event_Round 1_5,inf,90.0,red,red
+LOLTMNT01_296748,BARON_NASHOR,2025 Season World Championship/Main Event_Round 1_5,inf,135.0,red,red
+LOLTMNT01_296748,BARON_2+,2025 Season World Championship/Main Event_Round 1_5,inf,inf,tie,red
+LOLTMNT01_296748,DRAGON,2025 Season World Championship/Main Event_Round 1_5,inf,105.0,red,neither
+LOLTMNT01_296748,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_5,inf,inf,tie,red
+LOLTMNT01_296748,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_5,inf,inf,tie,red
+LOLTMNT01_296748,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_5,inf,inf,tie,red
+LOLTMNT01_296748,HORDE,2025 Season World Championship/Main Event_Round 1_5,inf,inf,tie,red
+LOLTMNT01_296748,RIFTHERALD,2025 Season World Championship/Main Event_Round 1_5,inf,inf,tie,blue
+LOLTMNT01_296764,ATAKHAN,2025 Season World Championship/Main Event_Round 1_6,-75.0,inf,blue,red
+LOLTMNT01_296764,BARON_NASHOR,2025 Season World Championship/Main Event_Round 1_6,inf,inf,tie,blue
+LOLTMNT01_296764,BARON_2+,2025 Season World Championship/Main Event_Round 1_6,inf,105.0,red,red
+LOLTMNT01_296764,BARON_2+,2025 Season World Championship/Main Event_Round 1_6,inf,0.0,red,red
+LOLTMNT01_296764,DRAGON,2025 Season World Championship/Main Event_Round 1_6,inf,30.0,red,red
+LOLTMNT01_296764,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_6,inf,inf,tie,red
+LOLTMNT01_296764,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_6,inf,15.0,red,red
+LOLTMNT01_296764,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_6,inf,inf,tie,blue
+LOLTMNT01_296764,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_6,inf,inf,tie,blue
+LOLTMNT01_296764,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_6,inf,inf,tie,red
+LOLTMNT01_296764,ELDER,2025 Season World Championship/Main Event_Round 1_6,0.0,15.0,blue,neither
+LOLTMNT01_296764,HORDE,2025 Season World Championship/Main Event_Round 1_6,inf,inf,tie,red
+LOLTMNT01_296764,RIFTHERALD,2025 Season World Championship/Main Event_Round 1_6,inf,inf,tie,neither
+LOLTMNT01_296795,ATAKHAN,2025 Season World Championship/Main Event_Round 1_8,45.0,-45.0,red,red
+LOLTMNT01_296795,BARON_NASHOR,2025 Season World Championship/Main Event_Round 1_8,inf,inf,tie,neither
+LOLTMNT01_296795,DRAGON,2025 Season World Championship/Main Event_Round 1_8,inf,inf,tie,red
+LOLTMNT01_296795,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_8,inf,inf,tie,blue
+LOLTMNT01_296795,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_8,15.0,inf,blue,blue
+LOLTMNT01_296795,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_8,15.0,-75.0,red,blue
+LOLTMNT01_296795,HORDE,2025 Season World Championship/Main Event_Round 1_8,inf,inf,tie,blue
+LOLTMNT01_296795,RIFTHERALD,2025 Season World Championship/Main Event_Round 1_8,inf,inf,tie,blue
+LOLTMNT01_296903,ATAKHAN,2025 Season World Championship/Main Event_Round 2_1,inf,inf,tie,red
+LOLTMNT01_296903,BARON_NASHOR,2025 Season World Championship/Main Event_Round 2_1,inf,inf,tie,neither
+LOLTMNT01_296903,DRAGON,2025 Season World Championship/Main Event_Round 2_1,inf,inf,tie,neither
+LOLTMNT01_296903,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_1,inf,inf,tie,red
+LOLTMNT01_296903,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_1,inf,30.0,red,red
+LOLTMNT01_296903,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_1,inf,inf,tie,red
+LOLTMNT01_296903,HORDE,2025 Season World Championship/Main Event_Round 2_1,inf,inf,tie,red
+LOLTMNT01_296903,RIFTHERALD,2025 Season World Championship/Main Event_Round 2_1,75.0,inf,blue,neither
+LOLTMNT01_296921,ATAKHAN,2025 Season World Championship/Main Event_Round 2_2,inf,inf,tie,neither
+LOLTMNT01_296921,BARON_NASHOR,2025 Season World Championship/Main Event_Round 2_2,-75.0,inf,blue,blue
+LOLTMNT01_296921,DRAGON,2025 Season World Championship/Main Event_Round 2_2,inf,inf,tie,neither
+LOLTMNT01_296921,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_2,inf,inf,tie,red
+LOLTMNT01_296921,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_2,inf,inf,tie,blue
+LOLTMNT01_296921,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_2,15.0,15.0,tie,blue
+LOLTMNT01_296921,HORDE,2025 Season World Championship/Main Event_Round 2_2,inf,inf,tie,blue
+LOLTMNT01_296921,RIFTHERALD,2025 Season World Championship/Main Event_Round 2_2,inf,135.0,red,blue
+LOLTMNT01_296936,ATAKHAN,2025 Season World Championship/Main Event_Round 2_3,15.0,inf,blue,red
+LOLTMNT01_296936,BARON_NASHOR,2025 Season World Championship/Main Event_Round 2_3,inf,45.0,red,red
+LOLTMNT01_296936,DRAGON,2025 Season World Championship/Main Event_Round 2_3,inf,inf,tie,neither
+LOLTMNT01_296936,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_3,inf,135.0,red,red
+LOLTMNT01_296936,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_3,inf,60.0,red,red
+LOLTMNT01_296936,HORDE,2025 Season World Championship/Main Event_Round 2_3,inf,inf,tie,blue
+LOLTMNT01_296936,RIFTHERALD,2025 Season World Championship/Main Event_Round 2_3,inf,inf,tie,red
+LOLTMNT01_296949,ATAKHAN,2025 Season World Championship/Main Event_Round 2_5,45.0,inf,blue,blue
+LOLTMNT01_296949,BARON_NASHOR,2025 Season World Championship/Main Event_Round 2_5,30.0,inf,blue,neither
+LOLTMNT01_296949,DRAGON,2025 Season World Championship/Main Event_Round 2_5,inf,inf,tie,blue
+LOLTMNT01_296949,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_5,inf,inf,tie,red
+LOLTMNT01_296949,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_5,inf,inf,tie,blue
+LOLTMNT01_296949,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_5,inf,inf,tie,blue
+LOLTMNT01_296949,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_5,inf,inf,tie,blue
+LOLTMNT01_296949,HORDE,2025 Season World Championship/Main Event_Round 2_5,inf,inf,tie,blue
+LOLTMNT01_296949,RIFTHERALD,2025 Season World Championship/Main Event_Round 2_5,inf,60.0,red,blue
+LOLTMNT01_296976,ATAKHAN,2025 Season World Championship/Main Event_Round 2_7,120.0,inf,blue,blue
+LOLTMNT01_296976,BARON_NASHOR,2025 Season World Championship/Main Event_Round 2_7,30.0,inf,blue,blue
+LOLTMNT01_296976,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_7,inf,inf,tie,red
+LOLTMNT01_296976,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_7,inf,inf,tie,red
+LOLTMNT01_296993,ATAKHAN,2025 Season World Championship/Main Event_Round 2_8,inf,-60.0,red,blue
+LOLTMNT01_296993,BARON_NASHOR,2025 Season World Championship/Main Event_Round 2_8,inf,inf,tie,neither
+LOLTMNT01_296993,DRAGON,2025 Season World Championship/Main Event_Round 2_8,inf,90.0,red,red
+LOLTMNT01_296993,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_8,inf,inf,tie,blue
+LOLTMNT01_296993,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_8,60.0,inf,blue,blue
+LOLTMNT01_296993,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_8,45.0,inf,blue,blue
+LOLTMNT01_296993,HORDE,2025 Season World Championship/Main Event_Round 2_8,inf,inf,tie,blue
+LOLTMNT01_296993,RIFTHERALD,2025 Season World Championship/Main Event_Round 2_8,inf,inf,tie,blue
+LOLTMNT01_297545,ATAKHAN,2025 Season World Championship/Play-In_Play-In_1,inf,105.0,red,red
+LOLTMNT01_297545,BARON_NASHOR,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,neither
+LOLTMNT01_297545,BARON_2+,2025 Season World Championship/Play-In_Play-In_1,60.0,inf,blue,blue
+LOLTMNT01_297545,DRAGON,2025 Season World Championship/Play-In_Play-In_1,120.0,120.0,tie,blue
+LOLTMNT01_297545,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,red
+LOLTMNT01_297545,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,15.0,inf,blue,blue
+LOLTMNT01_297545,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,red
+LOLTMNT01_297545,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,30.0,inf,blue,blue
+LOLTMNT01_297545,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,neither
+LOLTMNT01_297545,HORDE,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_297545,RIFTHERALD,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,red
+LOLTMNT01_297554,ATAKHAN,2025 Season World Championship/Play-In_Play-In_1,inf,135.0,red,red
+LOLTMNT01_297554,BARON_NASHOR,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,neither
+LOLTMNT01_297554,DRAGON,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,neither
+LOLTMNT01_297554,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,red
+LOLTMNT01_297554,DRAGON_2+,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,red
+LOLTMNT01_297554,HORDE,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,blue
+LOLTMNT01_297554,RIFTHERALD,2025 Season World Championship/Play-In_Play-In_1,inf,inf,tie,neither
+LOLTMNT01_297691,ATAKHAN,2025 Season World Championship/Main Event_Round 1_1,inf,inf,tie,blue
+LOLTMNT01_297691,BARON_NASHOR,2025 Season World Championship/Main Event_Round 1_1,inf,inf,tie,blue
+LOLTMNT01_297691,BARON_2+,2025 Season World Championship/Main Event_Round 1_1,inf,inf,tie,blue
+LOLTMNT01_297691,DRAGON,2025 Season World Championship/Main Event_Round 1_1,inf,inf,tie,red
+LOLTMNT01_297691,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_1,inf,inf,tie,blue
+LOLTMNT01_297691,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_1,15.0,inf,blue,blue
+LOLTMNT01_297691,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_1,inf,inf,tie,blue
+LOLTMNT01_297691,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_1,inf,inf,tie,blue
+LOLTMNT01_297691,HORDE,2025 Season World Championship/Main Event_Round 1_1,inf,inf,tie,blue
+LOLTMNT01_297691,RIFTHERALD,2025 Season World Championship/Main Event_Round 1_1,inf,15.0,red,blue
+LOLTMNT01_297721,ATAKHAN,2025 Season World Championship/Main Event_Round 1_3,165.0,120.0,red,neither
+LOLTMNT01_297721,BARON_NASHOR,2025 Season World Championship/Main Event_Round 1_3,75.0,inf,blue,blue
+LOLTMNT01_297721,BARON_2+,2025 Season World Championship/Main Event_Round 1_3,inf,inf,tie,neither
+LOLTMNT01_297721,DRAGON,2025 Season World Championship/Main Event_Round 1_3,inf,inf,tie,neither
+LOLTMNT01_297721,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_3,inf,inf,tie,red
+LOLTMNT01_297721,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_3,inf,15.0,red,red
+LOLTMNT01_297721,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_3,15.0,inf,blue,blue
+LOLTMNT01_297721,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_3,-30.0,inf,blue,blue
+LOLTMNT01_297721,HORDE,2025 Season World Championship/Main Event_Round 1_3,inf,inf,tie,blue
+LOLTMNT01_297721,RIFTHERALD,2025 Season World Championship/Main Event_Round 1_3,inf,inf,tie,red
+LOLTMNT01_297733,ATAKHAN,2025 Season World Championship/Main Event_Round 1_4,-90.0,-75.0,blue,neither
+LOLTMNT01_297733,BARON_NASHOR,2025 Season World Championship/Main Event_Round 1_4,inf,inf,tie,red
+LOLTMNT01_297733,DRAGON,2025 Season World Championship/Main Event_Round 1_4,120.0,120.0,tie,neither
+LOLTMNT01_297733,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_4,inf,inf,tie,red
+LOLTMNT01_297733,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_4,15.0,inf,blue,red
+LOLTMNT01_297733,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_4,inf,inf,tie,red
+LOLTMNT01_297733,HORDE,2025 Season World Championship/Main Event_Round 1_4,inf,inf,tie,red
+LOLTMNT01_297733,RIFTHERALD,2025 Season World Championship/Main Event_Round 1_4,45.0,inf,blue,blue
+LOLTMNT01_297767,ATAKHAN,2025 Season World Championship/Main Event_Round 1_7,inf,15.0,red,red
+LOLTMNT01_297767,BARON_NASHOR,2025 Season World Championship/Main Event_Round 1_7,inf,120.0,red,red
+LOLTMNT01_297767,DRAGON,2025 Season World Championship/Main Event_Round 1_7,inf,inf,tie,neither
+LOLTMNT01_297767,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_7,15.0,inf,blue,blue
+LOLTMNT01_297767,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_7,inf,-120.0,red,red
+LOLTMNT01_297767,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_7,inf,inf,tie,blue
+LOLTMNT01_297767,DRAGON_2+,2025 Season World Championship/Main Event_Round 1_7,inf,inf,tie,neither
+LOLTMNT01_297767,HORDE,2025 Season World Championship/Main Event_Round 1_7,inf,inf,tie,red
+LOLTMNT01_297767,RIFTHERALD,2025 Season World Championship/Main Event_Round 1_7,inf,inf,tie,red
+LOLTMNT01_297965,ATAKHAN,2025 Season World Championship/Main Event_Round 2_4,15.0,inf,blue,blue
+LOLTMNT01_297965,BARON_NASHOR,2025 Season World Championship/Main Event_Round 2_4,0.0,inf,blue,blue
+LOLTMNT01_297965,DRAGON,2025 Season World Championship/Main Event_Round 2_4,inf,inf,tie,blue
+LOLTMNT01_297965,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_4,15.0,inf,blue,blue
+LOLTMNT01_297965,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_4,inf,0.0,red,blue
+LOLTMNT01_297965,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_4,0.0,inf,blue,blue
+LOLTMNT01_297965,HORDE,2025 Season World Championship/Main Event_Round 2_4,inf,inf,tie,blue
+LOLTMNT01_297965,RIFTHERALD,2025 Season World Championship/Main Event_Round 2_4,inf,inf,tie,neither
+LOLTMNT01_297998,ATAKHAN,2025 Season World Championship/Main Event_Round 2_6,inf,inf,tie,blue
+LOLTMNT01_297998,BARON_NASHOR,2025 Season World Championship/Main Event_Round 2_6,-120.0,inf,blue,red
+LOLTMNT01_297998,BARON_2+,2025 Season World Championship/Main Event_Round 2_6,inf,inf,tie,neither
+LOLTMNT01_297998,DRAGON,2025 Season World Championship/Main Event_Round 2_6,inf,60.0,red,red
+LOLTMNT01_297998,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_6,inf,inf,tie,red
+LOLTMNT01_297998,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_6,45.0,inf,blue,red
+LOLTMNT01_297998,DRAGON_2+,2025 Season World Championship/Main Event_Round 2_6,30.0,inf,blue,red
+LOLTMNT01_297998,ELDER,2025 Season World Championship/Main Event_Round 2_6,inf,inf,tie,red
+LOLTMNT01_297998,HORDE,2025 Season World Championship/Main Event_Round 2_6,inf,inf,tie,blue
+LOLTMNT01_297998,RIFTHERALD,2025 Season World Championship/Main Event_Round 2_6,inf,inf,tie,blue
+LOLTMNT01_298178,ATAKHAN,2025 Season World Championship/Main Event_Round 3_1,15.0,inf,blue,blue
+LOLTMNT01_298178,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_1,inf,inf,tie,neither
+LOLTMNT01_298178,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_1,inf,0.0,red,red
+LOLTMNT01_298178,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_1,0.0,15.0,blue,blue
+LOLTMNT01_298178,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_1,30.0,inf,blue,blue
+LOLTMNT01_298180,ATAKHAN,2025 Season World Championship/Main Event_Round 3_1,inf,15.0,red,red
+LOLTMNT01_298180,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_1,inf,-75.0,red,red
+LOLTMNT01_298180,DRAGON,2025 Season World Championship/Main Event_Round 3_1,inf,inf,tie,red
+LOLTMNT01_298180,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_1,inf,inf,tie,blue
+LOLTMNT01_298180,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_1,inf,inf,tie,red
+LOLTMNT01_298180,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_1,inf,inf,tie,red
+LOLTMNT01_298180,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_1,inf,inf,tie,red
+LOLTMNT01_298180,HORDE,2025 Season World Championship/Main Event_Round 3_1,inf,inf,tie,red
+LOLTMNT01_298180,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_1,inf,inf,tie,red
+LOLTMNT01_298440,ATAKHAN,2025 Season World Championship/Main Event_Round 3_3,inf,inf,tie,blue
+LOLTMNT01_298440,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_3,inf,0.0,red,neither
+LOLTMNT01_298440,DRAGON,2025 Season World Championship/Main Event_Round 3_3,inf,inf,tie,red
+LOLTMNT01_298440,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_3,inf,inf,tie,red
+LOLTMNT01_298440,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_3,inf,inf,tie,blue
+LOLTMNT01_298440,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_3,inf,inf,tie,blue
+LOLTMNT01_298440,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_3,inf,inf,tie,blue
+LOLTMNT01_298440,HORDE,2025 Season World Championship/Main Event_Round 3_3,inf,inf,tie,red
+LOLTMNT01_298440,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_3,inf,inf,tie,red
+LOLTMNT01_298463,ATAKHAN,2025 Season World Championship/Main Event_Round 3_5,-105.0,60.0,blue,red
+LOLTMNT01_298463,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_5,inf,15.0,red,red
+LOLTMNT01_298463,DRAGON,2025 Season World Championship/Main Event_Round 3_5,inf,75.0,red,red
+LOLTMNT01_298463,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_5,inf,45.0,red,red
+LOLTMNT01_298463,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_5,inf,15.0,red,red
+LOLTMNT01_298463,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_5,-75.0,inf,blue,red
+LOLTMNT01_298463,HORDE,2025 Season World Championship/Main Event_Round 3_5,inf,inf,tie,blue
+LOLTMNT01_298463,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_5,inf,45.0,red,red
+LOLTMNT01_298478,ATAKHAN,2025 Season World Championship/Main Event_Round 3_6,15.0,inf,blue,blue
+LOLTMNT01_298478,DRAGON,2025 Season World Championship/Main Event_Round 3_6,inf,inf,tie,blue
+LOLTMNT01_298478,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_6,inf,inf,tie,blue
+LOLTMNT01_298478,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_6,inf,inf,tie,blue
+LOLTMNT01_298478,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_6,inf,inf,tie,blue
+LOLTMNT01_298478,HORDE,2025 Season World Championship/Main Event_Round 3_6,-45.0,inf,blue,blue
+LOLTMNT01_298478,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_6,inf,inf,tie,blue
+LOLTMNT01_298640,ATAKHAN,2025 Season World Championship/Main Event_Round 3_7,30.0,inf,blue,blue
+LOLTMNT01_298640,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_298640,DRAGON,2025 Season World Championship/Main Event_Round 3_7,120.0,inf,blue,blue
+LOLTMNT01_298640,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,15.0,inf,blue,blue
+LOLTMNT01_298640,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_298640,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_298640,HORDE,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_298640,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,red
+LOLTMNT01_298653,ATAKHAN,2025 Season World Championship/Main Event_Round 3_7,60.0,inf,blue,blue
+LOLTMNT01_298653,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_7,inf,90.0,red,blue
+LOLTMNT01_298653,DRAGON,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,red
+LOLTMNT01_298653,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,-90.0,inf,blue,blue
+LOLTMNT01_298653,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_298653,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,-60.0,inf,blue,blue
+LOLTMNT01_298653,HORDE,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_298653,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_299149,ATAKHAN,2025 Season World Championship/Main Event_Round 3_2,150.0,180.0,blue,neither
+LOLTMNT01_299149,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_2,75.0,inf,blue,neither
+LOLTMNT01_299149,BARON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,neither
+LOLTMNT01_299149,DRAGON,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,red
+LOLTMNT01_299149,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,red
+LOLTMNT01_299149,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,blue
+LOLTMNT01_299149,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,blue
+LOLTMNT01_299149,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,blue
+LOLTMNT01_299149,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,neither
+LOLTMNT01_299149,HORDE,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,blue
+LOLTMNT01_299149,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,blue
+LOLTMNT01_299154,ATAKHAN,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,neither
+LOLTMNT01_299154,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_2,165.0,inf,blue,blue
+LOLTMNT01_299154,DRAGON,2025 Season World Championship/Main Event_Round 3_2,inf,60.0,red,red
+LOLTMNT01_299154,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,red
+LOLTMNT01_299154,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,105.0,inf,blue,blue
+LOLTMNT01_299154,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,15.0,red,blue
+LOLTMNT01_299154,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,neither
+LOLTMNT01_299154,HORDE,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,blue
+LOLTMNT01_299154,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_2,45.0,inf,blue,blue
+LOLTMNT01_299160,ATAKHAN,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,red
+LOLTMNT01_299160,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_2,-75.0,inf,blue,neither
+LOLTMNT01_299160,DRAGON,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,blue
+LOLTMNT01_299160,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,red
+LOLTMNT01_299160,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,red
+LOLTMNT01_299160,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,15.0,red,red
+LOLTMNT01_299160,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_2,inf,0.0,red,red
+LOLTMNT01_299160,HORDE,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,red
+LOLTMNT01_299160,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_2,inf,inf,tie,blue
+LOLTMNT01_299401,ATAKHAN,2025 Season World Championship/Main Event_Round 3_4,-90.0,15.0,blue,blue
+LOLTMNT01_299401,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_4,15.0,inf,blue,blue
+LOLTMNT01_299401,DRAGON,2025 Season World Championship/Main Event_Round 3_4,inf,60.0,red,red
+LOLTMNT01_299401,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_4,15.0,inf,blue,blue
+LOLTMNT01_299401,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_4,30.0,inf,blue,blue
+LOLTMNT01_299401,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_4,inf,inf,tie,blue
+LOLTMNT01_299401,HORDE,2025 Season World Championship/Main Event_Round 3_4,inf,inf,tie,blue
+LOLTMNT01_299401,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_4,inf,inf,tie,blue
+LOLTMNT01_299650,ATAKHAN,2025 Season World Championship/Main Event_Round 3_7,15.0,inf,blue,blue
+LOLTMNT01_299650,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_7,15.0,inf,blue,blue
+LOLTMNT01_299650,DRAGON,2025 Season World Championship/Main Event_Round 3_7,15.0,inf,blue,blue
+LOLTMNT01_299650,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_299650,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_299650,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_299650,HORDE,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,blue
+LOLTMNT01_299650,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_7,inf,inf,tie,red
+LOLTMNT01_299677,ATAKHAN,2025 Season World Championship/Main Event_Round 3_8,inf,45.0,red,red
+LOLTMNT01_299677,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,neither
+LOLTMNT01_299677,DRAGON,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,neither
+LOLTMNT01_299677,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,inf,15.0,red,red
+LOLTMNT01_299677,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,red
+LOLTMNT01_299677,HORDE,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,blue
+LOLTMNT01_299677,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_8,inf,60.0,red,red
+LOLTMNT01_299686,ATAKHAN,2025 Season World Championship/Main Event_Round 3_8,inf,45.0,red,neither
+LOLTMNT01_299686,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,neither
+LOLTMNT01_299686,DRAGON,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,blue
+LOLTMNT01_299686,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,15.0,inf,blue,red
+LOLTMNT01_299686,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,blue
+LOLTMNT01_299686,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,60.0,inf,blue,blue
+LOLTMNT01_299686,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,blue
+LOLTMNT01_299686,HORDE,2025 Season World Championship/Main Event_Round 3_8,45.0,inf,blue,blue
+LOLTMNT01_299686,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_8,30.0,inf,blue,blue
+LOLTMNT01_299703,ATAKHAN,2025 Season World Championship/Main Event_Round 3_8,180.0,inf,blue,neither
+LOLTMNT01_299703,BARON_NASHOR,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,neither
+LOLTMNT01_299703,DRAGON,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,neither
+LOLTMNT01_299703,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,red
+LOLTMNT01_299703,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,90.0,inf,blue,blue
+LOLTMNT01_299703,DRAGON_2+,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,blue
+LOLTMNT01_299703,HORDE,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,red
+LOLTMNT01_299703,RIFTHERALD,2025 Season World Championship/Main Event_Round 3_8,inf,inf,tie,neither
+LOLTMNT01_300439,ATAKHAN,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,red
+LOLTMNT01_300439,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_4,inf,150.0,red,red
+LOLTMNT01_300439,DRAGON,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,neither
+LOLTMNT01_300439,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_4,inf,60.0,red,red
+LOLTMNT01_300439,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_4,inf,60.0,red,red
+LOLTMNT01_300439,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,neither
+LOLTMNT01_300439,HORDE,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,red
+LOLTMNT01_300439,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,blue
+LOLTMNT01_300568,ATAKHAN,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,blue
+LOLTMNT01_300568,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,blue
+LOLTMNT01_300568,DRAGON,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,neither
+LOLTMNT01_300568,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,red
+LOLTMNT01_300568,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_5,0.0,inf,blue,blue
+LOLTMNT01_300568,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,blue
+LOLTMNT01_300568,HORDE,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,red
+LOLTMNT01_300568,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_5,30.0,inf,blue,blue
+LOLTMNT01_300584,ATAKHAN,2025 Season World Championship/Main Event_Round 4_6,inf,60.0,red,blue
+LOLTMNT01_300584,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_6,15.0,inf,blue,blue
+LOLTMNT01_300584,BARON_2+,2025 Season World Championship/Main Event_Round 4_6,15.0,inf,blue,red
+LOLTMNT01_300584,BARON_2+,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,neither
+LOLTMNT01_300584,DRAGON,2025 Season World Championship/Main Event_Round 4_6,inf,90.0,red,red
+LOLTMNT01_300584,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,red
+LOLTMNT01_300584,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,inf,15.0,red,blue
+LOLTMNT01_300584,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,30.0,30.0,tie,red
+LOLTMNT01_300584,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,-15.0,inf,blue,blue
+LOLTMNT01_300584,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,red
+LOLTMNT01_300584,ELDER,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,neither
+LOLTMNT01_300584,HORDE,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,blue
+LOLTMNT01_300584,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_6,45.0,inf,blue,blue
+LOLTMNT01_300598,ATAKHAN,2025 Season World Championship/Main Event_Round 4_6,0.0,inf,blue,neither
+LOLTMNT01_300598,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_6,inf,165.0,red,red
+LOLTMNT01_300598,DRAGON,2025 Season World Championship/Main Event_Round 4_6,inf,60.0,red,blue
+LOLTMNT01_300598,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,red
+LOLTMNT01_300598,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,red
+LOLTMNT01_300598,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,inf,60.0,red,red
+LOLTMNT01_300598,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_6,inf,0.0,red,red
+LOLTMNT01_300598,HORDE,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,red
+LOLTMNT01_300598,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_6,inf,inf,tie,blue
+LOLTMNT01_300730,ATAKHAN,2025 Season World Championship/Main Event_Round 5_1,30.0,inf,blue,blue
+LOLTMNT01_300730,BARON_NASHOR,2025 Season World Championship/Main Event_Round 5_1,135.0,inf,blue,neither
+LOLTMNT01_300730,DRAGON,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,neither
+LOLTMNT01_300730,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,red
+LOLTMNT01_300730,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_1,15.0,inf,blue,blue
+LOLTMNT01_300730,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_1,15.0,45.0,blue,red
+LOLTMNT01_300730,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,blue
+LOLTMNT01_300730,HORDE,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,blue
+LOLTMNT01_300730,RIFTHERALD,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,red
+LOLTMNT01_300740,ATAKHAN,2025 Season World Championship/Main Event_Round 5_1,30.0,inf,blue,red
+LOLTMNT01_300740,BARON_NASHOR,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,neither
+LOLTMNT01_300740,DRAGON,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,neither
+LOLTMNT01_300740,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,red
+LOLTMNT01_300740,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,red
+LOLTMNT01_300740,HORDE,2025 Season World Championship/Main Event_Round 5_1,0.0,inf,blue,blue
+LOLTMNT01_300740,RIFTHERALD,2025 Season World Championship/Main Event_Round 5_1,inf,inf,tie,blue
+LOLTMNT01_300765,ATAKHAN,2025 Season World Championship/Main Event_Round 5_2,inf,-15.0,red,red
+LOLTMNT01_300765,BARON_NASHOR,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,red
+LOLTMNT01_300765,DRAGON,2025 Season World Championship/Main Event_Round 5_2,inf,60.0,red,red
+LOLTMNT01_300765,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,red
+LOLTMNT01_300765,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,red
+LOLTMNT01_300765,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,30.0,red,red
+LOLTMNT01_300765,HORDE,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,red
+LOLTMNT01_300765,RIFTHERALD,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,blue
+LOLTMNT01_300771,ATAKHAN,2025 Season World Championship/Main Event_Round 5_2,30.0,inf,blue,blue
+LOLTMNT01_300771,BARON_NASHOR,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,blue
+LOLTMNT01_300771,BARON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,neither
+LOLTMNT01_300771,DRAGON,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,red
+LOLTMNT01_300771,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,15.0,red,red
+LOLTMNT01_300771,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,-45.0,inf,blue,blue
+LOLTMNT01_300771,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,blue
+LOLTMNT01_300771,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,blue
+LOLTMNT01_300771,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,15.0,red,blue
+LOLTMNT01_300771,HORDE,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,blue
+LOLTMNT01_300771,RIFTHERALD,2025 Season World Championship/Main Event_Round 5_2,inf,15.0,red,red
+LOLTMNT01_300794,ATAKHAN,2025 Season World Championship/Main Event_Round 5_3,inf,-105.0,red,red
+LOLTMNT01_300794,BARON_NASHOR,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,neither
+LOLTMNT01_300794,DRAGON,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,red
+LOLTMNT01_300794,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,blue
+LOLTMNT01_300794,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,inf,15.0,red,red
+LOLTMNT01_300794,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,red
+LOLTMNT01_300794,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,0.0,15.0,blue,red
+LOLTMNT01_300794,HORDE,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,blue
+LOLTMNT01_300794,RIFTHERALD,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,red
+LOLTMNT01_301255,ATAKHAN,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,red
+LOLTMNT01_301255,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,neither
+LOLTMNT01_301255,DRAGON,2025 Season World Championship/Main Event_Round 4_1,45.0,inf,blue,blue
+LOLTMNT01_301255,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,blue
+LOLTMNT01_301255,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_1,30.0,45.0,blue,red
+LOLTMNT01_301255,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,blue
+LOLTMNT01_301255,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_1,inf,30.0,red,red
+LOLTMNT01_301255,HORDE,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,red
+LOLTMNT01_301255,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_1,inf,15.0,red,blue
+LOLTMNT01_301259,ATAKHAN,2025 Season World Championship/Main Event_Round 4_1,180.0,inf,blue,neither
+LOLTMNT01_301259,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_1,-120.0,150.0,blue,neither
+LOLTMNT01_301259,DRAGON,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,blue
+LOLTMNT01_301259,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,blue
+LOLTMNT01_301259,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,blue
+LOLTMNT01_301259,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_1,30.0,30.0,tie,red
+LOLTMNT01_301259,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_1,inf,0.0,red,red
+LOLTMNT01_301259,HORDE,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,blue
+LOLTMNT01_301259,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_1,inf,inf,tie,blue
+LOLTMNT01_301279,ATAKHAN,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,neither
+LOLTMNT01_301279,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,neither
+LOLTMNT01_301279,DRAGON,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,neither
+LOLTMNT01_301279,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,red
+LOLTMNT01_301279,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,blue
+LOLTMNT01_301279,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,15.0,inf,blue,blue
+LOLTMNT01_301279,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,15.0,15.0,tie,red
+LOLTMNT01_301279,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,-120.0,inf,blue,neither
+LOLTMNT01_301279,HORDE,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,blue
+LOLTMNT01_301279,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_2,90.0,inf,blue,blue
+LOLTMNT01_301282,ATAKHAN,2025 Season World Championship/Main Event_Round 4_2,15.0,inf,blue,blue
+LOLTMNT01_301282,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_2,inf,135.0,red,red
+LOLTMNT01_301282,DRAGON,2025 Season World Championship/Main Event_Round 4_2,120.0,inf,blue,blue
+LOLTMNT01_301282,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,red
+LOLTMNT01_301282,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,120.0,red,red
+LOLTMNT01_301282,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,15.0,red,red
+LOLTMNT01_301282,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,red
+LOLTMNT01_301282,HORDE,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,red
+LOLTMNT01_301282,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_2,60.0,inf,blue,blue
+LOLTMNT01_301286,ATAKHAN,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,red
+LOLTMNT01_301286,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_2,15.0,inf,blue,blue
+LOLTMNT01_301286,BARON_2+,2025 Season World Championship/Main Event_Round 4_2,-105.0,inf,blue,blue
+LOLTMNT01_301286,DRAGON,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,blue
+LOLTMNT01_301286,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,red
+LOLTMNT01_301286,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,75.0,inf,blue,blue
+LOLTMNT01_301286,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,red
+LOLTMNT01_301286,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,0.0,red,red
+LOLTMNT01_301286,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,neither
+LOLTMNT01_301286,HORDE,2025 Season World Championship/Main Event_Round 4_2,inf,inf,tie,blue
+LOLTMNT01_301286,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_2,inf,15.0,red,red
+LOLTMNT01_301407,ATAKHAN,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,neither
+LOLTMNT01_301407,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_3,-105.0,inf,blue,neither
+LOLTMNT01_301407,DRAGON,2025 Season World Championship/Main Event_Round 4_3,90.0,inf,blue,blue
+LOLTMNT01_301407,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301407,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301407,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301407,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301407,HORDE,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301407,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_3,30.0,inf,blue,blue
+LOLTMNT01_301409,ATAKHAN,2025 Season World Championship/Main Event_Round 4_3,60.0,inf,blue,neither
+LOLTMNT01_301409,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301409,BARON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,30.0,red,red
+LOLTMNT01_301409,DRAGON,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,neither
+LOLTMNT01_301409,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,90.0,red,red
+LOLTMNT01_301409,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,blue
+LOLTMNT01_301409,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,blue
+LOLTMNT01_301409,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,neither
+LOLTMNT01_301409,HORDE,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,blue
+LOLTMNT01_301409,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,blue
+LOLTMNT01_301411,ATAKHAN,2025 Season World Championship/Main Event_Round 4_3,180.0,inf,blue,neither
+LOLTMNT01_301411,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301411,DRAGON,2025 Season World Championship/Main Event_Round 4_3,inf,45.0,red,red
+LOLTMNT01_301411,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301411,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,blue
+LOLTMNT01_301411,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301411,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,red
+LOLTMNT01_301411,HORDE,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,blue
+LOLTMNT01_301411,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_3,inf,inf,tie,blue
+LOLTMNT01_301421,ATAKHAN,2025 Season World Championship/Main Event_Round 4_4,75.0,inf,blue,blue
+LOLTMNT01_301421,DRAGON,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,red
+LOLTMNT01_301421,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,blue
+LOLTMNT01_301421,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,blue
+LOLTMNT01_301421,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_4,15.0,inf,blue,blue
+LOLTMNT01_301421,HORDE,2025 Season World Championship/Main Event_Round 4_4,inf,inf,tie,blue
+LOLTMNT01_301421,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_4,15.0,inf,blue,blue
+LOLTMNT01_301547,ATAKHAN,2025 Season World Championship/Main Event_Round 4_5,165.0,120.0,red,neither
+LOLTMNT01_301547,BARON_NASHOR,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,neither
+LOLTMNT01_301547,BARON_2+,2025 Season World Championship/Main Event_Round 4_5,inf,30.0,red,red
+LOLTMNT01_301547,DRAGON,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,neither
+LOLTMNT01_301547,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,neither
+LOLTMNT01_301547,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,red
+LOLTMNT01_301547,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,blue
+LOLTMNT01_301547,DRAGON_2+,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,red
+LOLTMNT01_301547,HORDE,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,blue
+LOLTMNT01_301547,RIFTHERALD,2025 Season World Championship/Main Event_Round 4_5,inf,inf,tie,red
+LOLTMNT01_301758,ATAKHAN,2025 Season World Championship/Main Event_Round 5_2,45.0,60.0,blue,red
+LOLTMNT01_301758,BARON_NASHOR,2025 Season World Championship/Main Event_Round 5_2,inf,45.0,red,red
+LOLTMNT01_301758,DRAGON,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,red
+LOLTMNT01_301758,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,30.0,red,red
+LOLTMNT01_301758,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,red
+LOLTMNT01_301758,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_2,inf,0.0,red,red
+LOLTMNT01_301758,HORDE,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,blue
+LOLTMNT01_301758,RIFTHERALD,2025 Season World Championship/Main Event_Round 5_2,inf,inf,tie,red
+LOLTMNT01_301778,ATAKHAN,2025 Season World Championship/Main Event_Round 5_3,inf,60.0,red,blue
+LOLTMNT01_301778,BARON_NASHOR,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,neither
+LOLTMNT01_301778,BARON_2+,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,blue
+LOLTMNT01_301778,DRAGON,2025 Season World Championship/Main Event_Round 5_3,120.0,inf,blue,blue
+LOLTMNT01_301778,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,blue
+LOLTMNT01_301778,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,15.0,inf,blue,blue
+LOLTMNT01_301778,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,inf,0.0,red,red
+LOLTMNT01_301778,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,15.0,0.0,red,red
+LOLTMNT01_301778,DRAGON_2+,2025 Season World Championship/Main Event_Round 5_3,15.0,15.0,tie,blue
+LOLTMNT01_301778,ELDER,2025 Season World Championship/Main Event_Round 5_3,15.0,15.0,tie,blue
+LOLTMNT01_301778,HORDE,2025 Season World Championship/Main Event_Round 5_3,inf,inf,tie,red
+LOLTMNT01_301778,RIFTHERALD,2025 Season World Championship/Main Event_Round 5_3,45.0,-105.0,red,blue
+LOLTMNT01_302140,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_302140,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_1,105.0,inf,blue,neither
+LOLTMNT01_302140,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_302140,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_302140,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,15.0,inf,blue,blue
+LOLTMNT01_302140,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_302140,ELDER,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,neither
+LOLTMNT01_302140,HORDE,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_302140,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,red
+LOLTMNT01_302189,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,red
+LOLTMNT01_302189,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_2,120.0,inf,blue,blue
+LOLTMNT01_302189,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_302189,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_302189,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,red
+LOLTMNT01_302189,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_302189,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,0.0,inf,blue,blue
+LOLTMNT01_302189,HORDE,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_302189,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,red
+LOLTMNT01_302227,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_3,45.0,60.0,blue,neither
+LOLTMNT01_302227,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_3,135.0,inf,blue,blue
+LOLTMNT01_302227,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,blue
+LOLTMNT01_302227,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,90.0,inf,blue,blue
+LOLTMNT01_302227,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,red
+LOLTMNT01_302227,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,blue
+LOLTMNT01_302227,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,neither
+LOLTMNT01_302227,HORDE,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,blue
+LOLTMNT01_302227,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,blue
+LOLTMNT01_302251,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_4,inf,15.0,red,red
+LOLTMNT01_302251,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_4,60.0,inf,blue,blue
+LOLTMNT01_302251,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,neither
+LOLTMNT01_302251,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,red
+LOLTMNT01_302251,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,blue
+LOLTMNT01_302251,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,15.0,0.0,red,red
+LOLTMNT01_302251,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,blue
+LOLTMNT01_302251,HORDE,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,red
+LOLTMNT01_302251,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,blue
+LOLTMNT01_302318,ATAKHAN,2025 Season World Championship/Main Event_Semifinals_1,45.0,90.0,blue,red
+LOLTMNT01_302318,BARON_NASHOR,2025 Season World Championship/Main Event_Semifinals_1,inf,180.0,red,neither
+LOLTMNT01_302318,BARON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,neither
+LOLTMNT01_302318,DRAGON,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_302318,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,15.0,inf,blue,blue
+LOLTMNT01_302318,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_302318,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_302318,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_302318,ELDER,2025 Season World Championship/Main Event_Semifinals_1,-15.0,inf,blue,red
+LOLTMNT01_302318,HORDE,2025 Season World Championship/Main Event_Semifinals_1,15.0,inf,blue,blue
+LOLTMNT01_302318,RIFTHERALD,2025 Season World Championship/Main Event_Semifinals_1,15.0,inf,blue,red
+LOLTMNT01_303065,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_1,inf,0.0,red,red
+LOLTMNT01_303065,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_1,inf,60.0,red,red
+LOLTMNT01_303065,BARON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,0.0,red,neither
+LOLTMNT01_303065,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,neither
+LOLTMNT01_303065,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_303065,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,red
+LOLTMNT01_303065,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,15.0,inf,blue,blue
+LOLTMNT01_303065,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,neither
+LOLTMNT01_303065,HORDE,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,red
+LOLTMNT01_303065,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_1,45.0,inf,blue,blue
+LOLTMNT01_303066,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_1,60.0,-60.0,red,red
+LOLTMNT01_303066,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_1,inf,180.0,red,neither
+LOLTMNT01_303066,BARON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,30.0,red,neither
+LOLTMNT01_303066,BARON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,red
+LOLTMNT01_303066,BARON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,15.0,red,red
+LOLTMNT01_303066,BARON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,neither
+LOLTMNT01_303066,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,red
+LOLTMNT01_303066,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,75.0,red,red
+LOLTMNT01_303066,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,60.0,red,red
+LOLTMNT01_303066,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,30.0,inf,blue,blue
+LOLTMNT01_303066,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,15.0,red,blue
+LOLTMNT01_303066,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,75.0,inf,blue,blue
+LOLTMNT01_303066,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,0.0,inf,blue,blue
+LOLTMNT01_303066,ELDER,2025 Season World Championship/Main Event_Quarterfinals_1,inf,30.0,red,red
+LOLTMNT01_303066,ELDER,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,neither
+LOLTMNT01_303066,HORDE,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_303066,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_303068,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_1,45.0,inf,blue,blue
+LOLTMNT01_303068,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_303068,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_303068,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,45.0,red,red
+LOLTMNT01_303068,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,15.0,inf,blue,blue
+LOLTMNT01_303068,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,blue
+LOLTMNT01_303068,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_1,0.0,inf,blue,blue
+LOLTMNT01_303068,HORDE,2025 Season World Championship/Main Event_Quarterfinals_1,inf,inf,tie,red
+LOLTMNT01_303068,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_1,inf,30.0,red,red
+LOLTMNT01_303118,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_2,-120.0,inf,blue,blue
+LOLTMNT01_303118,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,neither
+LOLTMNT01_303118,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_303118,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_303118,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,60.0,inf,blue,red
+LOLTMNT01_303118,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_303118,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_303118,HORDE,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,blue
+LOLTMNT01_303118,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,neither
+LOLTMNT01_303120,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,red
+LOLTMNT01_303120,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_2,inf,120.0,red,red
+LOLTMNT01_303120,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,red
+LOLTMNT01_303120,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,15.0,red,red
+LOLTMNT01_303120,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_2,inf,30.0,red,neither
+LOLTMNT01_303120,HORDE,2025 Season World Championship/Main Event_Quarterfinals_2,inf,inf,tie,red
+LOLTMNT01_303120,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_2,inf,15.0,red,red
+LOLTMNT01_303163,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_3,inf,15.0,red,red
+LOLTMNT01_303163,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_3,inf,45.0,red,red
+LOLTMNT01_303163,BARON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,neither
+LOLTMNT01_303163,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,red
+LOLTMNT01_303163,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,15.0,red,red
+LOLTMNT01_303163,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,15.0,red,blue
+LOLTMNT01_303163,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,30.0,inf,blue,blue
+LOLTMNT01_303163,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,red
+LOLTMNT01_303163,HORDE,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,red
+LOLTMNT01_303163,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,blue
+LOLTMNT01_303164,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,blue
+LOLTMNT01_303164,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_3,180.0,inf,blue,neither
+LOLTMNT01_303164,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_3,90.0,inf,blue,neither
+LOLTMNT01_303164,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,15.0,inf,blue,blue
+LOLTMNT01_303164,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,75.0,inf,blue,blue
+LOLTMNT01_303164,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,0.0,-30.0,red,blue
+LOLTMNT01_303164,HORDE,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,red
+LOLTMNT01_303164,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_3,inf,15.0,red,red
+LOLTMNT01_303171,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,red
+LOLTMNT01_303171,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,red
+LOLTMNT01_303171,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,neither
+LOLTMNT01_303171,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,red
+LOLTMNT01_303171,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,15.0,red,red
+LOLTMNT01_303171,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,neither
+LOLTMNT01_303171,HORDE,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,blue
+LOLTMNT01_303171,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_3,inf,inf,tie,blue
+LOLTMNT01_303213,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_4,75.0,inf,blue,blue
+LOLTMNT01_303213,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,neither
+LOLTMNT01_303213,BARON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,neither
+LOLTMNT01_303213,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,neither
+LOLTMNT01_303213,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,15.0,red,red
+LOLTMNT01_303213,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,0.0,red,red
+LOLTMNT01_303213,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,0.0,inf,blue,red
+LOLTMNT01_303213,ELDER,2025 Season World Championship/Main Event_Quarterfinals_4,60.0,75.0,blue,red
+LOLTMNT01_303213,HORDE,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,blue
+LOLTMNT01_303213,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_4,90.0,inf,blue,blue
+LOLTMNT01_303214,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_4,45.0,inf,blue,neither
+LOLTMNT01_303214,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,neither
+LOLTMNT01_303214,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_4,inf,75.0,red,red
+LOLTMNT01_303214,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,45.0,inf,blue,blue
+LOLTMNT01_303214,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,45.0,30.0,red,red
+LOLTMNT01_303214,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,45.0,red,red
+LOLTMNT01_303214,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,red
+LOLTMNT01_303214,ELDER,2025 Season World Championship/Main Event_Quarterfinals_4,15.0,0.0,red,red
+LOLTMNT01_303214,HORDE,2025 Season World Championship/Main Event_Quarterfinals_4,inf,15.0,red,red
+LOLTMNT01_303214,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,red
+LOLTMNT01_303216,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_4,0.0,45.0,blue,red
+LOLTMNT01_303216,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,neither
+LOLTMNT01_303216,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,neither
+LOLTMNT01_303216,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,60.0,inf,blue,blue
+LOLTMNT01_303216,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,135.0,inf,blue,blue
+LOLTMNT01_303216,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,blue
+LOLTMNT01_303216,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,blue
+LOLTMNT01_303216,HORDE,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,blue
+LOLTMNT01_303216,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_4,inf,105.0,red,blue
+LOLTMNT01_303219,ATAKHAN,2025 Season World Championship/Main Event_Quarterfinals_4,60.0,30.0,red,red
+LOLTMNT01_303219,BARON_NASHOR,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,neither
+LOLTMNT01_303219,DRAGON,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,red
+LOLTMNT01_303219,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,red
+LOLTMNT01_303219,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,30.0,45.0,blue,red
+LOLTMNT01_303219,DRAGON_2+,2025 Season World Championship/Main Event_Quarterfinals_4,inf,30.0,red,red
+LOLTMNT01_303219,ELDER,2025 Season World Championship/Main Event_Quarterfinals_4,inf,45.0,red,red
+LOLTMNT01_303219,HORDE,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,red
+LOLTMNT01_303219,RIFTHERALD,2025 Season World Championship/Main Event_Quarterfinals_4,inf,inf,tie,red
+LOLTMNT01_303255,ATAKHAN,2025 Season World Championship/Main Event_Semifinals_1,30.0,inf,blue,blue
+LOLTMNT01_303255,BARON_NASHOR,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,neither
+LOLTMNT01_303255,BARON_2+,2025 Season World Championship/Main Event_Semifinals_1,135.0,165.0,blue,neither
+LOLTMNT01_303255,BARON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,0.0,red,red
+LOLTMNT01_303255,DRAGON,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_303255,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,30.0,red,red
+LOLTMNT01_303255,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,30.0,inf,blue,blue
+LOLTMNT01_303255,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_303255,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,30.0,inf,blue,blue
+LOLTMNT01_303255,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_303255,ELDER,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_303255,HORDE,2025 Season World Championship/Main Event_Semifinals_1,inf,15.0,red,blue
+LOLTMNT01_303255,RIFTHERALD,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303257,ATAKHAN,2025 Season World Championship/Main Event_Semifinals_1,45.0,inf,blue,neither
+LOLTMNT01_303257,BARON_NASHOR,2025 Season World Championship/Main Event_Semifinals_1,105.0,inf,blue,neither
+LOLTMNT01_303257,BARON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303257,DRAGON,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303257,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303257,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,red
+LOLTMNT01_303257,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,15.0,red,red
+LOLTMNT01_303257,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,15.0,inf,blue,blue
+LOLTMNT01_303257,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303257,HORDE,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303257,RIFTHERALD,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303258,ATAKHAN,2025 Season World Championship/Main Event_Semifinals_1,45.0,inf,blue,blue
+LOLTMNT01_303258,BARON_NASHOR,2025 Season World Championship/Main Event_Semifinals_1,105.0,inf,blue,blue
+LOLTMNT01_303258,DRAGON,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303258,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,inf,inf,tie,blue
+LOLTMNT01_303258,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,0.0,inf,blue,blue
+LOLTMNT01_303258,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_1,15.0,inf,blue,blue
+LOLTMNT01_303258,HORDE,2025 Season World Championship/Main Event_Semifinals_1,inf,15.0,red,red
+LOLTMNT01_303258,RIFTHERALD,2025 Season World Championship/Main Event_Semifinals_1,0.0,inf,blue,blue
+LOLTMNT01_303337,ATAKHAN,2025 Season World Championship/Main Event_Semifinals_2,105.0,inf,blue,neither
+LOLTMNT01_303337,BARON_NASHOR,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,blue
+LOLTMNT01_303337,DRAGON,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,neither
+LOLTMNT01_303337,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_2,15.0,inf,blue,blue
+LOLTMNT01_303337,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,blue
+LOLTMNT01_303337,HORDE,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,red
+LOLTMNT01_303337,RIFTHERALD,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,blue
+LOLTMNT01_303341,ATAKHAN,2025 Season World Championship/Main Event_Semifinals_2,15.0,-120.0,red,red
+LOLTMNT01_303341,BARON_NASHOR,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,red
+LOLTMNT01_303341,DRAGON,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,blue
+LOLTMNT01_303341,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_2,inf,15.0,red,red
+LOLTMNT01_303341,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,red
+LOLTMNT01_303341,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,red
+LOLTMNT01_303341,HORDE,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,blue
+LOLTMNT01_303341,RIFTHERALD,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,blue
+LOLTMNT01_303342,ATAKHAN,2025 Season World Championship/Main Event_Semifinals_2,inf,105.0,red,neither
+LOLTMNT01_303342,BARON_NASHOR,2025 Season World Championship/Main Event_Semifinals_2,inf,150.0,red,red
+LOLTMNT01_303342,DRAGON,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,neither
+LOLTMNT01_303342,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_2,inf,45.0,red,red
+LOLTMNT01_303342,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_2,inf,45.0,red,red
+LOLTMNT01_303342,DRAGON_2+,2025 Season World Championship/Main Event_Semifinals_2,inf,30.0,red,red
+LOLTMNT01_303342,HORDE,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,blue
+LOLTMNT01_303342,RIFTHERALD,2025 Season World Championship/Main Event_Semifinals_2,inf,inf,tie,blue
+LOLTMNT01_306141,ATAKHAN,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,neither
+LOLTMNT01_306141,BARON_NASHOR,2025 Season World Championship/Main Event_Finals_1,inf,165.0,red,red
+LOLTMNT01_306141,BARON_2+,2025 Season World Championship/Main Event_Finals_1,inf,90.0,red,neither
+LOLTMNT01_306141,DRAGON,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_306141,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,45.0,inf,blue,red
+LOLTMNT01_306141,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,30.0,red,red
+LOLTMNT01_306141,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,-30.0,red,blue
+LOLTMNT01_306141,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,red
+LOLTMNT01_306141,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,red
+LOLTMNT01_306141,HORDE,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_306141,RIFTHERALD,2025 Season World Championship/Main Event_Finals_1,75.0,inf,blue,blue
+LOLTMNT01_307101,ATAKHAN,2025 Season World Championship/Main Event_Finals_1,45.0,60.0,blue,red
+LOLTMNT01_307101,BARON_NASHOR,2025 Season World Championship/Main Event_Finals_1,inf,135.0,red,neither
+LOLTMNT01_307101,BARON_2+,2025 Season World Championship/Main Event_Finals_1,inf,15.0,red,red
+LOLTMNT01_307101,DRAGON,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307101,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307101,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,15.0,45.0,blue,red
+LOLTMNT01_307101,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,15.0,15.0,tie,red
+LOLTMNT01_307101,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,0.0,30.0,blue,red
+LOLTMNT01_307101,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,neither
+LOLTMNT01_307101,HORDE,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307101,RIFTHERALD,2025 Season World Championship/Main Event_Finals_1,30.0,inf,blue,blue
+LOLTMNT01_307103,ATAKHAN,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307103,BARON_NASHOR,2025 Season World Championship/Main Event_Finals_1,-75.0,inf,blue,neither
+LOLTMNT01_307103,BARON_2+,2025 Season World Championship/Main Event_Finals_1,15.0,inf,blue,blue
+LOLTMNT01_307103,DRAGON,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,red
+LOLTMNT01_307103,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,red
+LOLTMNT01_307103,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,neither
+LOLTMNT01_307103,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,45.0,inf,blue,blue
+LOLTMNT01_307103,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,30.0,inf,blue,blue
+LOLTMNT01_307103,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,15.0,inf,blue,blue
+LOLTMNT01_307103,HORDE,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307103,RIFTHERALD,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307104,ATAKHAN,2025 Season World Championship/Main Event_Finals_1,30.0,30.0,tie,blue
+LOLTMNT01_307104,BARON_NASHOR,2025 Season World Championship/Main Event_Finals_1,60.0,inf,blue,blue
+LOLTMNT01_307104,DRAGON,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307104,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307104,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,30.0,red,blue
+LOLTMNT01_307104,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,-15.0,30.0,blue,blue
+LOLTMNT01_307104,ELDER,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,neither
+LOLTMNT01_307104,HORDE,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307104,RIFTHERALD,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,blue
+LOLTMNT01_307105,ATAKHAN,2025 Season World Championship/Main Event_Finals_1,inf,-15.0,red,red
+LOLTMNT01_307105,BARON_NASHOR,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,neither
+LOLTMNT01_307105,BARON_2+,2025 Season World Championship/Main Event_Finals_1,inf,60.0,red,neither
+LOLTMNT01_307105,DRAGON,2025 Season World Championship/Main Event_Finals_1,60.0,inf,blue,blue
+LOLTMNT01_307105,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,red
+LOLTMNT01_307105,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,15.0,inf,blue,blue
+LOLTMNT01_307105,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,0.0,red,red
+LOLTMNT01_307105,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,15.0,red,red
+LOLTMNT01_307105,DRAGON_2+,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,red
+LOLTMNT01_307105,HORDE,2025 Season World Championship/Main Event_Finals_1,inf,inf,tie,red
+LOLTMNT01_307105,RIFTHERALD,2025 Season World Championship/Main Event_Finals_1,45.0,inf,blue,blue
+LOLTMNT03_257393,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 1_1,30.0,inf,blue,blue
+LOLTMNT03_257393,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 1_1,75.0,inf,blue,blue
+LOLTMNT03_257393,DRAGON,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,neither
+LOLTMNT03_257393,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257393,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257393,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257393,HORDE,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257393,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257408,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 1_1,-105.0,inf,blue,blue
+LOLTMNT03_257408,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 1_1,inf,165.0,red,red
+LOLTMNT03_257408,BARON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,15.0,inf,blue,blue
+LOLTMNT03_257408,DRAGON,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,red
+LOLTMNT03_257408,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,105.0,red,red
+LOLTMNT03_257408,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,45.0,inf,blue,blue
+LOLTMNT03_257408,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,45.0,inf,blue,blue
+LOLTMNT03_257408,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257408,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,neither
+LOLTMNT03_257408,HORDE,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257408,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 1_1,inf,75.0,red,red
+LOLTMNT03_257416,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257416,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257416,DRAGON,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,red
+LOLTMNT03_257416,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,15.0,red,blue
+LOLTMNT03_257416,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257416,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,15.0,inf,blue,blue
+LOLTMNT03_257416,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257416,HORDE,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,red
+LOLTMNT03_257416,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_257430,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 1_2,30.0,inf,blue,blue
+LOLTMNT03_257430,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 1_2,180.0,inf,blue,neither
+LOLTMNT03_257430,DRAGON,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,neither
+LOLTMNT03_257430,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,30.0,inf,blue,blue
+LOLTMNT03_257430,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,45.0,inf,blue,blue
+LOLTMNT03_257430,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,blue
+LOLTMNT03_257430,HORDE,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,blue
+LOLTMNT03_257430,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,blue
+LOLTMNT03_257442,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_257442,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,neither
+LOLTMNT03_257442,DRAGON,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_257442,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_257442,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_257442,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_257442,HORDE,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_257442,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_257580,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 2_1,120.0,120.0,tie,red
+LOLTMNT03_257580,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,neither
+LOLTMNT03_257580,BARON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,neither
+LOLTMNT03_257580,DRAGON,2025 Mid-Season Invitational_Play-In Day 2_1,120.0,inf,blue,blue
+LOLTMNT03_257580,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_257580,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_257580,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_257580,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_257580,ELDER,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_257580,HORDE,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_257580,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 2_1,45.0,75.0,blue,red
+LOLTMNT03_257596,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 2_2,inf,120.0,red,neither
+LOLTMNT03_257596,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 2_2,90.0,inf,blue,blue
+LOLTMNT03_257596,BARON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,neither
+LOLTMNT03_257596,DRAGON,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,neither
+LOLTMNT03_257596,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_257596,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_257596,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,blue
+LOLTMNT03_257596,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,neither
+LOLTMNT03_257596,HORDE,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_257596,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 2_2,15.0,inf,blue,blue
+LOLTMNT03_257602,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 2_2,inf,30.0,red,red
+LOLTMNT03_257602,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 2_2,inf,105.0,red,red
+LOLTMNT03_257602,DRAGON,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_257602,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_257602,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,0.0,red,red
+LOLTMNT03_257602,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,-120.0,red,red
+LOLTMNT03_257602,ELDER,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,neither
+LOLTMNT03_257602,HORDE,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,blue
+LOLTMNT03_257602,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_257845,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_257845,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 3_1,inf,30.0,red,red
+LOLTMNT03_257845,DRAGON,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_257845,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257845,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_257845,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257845,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257845,HORDE,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257845,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 3_1,45.0,inf,blue,blue
+LOLTMNT03_257849,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257849,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257849,DRAGON,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_257849,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,45.0,red,red
+LOLTMNT03_257849,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257849,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257849,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257849,HORDE,2025 Mid-Season Invitational_Play-In Day 3_1,inf,15.0,red,red
+LOLTMNT03_257849,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_257855,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,neither
+LOLTMNT03_257855,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,neither
+LOLTMNT03_257855,DRAGON,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_257855,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_257855,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,15.0,red,red
+LOLTMNT03_257855,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,15.0,30.0,blue,red
+LOLTMNT03_257855,ELDER,2025 Mid-Season Invitational_Play-In Day 3_1,inf,0.0,red,red
+LOLTMNT03_257855,HORDE,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_257855,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_258379,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 1_1,120.0,inf,blue,blue
+LOLTMNT03_258379,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 1_1,75.0,inf,blue,blue
+LOLTMNT03_258379,DRAGON,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_258379,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,red
+LOLTMNT03_258379,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,60.0,inf,blue,blue
+LOLTMNT03_258379,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,-75.0,inf,blue,blue
+LOLTMNT03_258379,HORDE,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_258379,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,red
+LOLTMNT03_258398,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 1_1,60.0,inf,blue,blue
+LOLTMNT03_258398,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,neither
+LOLTMNT03_258398,DRAGON,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,neither
+LOLTMNT03_258398,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,blue
+LOLTMNT03_258398,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,red
+LOLTMNT03_258398,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,red
+LOLTMNT03_258398,HORDE,2025 Mid-Season Invitational_Play-In Day 1_1,inf,inf,tie,red
+LOLTMNT03_258398,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 1_1,60.0,60.0,tie,neither
+LOLTMNT03_258418,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 1_2,45.0,inf,blue,red
+LOLTMNT03_258418,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_258418,DRAGON,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_258418,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,inf,15.0,red,red
+LOLTMNT03_258418,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,inf,30.0,red,red
+LOLTMNT03_258418,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,red
+LOLTMNT03_258418,ELDER,2025 Mid-Season Invitational_Play-In Day 1_2,inf,30.0,red,neither
+LOLTMNT03_258418,HORDE,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,blue
+LOLTMNT03_258418,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 1_2,inf,inf,tie,blue
+LOLTMNT03_258564,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 2_1,180.0,inf,blue,neither
+LOLTMNT03_258564,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 2_1,180.0,inf,blue,neither
+LOLTMNT03_258564,BARON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,neither
+LOLTMNT03_258564,BARON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,neither
+LOLTMNT03_258564,DRAGON,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,neither
+LOLTMNT03_258564,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,60.0,red,red
+LOLTMNT03_258564,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_258564,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,0.0,45.0,blue,red
+LOLTMNT03_258564,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,-15.0,inf,blue,blue
+LOLTMNT03_258564,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_258564,ELDER,2025 Mid-Season Invitational_Play-In Day 2_1,15.0,15.0,tie,blue
+LOLTMNT03_258564,HORDE,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_258564,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_258569,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258569,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 2_1,inf,30.0,red,red
+LOLTMNT03_258569,DRAGON,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258569,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258569,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_258569,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258569,HORDE,2025 Mid-Season Invitational_Play-In Day 2_1,75.0,inf,blue,red
+LOLTMNT03_258569,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 2_1,inf,45.0,red,red
+LOLTMNT03_258574,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 2_1,60.0,inf,blue,blue
+LOLTMNT03_258574,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258574,DRAGON,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,neither
+LOLTMNT03_258574,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_258574,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258574,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258574,HORDE,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258574,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_258579,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258579,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258579,BARON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,180.0,inf,blue,neither
+LOLTMNT03_258579,DRAGON,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258579,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,60.0,red,red
+LOLTMNT03_258579,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,30.0,red,blue
+LOLTMNT03_258579,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,blue
+LOLTMNT03_258579,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258579,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,neither
+LOLTMNT03_258579,HORDE,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258579,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 2_1,inf,inf,tie,red
+LOLTMNT03_258617,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_258617,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 2_2,inf,30.0,red,red
+LOLTMNT03_258617,BARON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,neither
+LOLTMNT03_258617,DRAGON,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,neither
+LOLTMNT03_258617,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_258617,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,blue
+LOLTMNT03_258617,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_258617,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,neither
+LOLTMNT03_258617,HORDE,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,blue
+LOLTMNT03_258617,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 2_2,inf,inf,tie,red
+LOLTMNT03_258859,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,neither
+LOLTMNT03_258859,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,neither
+LOLTMNT03_258859,DRAGON,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,neither
+LOLTMNT03_258859,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,75.0,red,red
+LOLTMNT03_258859,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,-75.0,inf,blue,blue
+LOLTMNT03_258859,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,neither
+LOLTMNT03_258859,HORDE,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,red
+LOLTMNT03_258859,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 3_1,105.0,inf,blue,blue
+LOLTMNT03_258884,ATAKHAN,2025 Mid-Season Invitational_Play-In Day 3_1,60.0,inf,blue,blue
+LOLTMNT03_258884,BARON_NASHOR,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,neither
+LOLTMNT03_258884,DRAGON,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_258884,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,45.0,inf,blue,blue
+LOLTMNT03_258884,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,15.0,45.0,blue,red
+LOLTMNT03_258884,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,45.0,red,red
+LOLTMNT03_258884,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_258884,DRAGON_2+,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,neither
+LOLTMNT03_258884,HORDE,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_258884,RIFTHERALD,2025 Mid-Season Invitational_Play-In Day 3_1,inf,inf,tie,blue
+LOLTMNT03_259383,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_259383,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_1,135.0,135.0,tie,blue
+LOLTMNT03_259383,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_1,60.0,inf,blue,red
+LOLTMNT03_259383,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_259383,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,60.0,red,red
+LOLTMNT03_259383,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_259383,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_259383,HORDE,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_259383,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_1,inf,45.0,red,blue
+LOLTMNT03_260300,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_1,45.0,inf,blue,blue
+LOLTMNT03_260300,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_1,15.0,inf,blue,blue
+LOLTMNT03_260300,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,-60.0,red,neither
+LOLTMNT03_260300,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,red
+LOLTMNT03_260300,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,15.0,red,red
+LOLTMNT03_260300,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,15.0,30.0,blue,red
+LOLTMNT03_260300,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,red
+LOLTMNT03_260300,ELDER,2025 Mid-Season Invitational_Bracket Round 1_1,inf,45.0,red,red
+LOLTMNT03_260300,HORDE,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_260300,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_260310,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,neither
+LOLTMNT03_260310,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_260310,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_1,inf,120.0,red,red
+LOLTMNT03_260310,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,45.0,inf,blue,blue
+LOLTMNT03_260310,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_260310,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_260310,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_260310,HORDE,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_260310,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,blue
+LOLTMNT03_260312,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,neither
+LOLTMNT03_260312,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,neither
+LOLTMNT03_260312,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,red
+LOLTMNT03_260312,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_1,inf,inf,tie,red
+LOLTMNT03_261259,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,neither
+LOLTMNT03_261259,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_2,-120.0,-120.0,tie,red
+LOLTMNT03_261259,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,0.0,red,red
+LOLTMNT03_261259,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261259,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,30.0,red,red
+LOLTMNT03_261259,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,red
+LOLTMNT03_261259,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,red
+LOLTMNT03_261259,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,45.0,red,red
+LOLTMNT03_261259,HORDE,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261259,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_2,60.0,inf,blue,blue
+LOLTMNT03_261266,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_2,-120.0,-120.0,tie,blue
+LOLTMNT03_261266,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261266,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,neither
+LOLTMNT03_261266,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261266,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261266,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,neither
+LOLTMNT03_261266,HORDE,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261266,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261269,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_2,150.0,inf,blue,blue
+LOLTMNT03_261269,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_2,inf,15.0,red,red
+LOLTMNT03_261269,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,120.0,red,red
+LOLTMNT03_261269,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,neither
+LOLTMNT03_261269,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,15.0,red,red
+LOLTMNT03_261269,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,15.0,45.0,blue,red
+LOLTMNT03_261269,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,15.0,red,red
+LOLTMNT03_261269,HORDE,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,red
+LOLTMNT03_261269,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_2,inf,15.0,red,red
+LOLTMNT03_261272,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261272,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261272,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_2,-75.0,inf,blue,neither
+LOLTMNT03_261272,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,135.0,inf,blue,neither
+LOLTMNT03_261272,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,-75.0,-90.0,red,blue
+LOLTMNT03_261272,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261272,HORDE,2025 Mid-Season Invitational_Bracket Round 1_2,inf,inf,tie,blue
+LOLTMNT03_261272,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_2,165.0,inf,blue,neither
+LOLTMNT03_261555,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_3,inf,60.0,red,red
+LOLTMNT03_261555,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_3,inf,15.0,red,neither
+LOLTMNT03_261555,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,neither
+LOLTMNT03_261555,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261555,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,15.0,red,red
+LOLTMNT03_261555,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261555,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261555,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261555,ELDER,2025 Mid-Season Invitational_Bracket Round 1_3,inf,30.0,red,neither
+LOLTMNT03_261555,HORDE,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261555,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261584,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_3,inf,30.0,red,blue
+LOLTMNT03_261584,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_3,135.0,inf,blue,blue
+LOLTMNT03_261584,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261584,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261584,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261584,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,15.0,30.0,blue,blue
+LOLTMNT03_261584,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,neither
+LOLTMNT03_261584,HORDE,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261584,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_3,30.0,inf,blue,blue
+LOLTMNT03_261593,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_3,-30.0,inf,blue,neither
+LOLTMNT03_261593,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_3,-60.0,45.0,blue,red
+LOLTMNT03_261593,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,120.0,inf,blue,blue
+LOLTMNT03_261593,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,neither
+LOLTMNT03_261593,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,135.0,inf,blue,blue
+LOLTMNT03_261593,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261593,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,30.0,inf,blue,blue
+LOLTMNT03_261593,ELDER,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261593,HORDE,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261593,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261611,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_3,165.0,105.0,red,blue
+LOLTMNT03_261611,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,neither
+LOLTMNT03_261611,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,75.0,red,red
+LOLTMNT03_261611,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,neither
+LOLTMNT03_261611,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261611,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261611,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261611,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261611,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261611,HORDE,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,red
+LOLTMNT03_261611,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_3,inf,inf,tie,blue
+LOLTMNT03_261634,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,neither
+LOLTMNT03_261634,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_4,30.0,inf,blue,blue
+LOLTMNT03_261634,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,135.0,180.0,blue,neither
+LOLTMNT03_261634,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_261634,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_261634,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,-15.0,inf,blue,red
+LOLTMNT03_261634,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_261634,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_261634,HORDE,2025 Mid-Season Invitational_Bracket Round 1_4,inf,30.0,red,blue
+LOLTMNT03_261634,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_4,60.0,inf,blue,blue
+LOLTMNT03_261664,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_261664,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,neither
+LOLTMNT03_261664,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_261664,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,150.0,red,red
+LOLTMNT03_261664,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_261664,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,neither
+LOLTMNT03_261664,HORDE,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_261664,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_4,inf,45.0,red,red
+LOLTMNT03_261937,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,neither
+LOLTMNT03_261937,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,neither
+LOLTMNT03_261937,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,60.0,-15.0,red,red
+LOLTMNT03_261937,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,neither
+LOLTMNT03_261937,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,60.0,red,red
+LOLTMNT03_261937,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,15.0,red,red
+LOLTMNT03_261937,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,15.0,inf,blue,blue
+LOLTMNT03_261937,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,blue
+LOLTMNT03_261937,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,blue
+LOLTMNT03_261937,HORDE,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,blue
+LOLTMNT03_261937,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_5,45.0,inf,blue,blue
+LOLTMNT03_261951,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,neither
+LOLTMNT03_261951,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_5,inf,-30.0,red,red
+LOLTMNT03_261951,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,135.0,red,red
+LOLTMNT03_261951,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,red
+LOLTMNT03_261951,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,red
+LOLTMNT03_261951,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,45.0,red,red
+LOLTMNT03_261951,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,30.0,inf,blue,blue
+LOLTMNT03_261951,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,-15.0,inf,blue,red
+LOLTMNT03_261951,ELDER,2025 Mid-Season Invitational_Bracket Round 1_5,inf,60.0,red,red
+LOLTMNT03_261951,HORDE,2025 Mid-Season Invitational_Bracket Round 1_5,inf,0.0,red,red
+LOLTMNT03_261951,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,blue
+LOLTMNT03_261965,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_5,15.0,inf,blue,blue
+LOLTMNT03_261965,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,neither
+LOLTMNT03_261965,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,neither
+LOLTMNT03_261965,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,15.0,red,red
+LOLTMNT03_261965,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,-75.0,15.0,blue,red
+LOLTMNT03_261965,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,neither
+LOLTMNT03_261965,HORDE,2025 Mid-Season Invitational_Bracket Round 1_5,inf,inf,tie,blue
+LOLTMNT03_261965,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_5,60.0,inf,blue,blue
+LOLTMNT03_261991,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,blue
+LOLTMNT03_261991,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,neither
+LOLTMNT03_261991,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,neither
+LOLTMNT03_261991,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,inf,-30.0,red,red
+LOLTMNT03_261991,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,inf,0.0,red,blue
+LOLTMNT03_261991,HORDE,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,blue
+LOLTMNT03_261991,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,blue
+LOLTMNT03_261997,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_1,135.0,150.0,blue,blue
+LOLTMNT03_261997,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,red
+LOLTMNT03_261997,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,neither
+LOLTMNT03_261997,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,blue
+LOLTMNT03_261997,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,30.0,inf,blue,blue
+LOLTMNT03_261997,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,30.0,inf,blue,blue
+LOLTMNT03_261997,HORDE,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,red
+LOLTMNT03_261997,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_1,inf,90.0,red,red
+LOLTMNT03_262048,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_262048,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_4,15.0,inf,blue,blue
+LOLTMNT03_262048,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,neither
+LOLTMNT03_262048,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,15.0,inf,blue,blue
+LOLTMNT03_262048,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,75.0,inf,blue,blue
+LOLTMNT03_262048,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_262048,HORDE,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_262048,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_262051,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_4,120.0,135.0,blue,red
+LOLTMNT03_262051,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_4,inf,90.0,red,red
+LOLTMNT03_262051,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_4,inf,90.0,red,red
+LOLTMNT03_262051,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_262051,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_262051,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,45.0,red,red
+LOLTMNT03_262051,HORDE,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_262051,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_262054,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_4,45.0,inf,blue,red
+LOLTMNT03_262054,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_262054,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,neither
+LOLTMNT03_262054,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_262054,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,15.0,red,blue
+LOLTMNT03_262054,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,15.0,inf,blue,blue
+LOLTMNT03_262054,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_262054,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,red
+LOLTMNT03_262054,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_4,15.0,inf,blue,red
+LOLTMNT03_262054,HORDE,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_262054,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_4,inf,inf,tie,blue
+LOLTMNT03_262298,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,neither
+LOLTMNT03_262298,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,neither
+LOLTMNT03_262298,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,neither
+LOLTMNT03_262298,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,red
+LOLTMNT03_262298,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,inf,45.0,red,red
+LOLTMNT03_262298,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,0.0,inf,blue,blue
+LOLTMNT03_262298,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,red
+LOLTMNT03_262298,HORDE,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,blue
+LOLTMNT03_262298,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_1,30.0,inf,blue,blue
+LOLTMNT03_262304,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_1,inf,45.0,red,neither
+LOLTMNT03_262304,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_1,150.0,inf,blue,blue
+LOLTMNT03_262304,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,red
+LOLTMNT03_262304,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,inf,90.0,red,red
+LOLTMNT03_262304,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,inf,15.0,red,blue
+LOLTMNT03_262304,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,90.0,inf,blue,blue
+LOLTMNT03_262304,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,-75.0,inf,blue,neither
+LOLTMNT03_262304,HORDE,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,blue
+LOLTMNT03_262304,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,blue
+LOLTMNT03_262679,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_6,30.0,-120.0,red,blue
+LOLTMNT03_262679,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,neither
+LOLTMNT03_262679,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,neither
+LOLTMNT03_262679,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_6,75.0,inf,blue,blue
+LOLTMNT03_262679,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,red
+LOLTMNT03_262679,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,30.0,red,red
+LOLTMNT03_262679,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_262679,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,red
+LOLTMNT03_262679,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_262679,HORDE,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_262679,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_6,30.0,inf,blue,blue
+LOLTMNT03_262687,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,neither
+LOLTMNT03_262687,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_6,inf,45.0,red,red
+LOLTMNT03_262687,BARON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,30.0,red,red
+LOLTMNT03_262687,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_262687,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,red
+LOLTMNT03_262687,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,30.0,red,red
+LOLTMNT03_262687,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,red
+LOLTMNT03_262687,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,red
+LOLTMNT03_262687,HORDE,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_262687,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_262722,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_2,inf,-15.0,red,neither
+LOLTMNT03_262722,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,neither
+LOLTMNT03_262722,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,neither
+LOLTMNT03_262722,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,15.0,inf,blue,blue
+LOLTMNT03_262722,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,red
+LOLTMNT03_262722,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,inf,-15.0,red,red
+LOLTMNT03_262722,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,inf,45.0,red,red
+LOLTMNT03_262722,HORDE,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,blue
+LOLTMNT03_262722,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,blue
+LOLTMNT03_262729,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,blue
+LOLTMNT03_262729,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_2,inf,60.0,red,red
+LOLTMNT03_262729,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,neither
+LOLTMNT03_262729,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,inf,15.0,red,red
+LOLTMNT03_262729,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,15.0,0.0,red,red
+LOLTMNT03_262729,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,red
+LOLTMNT03_262729,HORDE,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,red
+LOLTMNT03_262729,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,blue
+LOLTMNT03_263018,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_1,-45.0,inf,blue,neither
+LOLTMNT03_263018,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,blue
+LOLTMNT03_263018,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,neither
+LOLTMNT03_263018,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,-90.0,-60.0,blue,blue
+LOLTMNT03_263018,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,15.0,inf,blue,blue
+LOLTMNT03_263018,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_1,0.0,15.0,blue,neither
+LOLTMNT03_263018,HORDE,2025 Mid-Season Invitational_Bracket Round 2_1,15.0,inf,blue,blue
+LOLTMNT03_263018,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_1,inf,inf,tie,red
+LOLTMNT03_263270,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263270,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263270,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,red
+LOLTMNT03_263270,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263270,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263270,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263270,HORDE,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263270,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263277,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 1_6,105.0,45.0,red,blue
+LOLTMNT03_263277,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 1_6,105.0,inf,blue,blue
+LOLTMNT03_263277,DRAGON,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263277,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263277,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263277,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,30.0,inf,blue,red
+LOLTMNT03_263277,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263277,HORDE,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263277,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 1_6,inf,inf,tie,blue
+LOLTMNT03_263304,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,red
+LOLTMNT03_263304,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,red
+LOLTMNT03_263304,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_2,inf,90.0,red,red
+LOLTMNT03_263304,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,red
+LOLTMNT03_263304,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,inf,15.0,red,red
+LOLTMNT03_263304,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,red
+LOLTMNT03_263304,HORDE,2025 Mid-Season Invitational_Bracket Round 2_2,inf,inf,tie,blue
+LOLTMNT03_263304,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_2,inf,60.0,red,red
+LOLTMNT03_264414,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_3,inf,150.0,red,neither
+LOLTMNT03_264414,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_3,75.0,60.0,red,blue
+LOLTMNT03_264414,BARON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,-45.0,inf,blue,blue
+LOLTMNT03_264414,BARON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_264414,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_264414,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_264414,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,30.0,red,red
+LOLTMNT03_264414,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,15.0,red,red
+LOLTMNT03_264414,ELDER,2025 Mid-Season Invitational_Bracket Round 2_3,-15.0,inf,blue,blue
+LOLTMNT03_264414,ELDER,2025 Mid-Season Invitational_Bracket Round 2_3,45.0,75.0,blue,red
+LOLTMNT03_264414,HORDE,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,blue
+LOLTMNT03_264414,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_3,inf,105.0,red,red
+LOLTMNT03_264421,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_3,inf,75.0,red,neither
+LOLTMNT03_264421,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,blue
+LOLTMNT03_264421,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,neither
+LOLTMNT03_264421,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,blue
+LOLTMNT03_264421,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,-15.0,red,red
+LOLTMNT03_264421,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,-30.0,60.0,blue,blue
+LOLTMNT03_264421,HORDE,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,blue
+LOLTMNT03_264421,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_3,inf,165.0,red,neither
+LOLTMNT03_264862,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_4,inf,45.0,red,neither
+LOLTMNT03_264862,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_4,135.0,inf,blue,blue
+LOLTMNT03_264862,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_264862,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,30.0,inf,blue,blue
+LOLTMNT03_264862,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,15.0,inf,blue,blue
+LOLTMNT03_264862,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,-30.0,inf,blue,blue
+LOLTMNT03_264862,HORDE,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,red
+LOLTMNT03_264862,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_4,30.0,inf,blue,blue
+LOLTMNT03_264874,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_4,150.0,75.0,red,neither
+LOLTMNT03_264874,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_4,inf,30.0,red,red
+LOLTMNT03_264874,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,red
+LOLTMNT03_264874,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,15.0,red,red
+LOLTMNT03_264874,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,-30.0,red,red
+LOLTMNT03_264874,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,15.0,red,red
+LOLTMNT03_264874,HORDE,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_264874,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,red
+LOLTMNT03_264880,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_4,60.0,-90.0,red,blue
+LOLTMNT03_264880,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_4,90.0,inf,blue,blue
+LOLTMNT03_264880,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_4,90.0,inf,blue,neither
+LOLTMNT03_264880,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_264880,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,45.0,inf,blue,blue
+LOLTMNT03_264880,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_264880,HORDE,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_264880,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_265004,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,neither
+LOLTMNT03_265004,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,neither
+LOLTMNT03_265004,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_265004,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,blue
+LOLTMNT03_265004,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,30.0,inf,blue,blue
+LOLTMNT03_265004,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,15.0,inf,blue,blue
+LOLTMNT03_265004,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,45.0,red,red
+LOLTMNT03_265004,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_265004,HORDE,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_265004,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_265013,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_265013,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_3,inf,135.0,red,neither
+LOLTMNT03_265013,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_3,inf,120.0,red,red
+LOLTMNT03_265013,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_265013,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,blue
+LOLTMNT03_265013,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,red
+LOLTMNT03_265013,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_3,inf,30.0,red,red
+LOLTMNT03_265013,HORDE,2025 Mid-Season Invitational_Bracket Round 2_3,inf,inf,tie,blue
+LOLTMNT03_265013,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_3,inf,45.0,red,red
+LOLTMNT03_265457,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,neither
+LOLTMNT03_265457,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,neither
+LOLTMNT03_265457,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,red
+LOLTMNT03_265457,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,30.0,inf,blue,blue
+LOLTMNT03_265457,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,red
+LOLTMNT03_265457,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,-60.0,105.0,blue,red
+LOLTMNT03_265457,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_265457,HORDE,2025 Mid-Season Invitational_Bracket Round 2_4,inf,60.0,red,red
+LOLTMNT03_265457,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,neither
+LOLTMNT03_265469,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 2_4,105.0,120.0,blue,blue
+LOLTMNT03_265469,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_265469,BARON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,45.0,inf,blue,red
+LOLTMNT03_265469,DRAGON,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,red
+LOLTMNT03_265469,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_265469,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,red
+LOLTMNT03_265469,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,45.0,inf,blue,blue
+LOLTMNT03_265469,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,blue
+LOLTMNT03_265469,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 2_4,inf,inf,tie,red
+LOLTMNT03_265469,HORDE,2025 Mid-Season Invitational_Bracket Round 2_4,45.0,inf,blue,blue
+LOLTMNT03_265469,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 2_4,-30.0,inf,blue,blue
+LOLTMNT03_266421,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,neither
+LOLTMNT03_266421,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,neither
+LOLTMNT03_266421,BARON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,neither
+LOLTMNT03_266421,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_266421,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_266421,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,60.0,inf,blue,blue
+LOLTMNT03_266421,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,105.0,inf,blue,blue
+LOLTMNT03_266421,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_266421,HORDE,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_266421,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_266422,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_1,135.0,inf,blue,neither
+LOLTMNT03_266422,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,neither
+LOLTMNT03_266422,BARON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,135.0,red,red
+LOLTMNT03_266422,BARON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,30.0,inf,blue,red
+LOLTMNT03_266422,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_1,inf,60.0,red,red
+LOLTMNT03_266422,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,15.0,red,blue
+LOLTMNT03_266422,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,30.0,inf,blue,blue
+LOLTMNT03_266422,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,30.0,inf,blue,blue
+LOLTMNT03_266422,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_266422,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,0.0,red,red
+LOLTMNT03_266422,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_266422,HORDE,2025 Mid-Season Invitational_Bracket Round 4_1,-45.0,-45.0,tie,blue
+LOLTMNT03_266422,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_266430,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,neither
+LOLTMNT03_266430,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_1,30.0,15.0,red,blue
+LOLTMNT03_266430,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_266430,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_266430,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_266430,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,75.0,inf,blue,blue
+LOLTMNT03_266430,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,neither
+LOLTMNT03_266430,HORDE,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_266430,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_267098,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_1,inf,30.0,red,blue
+LOLTMNT03_267098,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,neither
+LOLTMNT03_267098,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_267098,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_267098,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,45.0,red,red
+LOLTMNT03_267098,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,0.0,red,red
+LOLTMNT03_267098,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_267098,ELDER,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,neither
+LOLTMNT03_267098,HORDE,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_267098,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,red
+LOLTMNT03_267102,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_1,45.0,inf,blue,blue
+LOLTMNT03_267102,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_267102,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_267102,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_267102,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,60.0,30.0,red,blue
+LOLTMNT03_267102,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_267102,HORDE,2025 Mid-Season Invitational_Bracket Round 4_1,-60.0,-60.0,tie,blue
+LOLTMNT03_267102,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_1,inf,inf,tie,blue
+LOLTMNT03_269192,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 3_1,45.0,105.0,blue,red
+LOLTMNT03_269192,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_269192,DRAGON,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,neither
+LOLTMNT03_269192,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_269192,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,30.0,red,red
+LOLTMNT03_269192,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_269192,HORDE,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_269192,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 3_1,120.0,-120.0,red,blue
+LOLTMNT03_269768,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_2,inf,45.0,red,red
+LOLTMNT03_269768,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_2,inf,90.0,red,red
+LOLTMNT03_269768,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_269768,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,60.0,75.0,blue,red
+LOLTMNT03_269768,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_269768,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,-105.0,inf,blue,red
+LOLTMNT03_269768,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,neither
+LOLTMNT03_269768,HORDE,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_269768,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_2,inf,15.0,red,red
+LOLTMNT03_270167,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 3_1,15.0,inf,blue,blue
+LOLTMNT03_270167,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,neither
+LOLTMNT03_270167,DRAGON,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,neither
+LOLTMNT03_270167,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_270167,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_270167,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,30.0,15.0,red,blue
+LOLTMNT03_270167,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,15.0,red,blue
+LOLTMNT03_270167,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,neither
+LOLTMNT03_270167,HORDE,2025 Mid-Season Invitational_Bracket Round 3_1,15.0,inf,blue,blue
+LOLTMNT03_270167,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_270179,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,neither
+LOLTMNT03_270179,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,blue
+LOLTMNT03_270179,BARON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,60.0,105.0,blue,red
+LOLTMNT03_270179,BARON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_270179,DRAGON,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,neither
+LOLTMNT03_270179,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_270179,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,30.0,red,red
+LOLTMNT03_270179,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,blue
+LOLTMNT03_270179,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,red
+LOLTMNT03_270179,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,blue
+LOLTMNT03_270179,HORDE,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,blue
+LOLTMNT03_270179,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 3_1,inf,inf,tie,blue
+LOLTMNT03_270692,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,red
+LOLTMNT03_270692,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270692,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,red
+LOLTMNT03_270692,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,red
+LOLTMNT03_270692,HORDE,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270692,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,red
+LOLTMNT03_270702,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_2,15.0,inf,blue,blue
+LOLTMNT03_270702,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270702,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_2,60.0,inf,blue,blue
+LOLTMNT03_270702,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270702,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270702,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,15.0,inf,blue,blue
+LOLTMNT03_270702,ELDER,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270702,HORDE,2025 Mid-Season Invitational_Bracket Round 4_2,inf,15.0,red,blue
+LOLTMNT03_270702,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,neither
+LOLTMNT03_270708,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_2,75.0,-90.0,red,blue
+LOLTMNT03_270708,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_2,165.0,inf,blue,neither
+LOLTMNT03_270708,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_2,inf,90.0,red,red
+LOLTMNT03_270708,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270708,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,15.0,red,red
+LOLTMNT03_270708,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270708,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,neither
+LOLTMNT03_270708,HORDE,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270708,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_2,150.0,inf,blue,blue
+LOLTMNT03_270710,ATAKHAN,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,neither
+LOLTMNT03_270710,BARON_NASHOR,2025 Mid-Season Invitational_Bracket Round 4_2,inf,-120.0,red,neither
+LOLTMNT03_270710,DRAGON,2025 Mid-Season Invitational_Bracket Round 4_2,135.0,inf,blue,blue
+LOLTMNT03_270710,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270710,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270710,DRAGON_2+,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_270710,HORDE,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,red
+LOLTMNT03_270710,RIFTHERALD,2025 Mid-Season Invitational_Bracket Round 4_2,inf,inf,tie,blue
+LOLTMNT03_271213,ATAKHAN,2025 Mid-Season Invitational_Finals_1,-60.0,60.0,blue,blue
+LOLTMNT03_271213,BARON_NASHOR,2025 Mid-Season Invitational_Finals_1,inf,15.0,red,red
+LOLTMNT03_271213,BARON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,red
+LOLTMNT03_271213,DRAGON,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271213,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,45.0,inf,blue,blue
+LOLTMNT03_271213,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,15.0,inf,blue,red
+LOLTMNT03_271213,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,45.0,red,red
+LOLTMNT03_271213,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,0.0,15.0,blue,blue
+LOLTMNT03_271213,HORDE,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271213,RIFTHERALD,2025 Mid-Season Invitational_Finals_1,inf,45.0,red,red
+LOLTMNT03_271225,ATAKHAN,2025 Mid-Season Invitational_Finals_1,inf,-45.0,red,neither
+LOLTMNT03_271225,BARON_NASHOR,2025 Mid-Season Invitational_Finals_1,30.0,-75.0,red,blue
+LOLTMNT03_271225,DRAGON,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271225,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,red
+LOLTMNT03_271225,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271225,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271225,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,0.0,inf,blue,blue
+LOLTMNT03_271225,HORDE,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,red
+LOLTMNT03_271225,RIFTHERALD,2025 Mid-Season Invitational_Finals_1,45.0,inf,blue,blue
+LOLTMNT03_271258,ATAKHAN,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271258,BARON_NASHOR,2025 Mid-Season Invitational_Finals_1,30.0,inf,blue,blue
+LOLTMNT03_271258,DRAGON,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271258,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271258,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_271258,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,45.0,inf,blue,blue
+LOLTMNT03_271258,HORDE,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,red
+LOLTMNT03_271258,RIFTHERALD,2025 Mid-Season Invitational_Finals_1,inf,15.0,red,blue
+LOLTMNT03_272249,ATAKHAN,2025 Mid-Season Invitational_Finals_1,105.0,30.0,red,blue
+LOLTMNT03_272249,BARON_NASHOR,2025 Mid-Season Invitational_Finals_1,60.0,inf,blue,blue
+LOLTMNT03_272249,DRAGON,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_272249,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,60.0,red,red
+LOLTMNT03_272249,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,0.0,red,red
+LOLTMNT03_272249,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_272249,HORDE,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,red
+LOLTMNT03_272249,RIFTHERALD,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_272282,ATAKHAN,2025 Mid-Season Invitational_Finals_1,inf,-120.0,red,red
+LOLTMNT03_272282,BARON_NASHOR,2025 Mid-Season Invitational_Finals_1,inf,120.0,red,red
+LOLTMNT03_272282,BARON_2+,2025 Mid-Season Invitational_Finals_1,inf,30.0,red,red
+LOLTMNT03_272282,DRAGON,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_272282,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,red
+LOLTMNT03_272282,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,60.0,red,red
+LOLTMNT03_272282,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,red
+LOLTMNT03_272282,DRAGON_2+,2025 Mid-Season Invitational_Finals_1,inf,15.0,red,red
+LOLTMNT03_272282,HORDE,2025 Mid-Season Invitational_Finals_1,inf,inf,tie,blue
+LOLTMNT03_272282,RIFTHERALD,2025 Mid-Season Invitational_Finals_1,inf,15.0,red,red

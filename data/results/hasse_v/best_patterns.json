@@ -1,0 +1,156 @@
+{
+ "K": 6,
+ "patterns": [
+  {
+   "pattern": 0,
+   "weight_by_class": [
+    0.141,
+    0.329,
+    0.176
+   ],
+   "centre_path": [
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "BS | T | J | M",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "BS | T | J | M"
+   ],
+   "theta": 1.003,
+   "iota": 0.898
+  },
+  {
+   "pattern": 1,
+   "weight_by_class": [
+    0.252,
+    0.005,
+    0.002
+   ],
+   "centre_path": [
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M"
+   ],
+   "theta": 1.285,
+   "iota": 1.133
+  },
+  {
+   "pattern": 2,
+   "weight_by_class": [
+    0.226,
+    0.292,
+    0.163
+   ],
+   "centre_path": [
+    "BS | T | J | M",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "BS | T | J | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M"
+   ],
+   "theta": 0.981,
+   "iota": 0.856
+  },
+  {
+   "pattern": 3,
+   "weight_by_class": [
+    0.103,
+    0.106,
+    0.381
+   ],
+   "centre_path": [
+    "JBS | T | M",
+    "JMBS | T",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JMBS | T",
+    "JBS | T | M",
+    "MBS | T | J",
+    "JMBS | T",
+    "JBS | T | M"
+   ],
+   "theta": 0.562,
+   "iota": 0.724
+  },
+  {
+   "pattern": 4,
+   "weight_by_class": [
+    0.187,
+    0.005,
+    0.006
+   ],
+   "centre_path": [
+    "BS | T | J | M",
+    "T | J | M | B | S",
+    "BS | T | J | M",
+    "T | J | M | B | S",
+    "BS | T | J | M",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "BS | T | J | M",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "T | J | M | B | S",
+    "BS | T | J | M"
+   ],
+   "theta": 1.173,
+   "iota": 1.164
+  },
+  {
+   "pattern": 5,
+   "weight_by_class": [
+    0.092,
+    0.262,
+    0.272
+   ],
+   "centre_path": [
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JBS | T | M",
+    "JMBS | T",
+    "JMBS | T",
+    "JMBS | T",
+    "JMBS | T",
+    "JMBS | T",
+    "JMBS | T"
+   ],
+   "theta": 0.735,
+   "iota": 0.645
+  }
+ ],
+ "xi": 0.1373664195369243
+}

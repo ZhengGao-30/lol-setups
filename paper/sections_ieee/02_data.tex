@@ -1,0 +1,36 @@
+\section{Data and the Spawn Clock}
+\label{sec:data}
+
+\tab{tab_data}
+\tab{tab_rules}
+
+\paragraph*{Games}
+The core set is every game of the 2025 Mid-Season Invitational and the 2025 World Championship, \V{nGames} games in \V{nSeries} series between \V{nTeams} teams (Table~\ref{tab:data}).
+Both events were played on patches 25.13 and 25.20 under the same objective rules, so one spawn clock covers all games.
+For each game we hold three sources: the broadcast video, Riot's match-v5 timeline~\cite{riotapi} with exact positions of all ten players every 60\,s and millisecond-stamped kills and objectives, and Leaguepedia~\cite{leaguepedia} metadata (roles, draft, series).
+An archive of 2,678 professional games with v5 timelines (2023--2026) is used only to fit outcome models: the win surface, event values and the navigation graph.
+It never sees a setup choice.
+
+\paragraph*{The spawn clock}
+Table~\ref{tab:rules} lists the rules.
+We infer every spawn time from the rules and the kill events and check that no kill precedes its inferred spawn; none does across the \V{nSpawns} spawns.
+Anchoring at the spawn rather than at the kill is the central design choice of this paper.
+The spawn time is fixed by rule and known to both teams, so a window anchored there does not depend on what the teams did; a window anchored at the kill selects on who took the objective and when.
+After the spawn we keep a team-snapshot only while the objective is still alive (a risk set), because a snapshot taken after the kill describes the aftermath rather than the setup.
+
+\paragraph*{Units}
+A \emph{team-setup} is one team at one spawn, \V{nSetups} in total.
+We observe it on a grid of snapshots every 15\,s from $s{-}120$ to $s{+}180$\,s, where $s$ is the spawn time.
+Two layers share these units.
+The \textbf{V layer} uses 2-fps minimap tracks from the broadcast (Section~\ref{sec:measurement}) and covers every spawn and every snapshot.
+The \textbf{R layer} uses only Riot's exact 60-s frames and covers the fixed-time first spawns (dragon, grubs, herald, Atakhan, baron) at $s{-}60$, $s$ and $s{+}60$.
+The R layer has no measurement error and coarse time; the V layer has fine time and validated measurement error.
+Findings that matter are checked on both.
+
+\paragraph*{Gold state}
+A team is \emph{trailing}, \emph{even} or \emph{leading} by its gold difference at $s{-}120$\,s divided by the archive standard deviation of the gold difference at that game minute, with cut points $\pm 0.5$.
+The state is fixed before the setup begins, so it cannot respond to the setup.
+
+\paragraph*{Objective classes}
+Mixture weights in the discovery layer are stratified by three classes that differ in timing and map: early river objectives (dragons, grubs, herald), Atakhan, and late objectives (baron, elder).
+In the descriptive analysis respawned dragons and barons form their own groups because their spawn time depends on play.

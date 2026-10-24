@@ -1,0 +1,16 @@
+The data in this directory (manifests/, alignment/, minimap/, navgraph/, tracks/,
+derived/, results/, docs/) are licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0).
+
+  Human-readable summary: https://creativecommons.org/licenses/by-sa/4.0/
+  Full legal code:        https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Copyright (c) 2026 Zheng Gao, Zhenyu Liu, Yifan Yang, Xiaoyu Li.
+
+Attribution: give credit to the authors (see the citation in ../README.md) and
+to Leaguepedia (lol.fandom.com, CC BY-SA 3.0), from which the game manifests are
+adapted. Adaptations must be shared under CC BY-SA 4.0.
+
+Please also read the notices in ../README.md: Riot Games owns the underlying
+game data, and we ask that you use this dataset for non-commercial purposes only
+(a request, not an additional licence term).

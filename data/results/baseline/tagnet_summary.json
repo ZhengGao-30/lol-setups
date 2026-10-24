@@ -1,0 +1,19 @@
+{
+ "n_setups": 2510,
+ "count_baseline_vs_tagnet_ari": 0.0858076628096164,
+ "count_baseline_silhouette": 0.05201428756117821,
+ "ctx_pairwise_ari": 0.3189343012109874,
+ "ctx_V_gold_mean": 0.42507644334639033,
+ "ctx_V_gold_sd": 0.057533660122705124,
+ "ctx_test_recon": 0.002006875502411276,
+ "noctx_pairwise_ari": 0.42136025264934573,
+ "noctx_V_gold_mean": 0.3426753313521781,
+ "noctx_V_gold_sd": 0.013884524593745163,
+ "noctx_test_recon": 0.002006875502411276,
+ "leakage_inflation_V_gold": 1.2404640908029825,
+ "ctx_vs_noctx_ari": 0.32265142868645824,
+ "noctx_bootstrap_ari_mean": 0.812794474066084,
+ "noctx_bootstrap_ari_q05": 0.6078541522914934,
+ "ctx_bootstrap_ari_mean": 0.7250538561112779,
+ "ctx_bootstrap_ari_q05": 0.5369480229970716
+}

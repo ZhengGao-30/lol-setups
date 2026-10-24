@@ -1,0 +1,11 @@
+\begin{abstract}
+Before every neutral objective in professional \emph{League of Legends}, each team decides which of its five players walk to the pit, which hold a lane, and when to commit.
+The leading analysis of such setups, TAGNet for \emph{Counter-Strike~2}, clusters graph-network embeddings of player positions and reads cluster win rates as tactical quality.
+We treat a setup as an allocation on a walled map: formations are set partitions on the lattice $\Pi_5$, control is a geodesic Voronoi split of a navigation graph, and commitment is an allocation game solved as a quantal response equilibrium priced in win probability.
+On all \V{nGames} games of MSI and Worlds 2025 (\V{nSetups} team-setups, minimap tracks validated against Riot positions), trailing teams leave the pit empty far more often than leading teams, by \V{vCBaronFortyfive}\pp{} at the first baron and \V{vCAtakhanFortyfive}\pp{} at Atakhan.
+Our model, HASSE-QRE, finds six setup patterns that whole-model series-bootstrap refits reproduce (ARI \V{hsBootKSix}, comparable to \V{tgBootAri} for TAGNet's $K$-Means step alone) and indicates that teams price fights, travel and committed players, not the objective itself (weight \V{qNu}; fixing it to one costs \V{qWinmaxPoint} log-likelihood points).
+The equilibrium reproduces a quarter of the commitment gap, almost all of it through state variables rather than its strategic channels.
+Weighting a team-level contrast by exposure moves it across $p=0.05$ (\V{auditTagnetP} against \V{auditPooledP}).
+We release the tracks, setups and code.
+\par\smallskip\noindent\textit{Keywords:} esports analytics, League of Legends, set partitions, quantal response equilibrium, Lanchester laws, Colonel Blotto, spatiotemporal tracking
+\end{abstract}

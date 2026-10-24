@@ -1,0 +1,22 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph*{Tactics in esports}
+TAGNet \citep{zhang2026tagnet} is the closest study and the template we mirror section by section; we replace its learned embedding by objects with units, its fixed $K$ by held-out evidence, and its context-in-the-representation design by a cut.
+Spatio-temporal team behaviour in MOBAs was first studied in \emph{Dota~2}, where skill levels differ in how teams spread across zones \citep{drachen2014skill}.
+In \emph{Counter-Strike}, actions have been valued by changes in win probability \citep{xenopoulos2020valuing} and trajectory data released at scale \citep{xenopoulos2022esta}.
+LoL research has focused on outcome prediction \citep{hodge2021win,yang2022predicting}, player rating \citep{maymin2020smart,debois2025pandaskill}, team networks \citep{mora2019team} and match-level performance indicators \citep{novak2020performance}.
+We use win probability the way action-valuation work does \citep{decroos2019actions,xenopoulos2020valuing}, but to price the outcomes of a game between teams rather than to score individual actions.
+
+\paragraph*{Space and formations in team sports}
+Dominant regions \citep{taki2000visualization} are Voronoi cells of player positions; we compute them on a navigation graph so that walls count.
+Role-based alignment of formations \citep{lucey2013representing,bialkowski2014large} and the broader spatio-temporal literature \citep{gudmundsson2017spatio} treat formations as geometric templates.
+We treat a formation as a set partition and use the lattice metric \citep{monjardet1981metrics} to count merges and splits.
+Centred partition processes \citep{paganin2021centered} place priors around a centre partition; HASSE lets the centre move along a path over time and adds rigidity and inertia, inside a sticky HMM \citep{fox2011sticky}.
+Sparse finite mixtures \citep{fruhwirth2019here} motivate letting the evidence, not a fixed $K$, set the number of patterns.
+
+\paragraph*{Game theory in sport}
+Penalty kicks and serves are the canonical tests of equilibrium play by professionals \citep{walker2001minimax,chiappori2002testing,palacios2003professionals}.
+Risk taking by trailing contestants is documented in tournaments \citep{genakos2012interim} and derived from the convexity of win probability \citep{cabral2003rd,skinner2011scoring}, the logic behind pulling the goalie \citep{beaudoin2010pulling}.
+Our explanation layer combines a quantal response equilibrium \citep{mckelvey1995quantal}, whose empirical content requires fixed payoffs \citep{haile2008empirical}, with Lanchester--Tullock fights \citep{lanchester1916aircraft,tullock1980efficient} and a Blotto second front \citep{roberson2006colonel}, estimated as in empirical industrial organisation \citep{aguirregabiria2007sequential}.
+The Shapley decomposition \citep{shapley1953value} lets the convexity argument compete with the fight law and the second front in one unit.

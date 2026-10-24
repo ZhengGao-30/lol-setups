@@ -1,0 +1,134 @@
+\section{Results}
+\label{sec:results}
+
+Each subsection answers one question. Intervals are 95\% series-block bootstrap intervals (1,000 resamples unless stated; 500 for the context model); multiple contrasts are controlled by Benjamini--Hochberg \citep{benjamini1995controlling}.
+
+\subsection{Trailing teams leave the pit empty}
+\label{sec:empty}
+
+\figwide{fig05_curves}{Trailing teams stay away once the objective is up. Share of team-snapshots with nobody at the pit (top) and mean number of players at the pit (bottom), by gold state, from 120\,s before to 180\,s after the spawn (V layer, risk set, pit radius 1,500; bands: 95\% intervals; cells with fewer than 30 setups omitted).}{fig:curves}
+
+Before the spawn the three gold states look alike: at every objective most teams have nobody at the pit, and the curves overlap (\Cref{fig:curves}).
+They separate after the spawn.
+Leading and even teams move players in, trailing teams much less so.
+\Cref{fig:contrasts} maps the trailing-minus-leading contrast over objectives and time.
+\V{vHeadlineCells} of \V{vContrastCells} cells at the primary radius are headlines (same sign at radii 1,000, 1,500 and 2,000; $q_{\mathrm{BH}}<0.05$), and \V{vHeadlineTrailLess} of them point the same way: more empty pits and fewer players for trailing teams (\Cref{tab:vlayer}).
+At the first baron the share of empty pits is \V{vCBaronFortyfive}\pp{} \V{vCBaronFortyfiveCI} higher for trailing teams at $s{+}45$; at Atakhan \V{vCAtakhanFortyfive}\pp{} \V{vCAtakhanFortyfiveCI}, with \V{vCAtakhanFortyfiveMeanK} \V{vCAtakhanFortyfiveMeanKCI} fewer players; at respawned dragons \V{vCDragonTwoFifteen}\pp{} \V{vCDragonTwoFifteenCI} at $s{+}15$, where trailing teams also put three players at the pit \V{vCDragonTwoFifteenSelf}\pp{} \V{vCDragonTwoFifteenSelfCI} less often.
+The only pre-spawn headline is at the herald, where trailing teams leave the pit empty \V{vCHeraldMinusSeventyfive}\pp{} \V{vCHeraldMinusSeventyfiveCI} more often at $s{-}75$.
+
+\figwide{fig06_contrasts}{The contrast is post-spawn and shared across objectives. Trailing-minus-leading difference in the share of empty pits (left) and of three or more players at the pit (right), by objective group and time (V layer, radius 1,500). Dots mark headline cells: same sign at all three pit radii and $q_{\mathrm{BH}}<0.05$.}{fig:contrasts}
+
+
+The contrast does not come from tracking error.
+Dropping every snapshot in which more than half of the positions are held or interpolated keeps \V{vHeadlineCleanKept} of the \V{vHeadlineCells} headline cells as headlines and the sign of \V{vHeadlineCleanSign} of the cells that remain estimable; the two sets of contrasts correlate at \V{cleanCorr} (Appendix \Cref{fig:cleanfull}).
+On Riot's exact frames (R layer), the first baron at $s{+}60$ shows the same pattern: \V{rBaronEmpty}\pp{} \V{rBaronEmptyCI} more empty pits and \V{rBaronMeanK} \V{rBaronMeanKCI} players (\Cref{tab:rlayer}, \Cref{fig:rlayer}a).
+Atakhan points the same way on the R layer (\V{rAtakhanEmptyLo}--\V{rAtakhanEmptyHi}\pp{} across radii) with $q=\V{rAtakhanQ}$; the 60-s frames are too coarse to reach the headline bar there.
+
+\subsection{The estimator decides what is significant}
+\label{sec:audit}
+
+\figwide{fig07_rlayer}{Exact Riot frames confirm the baron contrast and expose two estimator artefacts. (a)~Share of empty baron pits by gold state at the spawn and 60\,s later, for three pit radii. (b)~One pooled contrast (share of teams with three or more at the pit at $s{+}60$, all first spawns) under three estimators; only the unweighted team-mean difference crosses $p<0.05$ (\V{auditTagnetP} against \V{auditPooledP}; both within bootstrap noise of the line). (c)~The first-dragon gradient of the kill-anchored pilot against the spawn-anchored risk-set contrasts.}{fig:rlayer}
+
+The same data support different conclusions depending on the estimator (\Cref{fig:rlayer}b).
+Pooling the first spawns, the trailing-minus-leading difference in committing three players at $s{+}60$ is \V{auditTagnet}\pp{} \V{auditTagnetCI} with $p=\V{auditTagnetP}$ as a difference of unweighted team means (team-level averaging in the spirit of TAGNet's paired team-level test).
+Weighting by exposure gives \V{auditPooled}\pp{} ($p=\V{auditPooledP}$), and the within-team contrast over teams observed in both states \V{auditWithin}\pp{} ($p=\V{auditWithinP}$).
+The point estimates agree; the $p$-value crosses 0.05 with the estimator, although \V{auditTagnetP} against \V{auditPooledP} lies within the bootstrap Monte-Carlo noise of about $\pm0.007$.
+
+Anchoring matters more.
+In our kill-anchored pilot on Worlds~2025, \V{pilotDragonTrail}\% of trailing and \V{pilotDragonLead}\% of leading teams that did not take the first dragon had contested it (only \V{pilotDragonLeadN} leading cases).
+Anchored at the spawn, with the risk set, the first-dragon contrast at $s{+}60$ is \V{rDragonSixtyEmpty}\pp{} \V{rDragonSixtyEmptyCI} for empty pits, and committing three players is equally rare in both states (\Cref{fig:rlayer}c).
+At the first dragon both teams are still laning: at least \V{rDragonEmptyAtSpawnMin}\% of pits are empty at the spawn in every gold state.
+The pilot gradient was produced by selecting on who took the objective.
+
+\subsection{Arriving first decides most river objectives}
+\label{sec:race}
+
+
+For each spawn we record which team first has three players within 1,500 units of the pit.
+That team takes the objective within 180\,s in \V{raceDragonTwo} of respawned dragons ($n=\V{raceDragonTwoN}$), \V{raceHerald} of heralds and \V{raceBaron} of first barons, but in only \V{raceAtakhan} of Atakhans ($n=\V{raceAtakhanN}$; \Cref{fig:arrival}).
+The median first arrival is \V{raceMedianT}\,s after the spawn: setups are decided after the clock, not before it.
+
+\subsection{Six patterns, reproducible}
+\label{sec:patterns}
+
+
+
+No finite $K\leq8$ is selected by any criterion on the V layer: held-out log-likelihood per setup rises from \V{hvTestK1}\,(K=1) to \V{hvTestK6} at $K=6$ and \V{hvTestK8} at $K=8$, with steps of \V{hvStepFiveSix}, \V{hvStepSixSeven} and \V{hvStepSevenEight} nats from $K=5$ on (\Cref{fig:selection}, \Cref{tab:selection}).
+The 7-snapshot grid and both alternative formation radii show the same rise; $K=6$ is the largest $K$ fitted there, and the criteria still improve at it (Appendix \Cref{tab:hasserobust}).
+We therefore report $K=6$ as a convenient level of detail, not a selected one, and show $K=5$ and $K=8$ in the appendix; the rigid early-river patterns and the gathered late patterns described below appear at both.
+
+\figwide{fig09_patterns}{The pattern dictionary ($K=6$). Each row is a pattern's centre path $\mu_{c,t}$ on $\Pi_5$, coloured by the number of blocks (darker = more gathered), with rigidity $\theta$ and inertia $\iota$ in Hasse steps; the boxed column is the spawn. Right: mixture weight of each pattern in the three objective classes.}{fig:patterns}
+
+The six patterns separate first by objective class, then by how they gather (\Cref{fig:patterns}, \Cref{tab:patterns}).
+Patterns~1 and~4 carry weight \V{patOneWEarly} and \V{patFourWEarly} at early river objectives and almost none elsewhere; they keep the bot lane together and everyone else apart (\texttt{\V{patOneAtSpawn}} at the spawn) and are the most rigid ($\theta=\V{patOneTheta}$, \V{patFourTheta}).
+Patterns~3 and~5 gather four players with the top laner apart (\texttt{\V{patThreeAtSpawn}}) at the spawn and dominate late objectives (weights \V{patThreeWLate} and \V{patFiveWLate}); they are the least rigid ($\theta=\V{patThreeTheta}$, \V{patFiveTheta}) and the least inert ($\iota=\V{patThreeIota}$, \V{patFiveIota}): late setups change shape quickly.
+Patterns~0 and~2 alternate between the spread and the bot-plus-support formations before the spawn and serve Atakhan most.
+The model switches patterns with probability $\xi=\V{xiSix}$ per snapshot, so a setup typically keeps one pattern but can change it.
+
+The `only gather' model $H_{\mathrm{mono}}$ (at $K=5$) fits \V{monoNats} nats worse on the full data with the same number of parameters, but its held-out deficit is only \V{monoDiff} nats per setup (fold SD \V{monoSD}; \V{monoFolds} of 5 folds favour the unrestricted model).
+Splits, players peeling off to ward or flank, exist but are a small part of the structure.
+
+\figwide{fig10_stability}{Whole-model HASSE refits and TAGNet's K-Means re-runs are comparably stable, while single TAGNet runs agree less than best-of-ten HASSE fits. (a)~Agreement between repeated full-data fits: five HASSE fits, each the best of ten restarts, and ten single TAGNet runs (with and without its context vector). (b)~Series-bootstrap ARI: HASSE refits the whole model on each resample, TAGNet re-runs only its K-Means step on fixed embeddings. (c)~Cramér's V between the assignment and the gold tercile when context is kept out of the pattern layer and when it is fed in.}{fig:stability}
+
+\paragraph*{Against TAGNet}
+We ported TAGNet to the same V-layer tracks (it uses the \V{tgN} setups with at least 6 of 7 pre-spawn snapshots; three-layer distance-biased graph attention, fixed GRU, $K$-Means at $K=6$; ten seeds with and without its context vector).
+Two TAGNet runs that differ only in the seed agree at ARI \citep{hubert1985comparing} \V{tgSeedAri} (\V{tgSeedAriCtx} with context); five independent HASSE fits, each the best of ten restarts, agree at \V{hsCrossKSix}, so this contrast compares best-of-ten fits with single runs (\Cref{fig:stability}a, \Cref{tab:hassetagnet}).
+Refitting the whole HASSE model on series-bootstrap resamples gives ARI \V{hsBootKSix} (5\% quantile \V{hsBootKSixQ}, \V{hsBootKSixN} resamples), comparable to re-running only TAGNet's final $K$-Means step on fixed embeddings (\V{tgBootAri}).
+TAGNet's clusters agree with its own counting baseline at ARI \V{tgCountAri}, and its silhouette at $K=6$ is \V{tgSilSix}.
+Feeding the context vector in raises the association between TAGNet clusters and the gold tercile from Cramér's $V=\V{tgVgold}$ to \V{tgVgoldCtx} ($\times$\V{tgLeakRatio}); the same leak into HASSE's mixture weights moves it from \V{lkHasseCut} to \V{lkHasseLeaky}, because the weights fix only the first snapshot and the lattice emissions carry the rest.
+
+\subsection{What context does to patterns}
+\label{sec:context}
+
+
+With the patterns fixed, a soft-label multinomial logit relates occupancy to context (\Cref{fig:context}).
+Time and objective class carry most of the variation.
+A one-SD gold lead raises the gathered late pattern~5 by \V{ameGoldFive} \V{ameGoldFiveCI} and lowers patterns~0 (\V{ameGoldZero}) and~4 (\V{ameGoldFour}); holding the dragon soul point raises pattern~4 by \V{ameSoulFour} \V{ameSoulFourCI}.
+\V{ameSigCount} of \V{ameCells} effects have intervals that exclude zero.
+
+\subsection{Fight laws}
+\label{sec:fights}
+
+\figcol{fig12_fights}{The larger side rarely loses the next player. (a)~Probability that the next death falls on the larger side, by local numbers within 2,000 units, against the stochastic square law. (b)~The Tullock ratio $\gamma_n/\gamma_g$ under two count definitions.}{fig:fights}
+
+The larger side almost never loses the next player (\Cref{fig:fights}a): \V{sSevenFiveThree} at 5v3 against \V{sSevenFiveThreeSq} under the square law, \V{sSevenTwoOne} at 2v1 against \V{sSevenTwoOneSq}.
+The slope of the next-death logit on $\ln(n_{\mathrm{large}}/n_{\mathrm{small}})$ is \V{sSevenBn} \V{sSevenBnCI} with tracked counts, between the linear law (0) and the square law ($-1$), and \V{sSevenBnVfive} \V{sSevenBnVfiveCI} once killers and assisters from v5 are added; the levels sit far below the square law at every ratio.
+In the Tullock fight law~\eqref{eq:tullock}, fitted on \V{tulGnN} fights with tracked counts, $\gamma_n=\V{tulGn}$ \V{tulGnCI} and $\gamma_g=\V{tulGg}$ \V{tulGgCI} (\Cref{tab:fights}).
+With $\gamma_n/\gamma_g=\V{tulRatio}$, going from 4 to 5 players is worth as much as a \V{tulFiveFourGoldEq}\% per-player gold edge; side does not matter ($\gamma_{\mathrm{side}}=\V{tulSide}$ \V{tulSideCI}).
+Adding v5 participants, who are counted because they took part, raises $\gamma_n$ to \V{tulGnVfive}; we use the tracked counts and treat this as a sensitivity.
+
+\subsection{What the equilibrium reproduces}
+\label{sec:qre}
+
+\figwide{fig13_qre}{The allocation game reproduces a quarter of the commitment gap, almost all of it from state variables rather than the four channels. (a)~Trailing-minus-leading gap in the share of teams with three or more players at the pit at the commitment time: observed, LB-QRE with all channels, and with all channels off. (b)~Shapley values of the four channels over 300 bootstrap replicates (ticks: specification variants). (c)~Log-likelihood loss from imposing $\nu=1$ in each replicate (a nested model, so the loss is non-negative by construction; its size is the result).}{fig:qre}
+\tab{tab_qre}
+
+LB-QRE is fitted on \V{qContests} contests (\Cref{tab:qre}).
+Decision precision is $\lambda=\V{qLam}$ \V{qLamCI} per win-probability unit, so a one-point difference in expected win probability changes choice odds by \V{qLamOnePoint}\%.
+The weight on the objective's own value is $\nu=\V{qNu}$ \V{qNuCI}: choices respond to the value of fights and fronts and to their costs, early positioning ($\kappa=\V{qKappa}$), travel ($\psi=\V{qPsi}$ per minute) and committed players ($\omega_k=\V{qOmegaK}$, $\omega_m=\V{qOmegaM}$), and barely to the objective itself.
+Imposing $\nu=1$ ($H_{\mathrm{winmax}}$) costs \V{qWinmaxPoint} log-likelihood points on the data (likelihood ratio about \V{qWinmaxLR}); across bootstrap replicates the loss has mean \V{qWinmax} \V{qWinmaxCI} and is at least \V{qWinmaxMin} in all \V{qReps}.
+Without action costs the fit collapses to $\lambda=0$ (log-likelihood \V{nocostLL} against \V{qLL}).
+The saturated benchmark reaches \V{qLLsat}: the equilibrium restrictions cost likelihood, as they should if they have content.
+Only \V{qConvShare}\% of the \V{qReps} bootstrap replicates (\V{qConvN}) meet the pseudo-likelihood convergence tolerance; mean $\nu$ is \V{qNuConv} in the converged and \V{qNuNonconv} in the other replicates, and the mean Shapley values differ by at most \V{qConvShapDiff}\pp.
+
+The observed commitment gap is \V{gapObs}\pp{} \V{gapObsCI}; the model produces \V{gapModel}\pp{} \V{gapModelCI}, about \V{gapShare} of it (\Cref{fig:qre}a).
+Essentially all of the model's gap is there with every channel off (\V{gapNone}\pp), so the four channels together add only \V{gapChannels}\pp{} net: the gold term of the fight law, the alive counts, and the travel and feasibility constraints still differ between gold states.
+The channels then pull in opposite directions (\Cref{tab:shapley}): curvature of $W$ moves trailing teams towards contesting (\V{shC}\pp{} \V{shCCI}), team behaviour moves them away (\V{shB}\pp{} \V{shBCI}), and the Lanchester (\V{shL}) and second-front (\V{shF}) channels are small.
+Curvature exceeds Lanchester by \V{shCminusL}\pp{} \V{shCminusLCI}.
+Every sign holds across the six non-degenerate specification variants (pit radius 1,000 and 2,000, result values, dropping held or interpolated decisions, the V5 fight law, $\nu=1$), with Shapley magnitudes up to \V{varShapMax}\pp{}; the two no-cost variants collapse to $\lambda=0$, so their agreement is vacuous (Appendix \Cref{tab:qrevariants}).
+
+The named tests sharpen the reading.
+Unconditionally trailing teams contest less ($H_{\mathrm{Simpson}}$ raw gap \V{simpRaw} \V{simpRawCI}); matched on fight probability and stake the coefficient is \V{simpMatched} \V{simpMatchedCI}, in the predicted direction and not distinguishable from zero.
+Among teams that do not commit, second-front use does not rise as fight probability falls ($H_{\mathrm{trade}}$ slope \V{trade} \V{tradeCI}).
+In the model, trailing teams stay away from objectives because their fights are worse and their players are farther away, not because they prefer to trade.
+
+\subsection{Team fingerprints are mostly noise}
+\label{sec:fingerprints}
+
+\figwide{fig14_fingerprints}{Team fingerprints come with wide intervals. (a)~Pattern usage of the ten teams with most setups (T1 in red) with series-bootstrap intervals. (b)~Split-half reliability of team usage per pattern. (c)~Team decision precision $\lambda_i$ with 95\% intervals.}{fig:fingerprints}
+
+TAGNet reports team fingerprints without intervals.
+With intervals the picture is sober (\Cref{fig:fingerprints}).
+Split-half correlations of team usage range from \V{shMin} to \V{shMax}, and the interval includes zero for \V{shZeroIn} of 6 patterns.
+Team precision parameters overlap: T1's $\lambda=\V{lamTOne}$ \V{lamTOneCI} and Gen.G's \V{lamGenG} \V{lamGenGCI} are not distinguishable.
+At \V{setupsTeamMin} to \V{setupsTeamMax} setups per team, patterns describe the league; they do not yet separate its teams.

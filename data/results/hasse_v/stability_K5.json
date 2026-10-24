@@ -1,0 +1,9 @@
+{
+ "K": 5,
+ "n_solutions": 5,
+ "cross_restart_ari_mean": 0.8513734680817396,
+ "cross_restart_ari_min": 0.7397131891027593,
+ "bootstrap_n": 67,
+ "bootstrap_ari_mean": 0.8170177872958766,
+ "bootstrap_ari_q05": 0.7347111238473679
+}

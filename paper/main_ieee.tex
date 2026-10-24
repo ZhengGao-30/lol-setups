@@ -1,0 +1,70 @@
+\documentclass[journal]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage[table]{xcolor}
+\usepackage{url}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage[capitalise,nameinlink]{cleveref}
+\usepackage{balance}
+
+% ---------- numbers from the factory ----------
+% numbers.tex (written by make_all.py) holds the values; the V macro prints a value or a visible pending box.
+\makeatletter
+\newcommand{\defV}[2]{\expandafter\def\csname V@#1\endcsname{#2}}
+\newcommand{\V}[1]{\ifcsname V@#1\endcsname\csname V@#1\endcsname\else\pending{#1}\fi}
+\makeatother
+\newcommand{\pending}[1]{\fcolorbox{red}{yellow!40}{\scriptsize\ttfamily PENDING:\,\detokenize{#1}}}
+\input{numbers}
+
+% ---------- floats from the factory ----------
+\newcommand{\figwide}[3]{\begin{figure*}[t]\centering
+  \IfFileExists{figures/#1.pdf}{\includegraphics[width=\textwidth]{figures/#1}}{\pending{figure #1}}
+  \caption{#2}\label{#3}\end{figure*}}
+\newcommand{\figcol}[3]{\begin{figure}[t]\centering
+  \IfFileExists{figures/#1.pdf}{\includegraphics[width=\columnwidth]{figures/#1}}{\pending{figure #1}}
+  \caption{#2}\label{#3}\end{figure}}
+\newcommand{\tab}[1]{\IfFileExists{tables/#1.tex}{\input{tables/#1}}{\pending{table #1}}}
+
+% ---------- notation ----------
+\newcommand{\HASSE}{\textsc{HASSE}}
+\newcommand{\LBQRE}{\textsc{LB-QRE}}
+\newcommand{\Pifive}{\Pi_5}
+\newcommand{\pp}{\,pp}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+\crefname{proposition}{Prop.}{Props.}
+
+\begin{document}
+
+\title{Allocation Before the Clock: Graph, Set and Game Theory of Professional \emph{League of Legends} Objective Setups}
+
+\author{Zheng Gao, Zhenyu Liu, Yifan Yang and Xiaoyu Li\\ UNSW Sydney; corresponding author: Zheng Gao (zheng.gao1@unsw.edu.au)}
+
+\markboth{IEEE Transactions on Games (draft)}{Allocation Before the Clock}
+
+\maketitle
+
+\input{sections_ieee/00_abstract}
+\input{sections_ieee/01_intro}
+\input{sections_ieee/02_data}
+\input{sections_ieee/03_measurement}
+\input{sections_ieee/04_model}
+\input{sections_ieee/05_results}
+\input{sections_ieee/06_related}
+\input{sections_ieee/07_limitations}
+\input{sections_ieee/08_conclusion}
+
+\clearpage
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\clearpage
+\appendices
+\input{sections_ieee/A_appendix}
+
+\end{document}

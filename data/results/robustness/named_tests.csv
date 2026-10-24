@@ -1,0 +1,4 @@
+test,estimate,lo,hi,p_two_sided,theory_direction
+H_Simpson (raw: trailing - leading commit share),-0.19194630872483226,-0.2373836118690314,-0.14746603598178729,0.0,< 0 (trailing contest less)
+H_Simpson (matched on p_hat and stake: logit coefficient),0.23977761630308705,-0.3538459559788413,0.7775484808351839,0.464,>= 0
+"H_trade (slope of 2+ on the second front among non-committers, per logit p_hat)",0.07277722032435897,-0.026395015920340985,0.17527011782933347,0.156,< 0

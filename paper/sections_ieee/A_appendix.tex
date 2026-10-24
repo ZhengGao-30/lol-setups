@@ -1,0 +1,113 @@
+% ===================== Appendix =====================
+
+\section{Proofs}
+\label{app:proofs}
+
+\paragraph*{Lemma~\ref{lem:metric}}
+$\Pi_5$ ordered by refinement is a geometric, hence upper semimodular, lattice with rank $r(\pi)=5-|\pi|$.
+For upper semimodular lattices $d(\sigma,\tau)=2r(\sigma\vee\tau)-r(\sigma)-r(\tau)$ is a metric equal to the shortest-path distance in the covering graph~\cite{monjardet1981metrics}; substituting the rank gives the stated form.
+Each covering step is one merge (rank $+1$) or one split (rank $-1$). On a path from $\sigma$ to $\tau$ with $M$ merges and $S$ splits, $M-S=r(\tau)-r(\sigma)$; on a shortest path also $M+S=d(\sigma,\tau)=2r(\sigma\vee\tau)-r(\sigma)-r(\tau)$. Hence $M=r(\sigma\vee\tau)-r(\sigma)=|\sigma|-|\sigma\vee\tau|$ and $S=|\tau|-|\sigma\vee\tau|$.
+We verified all three statements exhaustively: breadth-first search on the Hasse diagram of the \V{latticeN} partitions (\V{latticeEdges} covering edges) reproduces $d$ for all pairs, and the triangle inequality holds for all triples.
+
+\paragraph*{Proposition~\ref{prop:threshold}}
+Contesting yields expected win probability $pW(\eta+G)+(1-p)W(\eta-L)$, conceding yields $W(\eta-b+c)$.
+Their difference is $W(\eta-L)+pS-W(\eta-b+c)=S(p-\pi^*)$ with $S$ and $\pi^*$ as stated.
+Under logit choice with precision $\lambda$ the probability of the first option is $\Lambda(\lambda\cdot\text{difference})$. \hfill$\square$
+
+\paragraph*{Proposition~\ref{prop:unique}}
+With $\nu=1$, $W_B=1-W_A$ implies that every outcome changes $B$'s win probability by minus $A$'s change, so $U_B=-U_A^\top$ in win-probability units, and the remaining terms ($\kappa\tau$, $\psi T_k$, $\omega$) depend only on a team's own action; write them $c_A^\top x$ and $c_B^\top y$ for mixed strategies $x,y$.
+Team $A$'s logit best response to $y$ maximises $\lambda_A x^\top Uy-c_A^\top x+H(x)$, team $B$'s maximises $-\lambda_B x^\top Uy-c_B^\top y+H(y)$.
+Dividing by $\lambda_A$ and $\lambda_B$, both are the first-order conditions of the saddle problem $\max_x\min_y F(x,y)$ with $F$ as stated.
+$F$ is continuous, strictly concave in $x$ and strictly convex in $y$ on compact convex sets, so a saddle point exists (minimax theorem) and is unique by strictness; every logit QRE is such a saddle point and conversely. \hfill$\square$
+
+\section{HASSE: Estimation}
+\label{app:hasse}
+
+\paragraph*{Likelihood} For setup $e$ with pattern sequence $z_{1:T}$, the complete-data likelihood is $w_{\mathrm{cls}(e),z_1}\prod_t P(z_t\mid z_{t-1})\prod_t P_{z_t}(\pi_t\mid\pi_{t-1})\prod_{B\in\pi_t}P_{z_t}(g_B\mid\pi_t)$; snapshots after the kill are missing and drop out of the product.
+\paragraph*{E step} Exact forward--backward over $K$ states.
+\paragraph*{M step} (i)~For each pattern and snapshot, the centre $\mu_{c,t}$ is chosen among the 52 partitions by an exact Viterbi pass that adds a smoothness penalty of one unit per Hasse step between consecutive centres. (ii)~$(\theta_c,\iota_c)$ maximise a concave exponential-family likelihood whose gradient is observed minus expected distance, bounded in $[0,20]$. (iii)~Zone parameters by penalised multinomial logit (Gaussian penalty 0.1). (iv)~$w$, $\xi$, $q$ in closed form.
+\paragraph*{Initialisation and selection} Ten restarts per $K$, even seeds from $k$-medoids on the lattice path distance; held-out log-likelihood on five series-grouped folds; BIC and ICL on the full data. Recovery on synthetic data drawn from the model (three planted patterns, \V{synthN} setups, three snapshots, five restarts): all restarts reach the same log-likelihood (spread \V{synthLLspread}), \V{synthPathsOK} centre paths are recovered exactly, rigidity and inertia lie within \V{synthThetaErr} and \V{synthIotaErr} of the planted values, and the first-snapshot assignment has ARI \V{synthAri} with the truth (\V{synthAriMissing} when the last snapshot is missing in 40\% of setups).
+\paragraph*{$H_{\mathrm{mono}}$} The Viterbi step for $\mu$ is restricted to transitions $\mu_{t}\leq\mu_{t+1}$ in the refinement order.
+
+\section{LB-QRE: Specification}
+\label{app:qre}
+
+\paragraph*{Commitment time and actions} $t_c$ is the first at-risk snapshot in $[s,s{+}180]$ with three or more players of either team within $R$ of the pit, otherwise the last at-risk snapshot (objective taken next, or window end). $m$ counts alive players in zone `far' at $t_c$; $\tau=1$ if the team already had at least $k$ players at the pit at the spawn. Players farther than 60\,s of movement at the spawn are infeasible for the pit.
+\paragraph*{State values} For each contest, values for the objective (to either team), a fight won or lost by two kills, and one tower are read from the event regressions at the out-of-fold $W$ of the last v5 frame at least 30\,s before the spawn; dragons resolve to the gainer's next drake index.
+\paragraph*{Estimation} Nested pseudo-likelihood alternates a conditional-logit maximisation in $\theta$ (analytic gradient) with a strategy update; team deviations are shrunk towards global values with prior standard deviations 1.0 for $\log\lambda$, $\kappa$, $\psi$ and 0.5 for $\log\nu$, $\omega_k$, $\omega_m$.
+Teams with too few contests share a pooled `other' parameter.
+
+% -------- additional results --------
+\section{Additional Results}
+\label{app:results}
+
+\figwide{figA_tracker_pergame}{Tracker quality per game. Per-game median error, share of errors below 600 units, and formation agreement with v5 at held-out minutes.}{fig:trackerpergame}
+\figwide{figA_shapes_singleton}{Formation shapes on the R layer at $s{-}60$, $s$ and $s{+}60$ by objective (left) and the role of the lone player in 4+1 formations against the uniform 20\% (right). The top laner is the lone player in \V{singleTop}\% \V{singleTopCI} of 4+1 formations, the mid laner in \V{singleMid}\% \V{singleMidCI}.}{fig:shapes}
+\figcol{figA_clean_vs_full}{V-layer trailing-minus-leading contrasts computed on all snapshots and on snapshots with at most half of the positions held or interpolated (radius 1,500; red: headline cells).}{fig:cleanfull}
+\tab{tab_vocab}
+\tab{tab_hasse_robust}
+\figwide{figA_patterns_K5}{Pattern dictionary at $K=5$ ($\xi=\V{xiFive}$).}{fig:patternsK5}
+\figwide{figA_patterns_K8}{Pattern dictionary at $K=8$ ($\xi=\V{xiEight}$).}{fig:patternsK8}
+\figwide{figA_context_K5}{Context effects at $K=5$.}{fig:contextK5}
+\figwide{figA_context_K8}{Context effects at $K=8$.}{fig:contextK8}
+\tab{tab_context}
+\figcol{figA_w_cv}{Cross-validated log-loss and Brier score of $W$ against the inverse penalty $C$ for the three specifications.}{fig:wcv}
+\tab{tab_wfit}
+\figwide{figA_tagnet_k}{TAGNet's own cluster criteria on our setups, $K=2..8$, with and without the context vector.}{fig:tagnetk}
+\figwide{figA_qre_variants}{LB-QRE specification variants: observed and model commitment gaps (left) and the four Shapley values (right).}{fig:qrevariants}
+\tab{tab_qre_variants}
+\figwide{figA_team_params}{Team cost and valuation parameters with 95\% intervals (T1 in red), teams ordered by $\lambda$.}{fig:teamparams}
+\tab{tab_team_params}
+\tab{tab_usage}
+
+% -------- T1 / Faker --------
+\section{T1 and Faker}
+\label{app:t1}
+
+T1 contributes \V{tOneSetups} setups, the most of any team, and won Worlds~2025.
+Every analysis here was specified before it was run, compares T1 or Faker with the rest of the league on the same measures, and reports intervals; null results are reported as such.
+
+\paragraph*{A1 Pattern fingerprint}
+T1's usage over the six patterns is \V{tOneUsage} (Table~\ref{tab:usage}).
+Its nearest team is \V{tOneNearest} (total-variation distance \V{tOneNearestTV}; nearest in \V{tOneNearestP}\% of resamples), then \V{tOneSecond} and \V{tOneThird}.
+Given the low split-half reliability of all fingerprints (Section~\ref{sec:fingerprints}), this places T1 inside the league's main cluster rather than apart from it.
+
+\paragraph*{A2 Decision parameters}
+T1's precision is $\lambda=\V{lamTOne}$ \V{lamTOneCI} and its precision on the objective $\lambda\nu=\V{lamObjTOne}$ \V{lamObjTOneCI}; neither separates T1 from Gen.G ($\lambda=\V{lamGenG}$ \V{lamGenGCI}) or from the league (Fig.~\ref{fig:teamparams}, Table~\ref{tab:teamparams}).
+
+\figwide{figA_t1_faker}{T1 and Faker in numbers. (a)~A3: Faker minus other starting mid laners on seven position measures in pre-spawn snapshots (distance in thousands of units). (b)~A5: commitment share by gold state, T1 against all other teams. (c)~A8: T1's commitment share at MSI and Worlds~2025.}{fig:t1}
+\tab{tab_faker}
+\tab{tab_t1_state}
+
+\paragraph*{A3 Faker in the setup}
+Against other starting mid laners ($n=\V{fakerN}$ vs \V{fakerOthersN} setups), Faker is closer to the pit before the spawn by \V{fakerDpit} \V{fakerDpitCI} units and arrives earlier in his team's order (rank \V{fakerRank} \V{fakerRankCI}); he is no more often alone, in the main block or central in the team's spanning tree (Table~\ref{tab:faker}, Fig.~\ref{fig:t1}a).
+`Faker gets to the objective first' is measurable and true; `Faker holds the formation together' is measurable and not supported.
+
+\paragraph*{A5 Behind and ahead}
+T1's trailing-minus-leading commitment contrast is \V{tOneTL} \V{tOneTLCI}, the rest of the league's \V{othersTL}; the difference is \V{tOneMinusOthers} \V{tOneMinusOthersCI} (Table~\ref{tab:t1state}).
+`T1 does not panic when behind' describes the whole league as well as T1.
+
+\paragraph*{A6 Fights}
+In \V{tOneFights} fights involving T1, the mean residual of the fight law is \V{tOneFightRes} \V{tOneFightResCI}: at equal numbers and gold T1 wins its fights as often as the law predicts.
+
+\paragraph*{A7 The Worlds 2025 final}
+Table~\ref{tab:ledger} and Fig.~\ref{fig:ledger} list all \V{ledgerSpawns} spawns of T1's 3--2 final against KT Rolster with both actions, the fight probability, the break-even of Proposition~\ref{prop:threshold} and the objective's value.
+
+\figwide{figA_final_ledger}{A7: every spawn of the Worlds~2025 final. Markers: blue's fight probability $\hat p$ (colour = taker: blue/red/none; shape = objective); bars end at the break-even $\pi^*$.}{fig:ledger}
+\tab{tab_ledger}
+
+\paragraph*{A8 MSI and Worlds}
+Under the same rules T1 committed three or more players in \V{tOneMSI} of contests at MSI and \V{tOneWorlds} at Worlds (Fig.~\ref{fig:t1}c).
+
+\paragraph*{A9 Earlier rule sets}
+Worlds 2023 and 2024 were played under different objective rules, so T1's earlier setups are outside this study.
+
+\paragraph*{A10 Narratives and measures}
+Three common narratives map onto measures here: `T1 does not panic when behind' (A5: no different from the league), `Faker controls the map' (A3: earlier arrival, no extra centrality) and `T1 wins fights at equal numbers' (A6: no residual).
+Champion-pool depth, draft play and communication are outside what positions can measure.
+
+% -------- dataset --------
+\section{Dataset}
+\label{app:dataset}
+
+The release contains, for the \V{nGames} core games: the clock alignment per video, minimap registration parameters, 2-fps tracks with a source label per position (detected, interpolated, held, pinned, dead), the \V{nSpawns} spawn records, the \V{nSetups} team-setups on the 15-s grid with partitions, zones, $k$, $\tau^{(k)}$ and pit control and the navigation graph; the code that produces every figure and table is released with them.

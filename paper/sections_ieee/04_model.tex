@@ -1,0 +1,104 @@
+\section{HASSE-QRE}
+\label{sec:model}
+
+HASSE-QRE has two layers with one rule between them.
+The discovery layer HASSE describes \emph{what} setups look like and how they unfold; the explanation layer LB-QRE describes \emph{why} teams commit the players they do.
+Context variables (gold, side, soul point, team strength) never enter HASSE: they are related to its output only afterwards, a modular `cut'~\cite{plummer2015cuts}.
+The association between patterns and context therefore cannot be built into the patterns.
+
+\subsection{HASSE: walks on the partition lattice}
+
+A team-setup $e$ is a sequence of observations $y_{et}=(A_t,\pi_t,\{g_B\}_{B\in\pi_t})$ over $T=13$ snapshots ($s{-}120$ to $s{+}60$\,s): the alive set $A_t$, the formation $\pi_t\in\Pi(A_t)$, and the zone $g_B$ of each block.
+A pattern $c$ has a \emph{centre path} $\mu_{c,1:T}$ in $\Pi_5$, a rigidity $\theta_c$, an inertia $\iota_c$ and zone preferences $\psi_c$.
+Its formation emission is
+\begin{equation}
+\begin{split}
+P_c(\pi_t=\sigma\mid\pi_{t-1})\propto\exp\{&-\theta_c\, d(\sigma,\mu_{c,t}|_{A_t})\\
+&-\iota_c\, d(\sigma|_C,\pi_{t-1}|_C)\},
+\end{split}
+\label{eq:hasse}
+\end{equation}
+with $d$ the lattice metric of Lemma~\ref{lem:metric}, $\cdot|_A$ restriction to the alive set and $C=A_t\cap A_{t-1}$.
+The normaliser is an exact sum over at most \V{latticeN} partitions.
+$\theta_c$ says how tightly the pattern holds its centre and $\iota_c$ how reluctant it is to merge or split between snapshots; both are measured per Hasse step.
+Each block chooses a zone by a product of role experts, $P(g_B=h)\propto\exp\sum_{r\in B}\psi_c[r,h]$, with a linear time trend.
+Patterns follow a sticky Markov chain~\cite{fox2011sticky}: $z_1\sim\mathrm{Cat}(w_{\mathrm{class}(e)})$ and $P(z_t=c'\mid z_{t-1}=c)=(1-\xi)\mathbb{1}[c'=c]+\xi q_{cc'}$; $\xi=0$ recovers TAGNet's one-label-per-setup clustering.
+Snapshots after the kill are missing, not zero.
+We fit by EM with exact forward--backward, an exact Viterbi over the 52 centres for each $\mu_c$, and a concave two-dimensional update for $(\theta_c,\iota_c)$ (Appendix~\ref{app:hasse}).
+$K$ is chosen by held-out log-likelihood over five series-grouped folds, BIC and ICL~\cite{biernacki2000assessing}.
+The restricted model $H_{\mathrm{mono}}$ allows the centre path only to merge, i.e.\ setups that only gather.
+
+\subsection{LB-QRE: the allocation game}
+
+\paragraph*{Win surface and values}
+$W_A(x)$ is the probability that team $A$ wins from state $x$. We fit $\mathrm{logit}\,W_A(x)=\beta(t)^\top[\phi(x_A)-\phi(x_B)]+\beta_{\mathrm{side}}(t)s_A$ with $s_A=\pm1$, which makes $W_B=1-W_A$ exact. $\phi$ contains gold (hinge basis, so curvature in gold is free), experience, kills, towers, inhibitors, plates, dragons, soul and soul point, grubs, heralds, Atakhans, barons, baron and elder buffs and alive players; $\beta(t)$ varies with the game minute through a B-spline basis, and objective coefficients are specific to the rule set. The fit uses 2,678 archive games, an $L_2$ penalty chosen by series-grouped cross-validation and out-of-fold predictions throughout.
+$W$ is calibrated to within \V{wCalMaxDevPP}\pp{} in every decile (Fig.~\ref{fig:values}a).
+Evaluated 15\,s after the kill, $W$ assigns the baron a \emph{negative} value: $W$ conditions on gold, towers and buffs, and right after the kill none of what the baron will produce has happened yet.
+We therefore value every event by the win probability it adds over the next 180\,s, $\mathrm{logit}\,W_{t+180}=a\,\mathrm{logit}\,W_t+\beta(t)\,\mathrm{dir}$, fitted on the archive (Table~\ref{tab:values}).
+At $W=0.5$ a first baron is worth \V{valBARONNASHORWpa} win-probability points, Atakhan \V{valATAKHANWpa}, a soul-point dragon \V{valDRAGONThreeWpa} and the first dragon \V{valDRAGONOneWpa}; a won fight is worth \V{valFIGHTWpa} points per kill.
+Total effects on the final result agree (Fig.~\ref{fig:values}c).
+
+\figwide{fig04_values}{Win probability prices every outcome. (a)~Calibration of the outcome-only win surface $W$ (out of fold, deciles). (b)~Log-loss by game phase for three specifications. (c)~Event values at $W=0.5$: win probability added over 180\,s (main) and the total effect on the result.}{fig:values}
+
+\tab{tab_values}
+
+\paragraph*{Actions}
+At the commitment time $t_c$, the first at-risk snapshot in $[s,s{+}180]$ at which some team has at least three players at the pit (otherwise the last at-risk snapshot), team $i$ with $n_i$ alive players has chosen $a_i=(k_i,m_i,\tau_i)$: $k_i$ players at the pit, $m_i$ on a second front (zone `far'), and $\tau_i=1$ if the pit group was already in place at the spawn.
+With five alive there are 36 actions; players who cannot reach the pit within 60\,s are infeasible for $k$.
+
+\paragraph*{Outcomes}
+If both teams commit, team $i$ wins the fight with
+\begin{equation}
+p_i=\Lambda\big(\gamma_n\ln(k_i/k_j)+\gamma_g\ln(\bar g_i/\bar g_j)\big),
+\label{eq:tullock}
+\end{equation}
+the logit form of a Tullock contest~\cite{tullock1980efficient} whose numbers term generalises Lanchester's laws: under the square law with per-player strength proportional to $\bar g^{\beta}$, $\gamma_n/\gamma_g=2/\beta$; under the linear law, $1/\beta$.
+The fight winner takes the objective; a lone committer takes it uncontested.
+The second front is a Blotto-type contest~\cite{roberson2006colonel}, won with probability $m_i^{\gamma_f}/(m_i^{\gamma_f}+m_j^{\gamma_f})$ and worth a tower.
+$\gamma_n$ and $\gamma_g$ are estimated from fights in the core games (Section~\ref{sec:fights}), outside the choice model.
+
+\paragraph*{Utilities and equilibrium}
+Team $i$'s expected payoff splits into the objective part $U^{\mathrm{obj}}_i$ and the rest (fight and front) $U^{\mathrm{rest}}_i$, both in win-probability points.
+Choices follow a heterogeneous logit quantal response equilibrium~\cite{mckelvey1995quantal}:
+\begin{equation}
+\begin{split}
+\log\sigma_i(a)={}&\lambda_i[\nu_i U^{\mathrm{obj}}_i(a,\sigma_j)+U^{\mathrm{rest}}_i(a,\sigma_j)]\\
+&-\kappa_i\tau(a)-\psi_i T_k(a)-\omega_{k,i}k-\omega_{m,i}m+\mathrm{const},
+\end{split}
+\label{eq:qre}
+\end{equation}
+where $\lambda_i$ is decision precision ($\lambda\to\infty$ nests Nash), $\nu_i$ the weight on the objective's own value ($\nu=1$: the team maximises win probability), $\kappa_i$ the cost of early positioning, $T_k$ the travel minutes of the $k$ nearest players, and $\omega$ the per-player costs of committing to the pit or the second front.
+Team parameters are shrunk to global values.
+
+\begin{proposition}[Contest threshold]\label{prop:threshold}
+Suppose team $i$ either contests, reaching win probability $W(\eta+G)$ with probability $p$ and $W(\eta-L)$ otherwise, or concedes and trades, reaching $W(\eta-b+c)$. With logit choice at precision $\lambda$,
+\[
+P(\text{contest}\mid\eta)=\Lambda\big(\lambda S(\eta)[p(\eta)-\pi^*(\eta)]\big),
+\]
+\[
+\pi^*(\eta)=\frac{W(\eta-b+c)-W(\eta-L)}{W(\eta+G)-W(\eta-L)},
+\]
+with stake $S(\eta)=W(\eta+G)-W(\eta-L)$.
+\end{proposition}
+The proposition separates the channels that the decomposition below measures.
+A trailing team has a lower fight probability $p$ (Lanchester), but where $W$ is convex its break-even $\pi^*$ falls (curvature), and a valuable second front raises $\pi^*$ (Blotto).
+
+\begin{proposition}[Uniqueness]\label{prop:unique}
+If $\nu_A=\nu_B=1$ and costs depend only on a team's own action, the game is zero-sum in win probability up to own-action terms, and the logit QRE is the unique saddle point of
+\[
+F(x,y)=x^\top Uy-\tfrac{c_A^\top x-H(x)}{\lambda_A}+\tfrac{c_B^\top y-H(y)}{\lambda_B}
+\]
+over the two simplices, with $H$ the Shannon entropy.
+\end{proposition}
+Proofs are in Appendix~\ref{app:proofs}.
+Under the estimated $\nu\neq1$ the game is no longer zero-sum; we solve each state by damped fixed-point iteration from uniform strategies.
+
+\paragraph*{Estimation and tests}
+We estimate $\theta_i=(\lambda_i,\nu_i,\kappa_i,\psi_i,\omega_{k,i},\omega_{m,i})$ by nested pseudo-likelihood~\cite{aguirregabiria2007sequential} and compute intervals from 300 series-block bootstrap replicates~\cite{kunsch1989jackknife}.
+Empirical content comes from fixing payoffs at outcome-only values~\cite{haile2008empirical}; we compare the fit with a saturated multinomial benchmark.
+Three named tests follow from Proposition~\ref{prop:threshold}: $H_{\mathrm{Simpson}}$ (matched on $\hat p$ and stake, trailing teams contest no less than leading teams), $H_{\mathrm{trade}}$ (among non-committers, second-front use rises as $\hat p$ falls) and $H_{\mathrm{winmax}}$ ($\nu=1$).
+
+\paragraph*{Four-channel decomposition}
+Let $G(S)$ be the equilibrium gap $P(k\geq3\mid\text{trailing})-P(k\geq3\mid\text{leading})$ at the observed states when only the channels in $S\subseteq\{L,C,F,B\}$ are on: $L$ (Lanchester; off: $\gamma_n=0$), $C$ (curvature; off: values taken at $W=0.5$), $F$ (second front; off: front values zero) and $B$ (team behaviour; off: pooled parameters).
+We solve all 16 subsets and allocate $G(\{L,C,F,B\})-G(\varnothing)$ by Shapley values~\cite{shapley1953value}.
+Convexity-driven risk taking by trailing sides is known in isolation~\cite{cabral2003rd,skinner2011scoring}; the decomposition puts it in one model with the fight law and the second front and measures each in the same unit.

@@ -1,0 +1,47 @@
+\section{Introduction}
+\label{sec:intro}
+
+\figwide{fig01_teaser}{One setup, every object of the paper. Game~4 of the Worlds~2025 final, first baron, 60\,s after the spawn. (a)~The walkable navigation graph (grey: walls), coloured by which team reaches each cell first (geodesic Voronoi split, black front), with each team's formation drawn as the blocks of a set partition. (b)~The $k$-arrival times $\tau^{(k)}$: seconds until a team can have $k$ players at the pit. (c)~Each team's walk on the partition lattice $\Pi_5$ over the setup window (fewer blocks = more gathered). (d)~Players at the pit over time. (e)~The decision as LB-QRE reads it: actions $(k,m,\tau)$ at the commitment time, win probability $W$, fight probability $\hat p$ and the objective's value in win-probability points.}{fig:teaser}
+
+\IEEEPARstart{N}{eutral} objectives in \emph{League of Legends} (LoL) appear on a public clock.
+The first dragon spawns at 5:00, the void grubs at 8:00, the Rift Herald at 15:00, Atakhan at 20:00 and Baron Nashor at 25:00, and both teams know these times to the second.
+In the minute before each spawn the two teams move their ten players into position: some walk to the pit, some keep pushing a lane, some wait in the jungle in between.
+This setup decides who fights for the objective, with how many players, and whether the other side trades it for towers elsewhere.
+Professional coaches plan it in detail. Esports analytics has measured almost none of it.
+
+The closest work is TAGNet~\cite{zhang2026tagnet}, which studies how defenders set up after the freeze time in professional \emph{Counter-Strike~2}.
+TAGNet embeds the five defenders as a complete graph with a graph attention network~\cite{velickovic2018graph} and an untrained recurrent layer, clusters the 64-dimensional embeddings with $K$-Means at a fixed $K=6$, and reads the win rate of each cluster as the quality of a tactic.
+Three steps of that pipeline make the conclusions fragile.
+The graph carries no map: straight-line distances ignore walls.
+The context variables (economy, score) are fed into the representation and later `discovered' to be associated with it.
+And comparisons of trailing and leading teams average over teams rather than over rounds.
+
+We take a different view. A setup is an \emph{allocation on a walled map}.
+Distances are geodesic on a navigation graph built from Riot's own position data, so a formation is the set of connected components of a proximity graph, that is, a set partition of the five roles, and the formations form the partition lattice $\Pi_5$ with \V{latticeN} elements.
+Map control is the geodesic Voronoi split of that graph, and readiness is a vector of $k$-arrival times.
+The decision is how many players to commit to the pit, how many to a second front, and whether to be there before the spawn.
+Fight outcomes follow a Lanchester-type law~\cite{lanchester1916aircraft} written as a Tullock contest~\cite{tullock1980efficient}, the second front is a Blotto-type contest~\cite{roberson2006colonel}, and every outcome is priced in win probability by a surface $W$ fitted on game results only.
+Fig.~\ref{fig:teaser} shows all of these objects on one real baron setup from the Worlds~2025 final.
+
+The first finding is about behaviour. Across all \V{nGames} games of MSI and Worlds~2025, trailing teams leave the pit empty far more often than leading teams once the objective is up.
+At the first baron the gap reaches \V{vCBaronFortyfive}\pp{} \V{vCBaronFortyfiveCI} at $s{+}45$\,s, at Atakhan \V{vCAtakhanFortyfive}\pp{} \V{vCAtakhanFortyfiveCI}, and at respawned dragons \V{vCDragonTwoFifteen}\pp{} \V{vCDragonTwoFifteenCI} (Figs.~\ref{fig:curves}--\ref{fig:contrasts}).
+Every headline contrast keeps its sign at three pit radii and survives false-discovery control.
+The same contrast on Riot's exact 60-second frames gives \V{rBaronEmpty}\pp{} \V{rBaronEmptyCI} at the first baron.
+The dragon gradient of our kill-anchored pilot (\V{pilotDragonTrail}\% of trailing vs \V{pilotDragonLead}\% of leading non-takers contested) disappears once spawns rather than kills anchor the window: it was an artefact of selecting on the outcome.
+
+The second finding is about structure. HASSE, a sticky hidden Markov model whose emissions live on $\Pi_5$, describes each setup as a walk on the Hasse diagram with a pattern-specific centre path, rigidity and inertia.
+Held-out likelihood improves up to $K=8$ with steps that shrink to \V{hvStepSevenEight} nats per setup, and six patterns carry the structure (Fig.~\ref{fig:patterns}).
+Two of them, used almost only at early river objectives, stay spread out; two gather four players around the pit at the spawn and dominate the late game.
+Refits agree with each other (cross-restart ARI \V{hsCrossKSix}; whole-model series bootstrap \V{hsBootKSix}), whereas TAGNet ported to the same setups agrees with itself across seeds at ARI \V{tgSeedAri} and with its own counting baseline at \V{tgCountAri} (Fig.~\ref{fig:stability}).
+
+The third finding is about incentives. LB-QRE, a heterogeneous logit quantal response equilibrium~\cite{mckelvey1995quantal} of the allocation game estimated by nested pseudo-likelihood~\cite{aguirregabiria2007sequential}, finds that teams respond to fight values, travel and the cost of each committed player, and barely to the objective's own value: its weight is $\nu=\V{qNu}$ \V{qNuCI}, and fixing $\nu=1$ (pure win-probability maximisation) costs \V{qWinmax} log-likelihood points in every one of \V{qReps} bootstrap replicates.
+The equilibrium reproduces about a quarter of the observed trailing-minus-leading commitment gap (\V{gapModel} vs \V{gapObs}\pp).
+Within the model, the curvature of $W$ pushes trailing teams towards contesting (\V{shC}\pp) and team behaviour pulls them away (\V{shB}\pp), while the Lanchester and second-front channels are small (Fig.~\ref{fig:qre}).
+Fights punish the smaller side hard: the larger side loses the next player far less often than the square law predicts (\V{sSevenFiveThree} vs \V{sSevenFiveThreeSq} at 5v3).
+
+These results rest on a measurement layer that we validate end to end: a broadcast-clock reader aligns every video to game time, the minimap is registered to the navigation graph, and a per-game tracker is scored against Riot positions at held-out minutes (median error \V{trkMed} map units on a map 14,820 units wide).
+In summary, we contribute
+(i)~a theory-defined measurement of objective setups (navigation graph, geodesic Voronoi control, $k$-arrival order statistics, partitions on $\Pi_5$) with validated extraction from broadcast video;
+(ii)~HASSE-QRE, a two-layer model whose discovery layer lives on the partition lattice and whose explanation layer is an estimable allocation game in win-probability units;
+(iii)~the findings above, including the negative ones, with an estimator audit that shows how TAGNet-style averaging manufactures significance; and
+(iv)~an open dataset of \V{nSpawns} spawns, \V{nSetups} team-setups and 2-fps tracks, with an appendix that turns narratives about T1 and Faker into measured quantities.

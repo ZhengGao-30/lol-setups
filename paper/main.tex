@@ -1,0 +1,166 @@
+% Single-column preprint, styled after the "Flood and Harvest" reference (letter paper, 5.5in text, Times 10pt,
+% small-caps headings, shaded theorem boxes, author-year citations). The IEEE two-column version is main_ieee.tex.
+\documentclass[10pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{newtxtext,newtxmath}
+\usepackage[letterpaper,text={5.5in,8.85in},top=1.15in,headheight=13pt,headsep=0.2in,footskip=0.4in]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs,array,tabularx}
+\usepackage[export]{adjustbox}
+\usepackage[table]{xcolor}
+\usepackage{url}
+\usepackage[round,authoryear]{natbib}
+\usepackage[explicit]{titlesec}
+\usepackage{fancyhdr}
+\usepackage[font=small,labelfont=normal,labelsep=colon,justification=justified,singlelinecheck=false,
+            skip=6pt,position=bottom]{caption}
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}
+\usepackage{aliascnt}
+\usepackage{float}
+\usepackage[colorlinks=true,linkcolor={red!72!black},citecolor={blue!45!black},urlcolor={blue!45!black},
+            breaklinks=true]{hyperref}
+\usepackage[capitalise,nameinlink]{cleveref}
+
+% ---------- page and text ----------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.2pt plus 1pt minus 0.5pt}
+\linespread{0.985}
+\setlength{\emergencystretch}{3em}
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.78}
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{1}
+\setcounter{totalnumber}{3}
+\setlength{\floatsep}{12pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{14pt plus 2pt minus 4pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlist[itemize]{leftmargin=1.4em,itemsep=1pt,topsep=2pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Preprint}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ---------- headings: numbered small caps, bold run-in paragraph heads ----------
+\titleformat{\section}{\fontsize{11}{13}\selectfont\scshape}{\thesection}{0.9em}{#1}
+\titlespacing*{\section}{0pt}{17pt plus 3pt minus 2pt}{7pt plus 1pt}
+\titleformat{\subsection}{\normalsize\scshape}{\thesubsection}{0.9em}{#1}
+\titlespacing*{\subsection}{0pt}{13pt plus 2pt minus 2pt}{5pt plus 1pt}
+\titleformat{\paragraph}[runin]{\bfseries}{}{0pt}{#1.}
+\titlespacing*{\paragraph}{0pt}{3pt}{0.7em}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+% ---------- numbers from the factory ----------
+% numbers.tex (written by make_all.py) holds the values; the V macro prints a value or a visible pending box.
+\makeatletter
+\newcommand{\defV}[2]{\expandafter\def\csname V@#1\endcsname{#2}}
+\newcommand{\V}[1]{\ifcsname V@#1\endcsname\csname V@#1\endcsname\else\pending{#1}\fi}
+\makeatother
+\newcommand{\pending}[1]{\fcolorbox{red}{yellow!40}{\scriptsize\ttfamily PENDING:\,\detokenize{#1}}}
+\input{numbers}
+
+% ---------- floats from the factory ----------
+% Captions: "<bold lead sentence stating the finding.> explanation"; the first ". " ends the lead.
+\makeatletter
+\def\capsplit#1. #2\@nil{\textbf{#1.} #2}
+\newcommand{\figwide}[4][!tb]{\begin{figure}[#1]\centering
+  \IfFileExists{figures/#2.pdf}{\includegraphics[max width=\textwidth]{figures/#2}}{\pending{figure #2}}
+  \caption{\capsplit #3 \@nil}\label{#4}\end{figure}}
+\makeatother
+\newcommand{\figcol}[4][t]{\figwide[#1]{#2}{#3}{#4}}
+\newcommand{\Aref}[1]{\hyperref[#1]{Appendix~\ref*{#1}}}
+\newcommand{\tab}[1]{\IfFileExists{tables/#1.tex}{\input{tables/#1}}{\pending{table #1}}}
+
+% ---------- shaded statement boxes (Definition, Lemma, Proposition, Theorem, Corollary) ----------
+\newtheoremstyle{flood}{0pt}{0pt}{\upshape}{}{\bfseries}{.}{0.5em}%
+  {\thmname{#1}\thmnumber{ #2}\textnormal{\thmnote{ (#3)}}}
+\theoremstyle{flood}
+\newtheorem{theorem}{Theorem}[section]
+\newaliascnt{lemma}{theorem}
+\newtheorem{lemma}[lemma]{Lemma}
+\aliascntresetthe{lemma}
+\newaliascnt{proposition}{theorem}
+\newtheorem{proposition}[proposition]{Proposition}
+\aliascntresetthe{proposition}
+\newaliascnt{corollary}{theorem}
+\newtheorem{corollary}[corollary]{Corollary}
+\aliascntresetthe{corollary}
+\newaliascnt{definition}{theorem}
+\newtheorem{definition}[definition]{Definition}
+\aliascntresetthe{definition}
+\tcbset{floodbox/.style={enhanced jigsaw,sharp corners,frame hidden,boxrule=0pt,colback=black!8,
+  left=6pt,right=6pt,top=4pt,bottom=3pt,boxsep=0pt,before skip=9pt,after skip=9pt,
+  grow to left by=4pt,grow to right by=4pt}}
+\tcolorboxenvironment{theorem}{floodbox}
+\tcolorboxenvironment{lemma}{floodbox}
+\tcolorboxenvironment{proposition}{floodbox}
+\tcolorboxenvironment{corollary}{floodbox}
+\tcolorboxenvironment{definition}{floodbox}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{appendix}{Appendix}{Appendices}
+\crefname{figure}{Figure}{Figures}
+\crefname{table}{Table}{Tables}
+\crefname{section}{Section}{Sections}
+
+% rounded box for the research question
+\newtcolorbox{questionbox}{enhanced,arc=3.5pt,boxrule=0.5pt,colframe=black!25,colback=black!3,
+  left=10pt,right=10pt,top=5pt,bottom=5pt,before skip=8pt,after skip=6pt,width=0.94\textwidth,center}
+
+% centred, narrower abstract under a small-caps heading
+\renewenvironment{abstract}{%
+  \begin{center}{\fontsize{11}{13}\selectfont\scshape Abstract}\end{center}\vspace{-6pt}%
+  \list{}{\setlength{\leftmargin}{0.5in}\setlength{\rightmargin}{0.5in}\setlength{\listparindent}{0pt}\setlength{\parsep}{0pt}}%
+  \item\relax}{\endlist}
+
+% ---------- notation ----------
+\newcommand{\HASSE}{\textsc{HASSE}}
+\newcommand{\LBQRE}{\textsc{LB-QRE}}
+\newcommand{\Pifive}{\Pi_5}
+\newcommand{\pp}{\,pp}
+
+\begin{document}
+
+% ---------- title block ----------
+{\raggedright\fontsize{15}{18}\selectfont\scshape
+Allocation Before the Clock: Graph, Set and Game Theory of Professional League of Legends Objective Setups\par}
+\vspace{6pt}
+{\bfseries Zheng Gao\textsuperscript{$\dagger$}, Zhenyu Liu, Yifan Yang, Xiaoyu Li}\\
+UNSW Sydney \quad {\small\textsuperscript{$\dagger$}Corresponding author:} {\small\texttt{zheng.gao1@unsw.edu.au}}
+\vspace{2pt}
+
+\input{sections/00_abstract}
+
+\begin{questionbox}
+\textbf{The question.}\ \emph{When a neutral objective is about to spawn on a clock that both teams can read, how does each team allocate its five players on a walled map, and what do teams actually price when they decide how many to commit?}
+\end{questionbox}
+
+\input{sections/01_intro}
+\input{sections/02_data}
+\input{sections/03_measurement}
+\input{sections/04_model}
+\input{sections/05_results}
+\input{sections/06_related}
+\input{sections/07_limitations}
+\input{sections/08_conclusion}
+
+{\small
+\setlength{\bibsep}{2.5pt plus 0.5pt}
+\bibliographystyle{plainnat}
+\bibliography{refs}
+}
+
+\clearpage
+\appendix
+\input{sections/A_appendix}
+
+\end{document}

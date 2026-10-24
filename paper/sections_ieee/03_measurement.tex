@@ -1,0 +1,65 @@
+\section{The Measurement Layer}
+\label{sec:measurement}
+
+The measurement layer turns video into positions and positions into the objects the models use.
+It has no learned parameters beyond the per-game detectors, and every step is validated against Riot data.
+
+\subsection{From broadcast to game coordinates}
+
+\paragraph*{Clock alignment}
+We crop the broadcast's game clock at 10\,fps and read it with a digit classifier trained on one game, labelled by a single hand-checked anchor reading and the clock's own progression.
+Each clock tick yields one pair (video time, game time); a robust fit over the roughly one thousand ticks of a game gives the offset of each live segment and separates live play from replays, which show earlier times for a few seconds and then return.
+All \V{clockGames} videos align (Fig.~\ref{fig:measurement}a); the median share of frames carrying a live game time is \V{clockLiveMedPct}\%, the median misread rate \V{clockMisreadMedPct}\%, and the last live reading falls a median \V{clockEndDiffMed}\,s before the official game end, the length of the closing camera sequence.
+\V{clockReplaySeg} replay segments are detected and excluded.
+
+\paragraph*{Minimap registration}
+The minimap is an orthographic projection, so four numbers (scale and offset per axis) map pixels to map coordinates.
+The per-pixel median of a game's minimap frames removes the moving icons and leaves the static map; we register it to the walkable mask of the navigation graph by maximising their correlation.
+Two independent crops of the same game agree to within 0.04 pixels, and Riot's tower coordinates and per-minute player positions land on their icons.
+
+\paragraph*{Tracking}
+Each game has ten known champions, and the v5 timeline gives every champion's exact position once a minute.
+We therefore train detectors per game: for each champion a linear discriminant $w=\Sigma^{-1}(\mu_{\mathrm{champ}}-\mu_{\mathrm{bg}})$, where $\Sigma$ is the covariance of random minimap patches, so static structures such as towers fall into the background distribution without labels.
+Scores are calibrated to likelihood ratios.
+A Viterbi pass per champion chooses among detection peaks, a `held' state (icon occluded, position kept) and a `dead' state that is allowed only inside death windows from the kill events; transitions are priced by geodesic distance against the maximum movement speed.
+
+\figwide{fig02_measurement}{The measurement layer is validated end to end. (a)~Last live clock reading minus official game length for all aligned videos. (b)~Tracker position error against Riot v5 at held-out odd minutes, by position source; the dotted line marks 600 units. (c)~Share of errors below 600 units by local crowding (other champions within 2,000 units). (d)~Agreement of tracked formations with v5 formations: exact partition match and Rand index, by number of alive players.}{fig:measurement}
+
+\paragraph*{Validation}
+We validate on a harder task than the production run: detectors are trained and tracks pinned only at even minutes, and the tracker is scored at odd minutes, a full 60\,s from the nearest pin (production pins every minute, at most 30\,s away).
+Over \V{trkN} champion-minutes the median error is \V{trkMed} units and \V{trkLtSix} of errors are below 600 units (Table~\ref{tab:tracker}, Fig.~\ref{fig:measurement}).
+Detected positions (\V{trkDetShare}\% of all) have median error \V{trkDetMed} and \V{trkDetLtSix} below 600; interpolated positions (\V{trkInterpShare}\%) have median \V{trkInterpMed}.
+Error grows with crowding: the share below 600 falls from \V{trkCrowdZeroLtSix} with no other champion within 2,000 units to \V{trkCrowdFourLtSix} with four or more.
+The upper tail (P95 \V{trkPninetyfive}) comes from identity errors in crowds, which is why formation agreement with v5 is \V{formExact} exact and \V{formRand} by Rand index.
+The analyses below are built to be robust to this error: contrasts are headlines only if their sign agrees at three pit radii, every V-layer finding has an R-layer counterpart or a sensitivity run without mostly-interpolated snapshots, and the LB-QRE fit is repeated without decisions that rest on held or interpolated positions.
+
+\tab{tab_tracker}
+
+\subsection{Objects defined by theory}
+
+\paragraph*{Navigation graph}
+We rasterise the map into 100-unit cells and call a cell walkable if a player stood on it in at least three of 1,994 archive games on the current map (2024--2026, base terrain); changing the threshold to two or five games moves median geodesic distances to the pits by 0--65 units.
+The walkable cells form a graph with 16-neighbourhood moves (8-neighbourhoods overestimate distances by up to 8\%), and we precompute all pairwise geodesic distances.
+Every distance in this paper is geodesic.
+
+\paragraph*{Formations are set partitions}
+Two alive teammates are \emph{together} if their geodesic distance is at most $r=1{,}900$ units, five seconds of movement at the median speed.
+The connected components of this proximity graph partition the alive roles; with all five alive the formation is an element of the partition lattice $\Pi_5$ ordered by refinement.
+$\Pi_5$ has \V{latticeN} elements in \V{latticeShapes} shapes, its Hasse diagram has \V{latticeEdges} covering edges and diameter \V{latticeDiam} (Fig.~\ref{fig:lattice}); all \V{latticeObservedAll} partitions occur in our data.
+Increasing $r$ only merges blocks, so the radius sensitivity is a chain in the lattice.
+Dead players are removed by restricting the partition to the alive set, never imputed.
+
+\figcol{fig03_lattice}{The partition lattice $\Pi_5$ of the five roles (T top, J jungle, M mid, B bot, S support). Rows are numbers of blocks; edges are covering relations (one merge). Node area is the share of V-layer team-snapshots at the spawn with all five alive.}{fig:lattice}
+
+\begin{lemma}[Lattice metric]\label{lem:metric}
+For $\sigma,\tau\in\Pi_5$ let $d(\sigma,\tau)=|\sigma|+|\tau|-2|\sigma\vee\tau|$, where $|\cdot|$ counts blocks and $\vee$ is the join (finest common coarsening).
+Then $d$ is a metric on $\Pi_5$, equals the shortest-path length in the Hasse diagram, and every shortest path from $\sigma$ to $\tau$ consists of exactly $|\sigma|-|\sigma\vee\tau|$ merges and $|\tau|-|\sigma\vee\tau|$ splits.
+\end{lemma}
+The metric is classical for upper semimodular lattices~\cite{monjardet1981metrics}; we also verify all three statements exhaustively on $\Pi_5$ (Appendix~\ref{app:proofs}).
+It lets HASSE count merges and splits in Hasse steps, a unit that a reader can interpret.
+
+\paragraph*{Control and readiness}
+For a snapshot, each walkable cell belongs to the team whose nearest alive player reaches it first (a geodesic Voronoi split, Fig.~\ref{fig:teaser}a); \emph{pit control} is the team's share of cells within the pit radius.
+The \emph{$k$-arrival time} $\tau^{(k)}$ is the $k$-th order statistic of the team's geodesic travel times to the pit (Fig.~\ref{fig:teaser}b): the earliest moment at which the team can have $k$ players there.
+$k$ is the number of alive players within $R=1{,}500$ units of the pit centre (sensitivity $R\in\{1{,}000,2{,}000\}$).
+Each player's \emph{zone} is one of pit, own pit side, opposite pit side, pit lane, mid, far side and base, defined relative to the pit and the team.

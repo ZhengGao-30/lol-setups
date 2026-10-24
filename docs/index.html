@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Allocation Before the Clock：职业 LoL 资源团前的站位研究</title>
+<meta name="description" content="Before every dragon and baron, each pro team silently decides who walks to the pit. We measured those decisions: 164 games, 1,516 objective spawns.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='5' fill='%23C8AA6E'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="zh">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<g id="rift"><clipPath id="rc"><rect x="4" y="4" width="142" height="142" rx="22"/></clipPath><rect class="r-land" x="4" y="4" width="142" height="142" rx="22"/><g clip-path="url(#rc)"><path class="r-wall" d="M57.8 116.2 L55.7 116.2 L53.9 117.8 L53.5 119.0 L53.7 122.0 L52.8 124.5 L51.8 124.7 L49.8 123.3 L48.2 123.3 L47.4 124.0 L46.0 126.8 L42.8 127.2 L41.5 128.0 L41.0 129.2 L41.3 130.2 L42.5 131.1 L45.2 131.6 L48.8 133.0 L51.0 132.5 L53.2 130.4 L56.5 132.0 L59.2 131.1 L61.9 127.2 L62.7 124.2 L65.5 123.2 L66.0 121.8 L64.2 118.5 L57.8 116.2ZM70.0 124.7 L67.0 124.9 L63.4 127.2 L63.1 129.2 L64.6 132.0 L66.5 132.7 L75.8 132.1 L77.2 131.5 L77.7 130.5 L77.1 129.2 L72.8 125.8 L70.0 124.7ZM110.2 118.2 L107.9 119.0 L107.4 120.0 L107.5 121.2 L110.3 125.5 L111.7 129.0 L112.8 129.6 L114.2 129.6 L115.4 128.5 L116.4 126.0 L116.5 123.0 L113.8 119.7 L110.2 118.2ZM89.8 116.5 L85.8 117.3 L84.4 118.5 L84.6 120.2 L87.2 123.2 L89.8 123.6 L92.8 122.5 L96.0 122.2 L96.9 121.5 L97.1 120.2 L96.1 119.0 L89.8 116.5ZM46.0 112.0 L44.2 112.5 L40.5 116.5 L40.4 120.2 L41.2 121.6 L42.5 121.6 L45.0 119.9 L47.8 119.3 L51.5 115.5 L51.7 114.5 L51.0 113.6 L46.0 112.0ZM65.8 106.7 L64.2 106.7 L62.7 108.0 L61.4 110.8 L61.3 112.5 L65.0 117.4 L67.5 118.1 L69.2 117.9 L70.5 116.8 L70.5 115.0 L67.2 108.2 L65.8 106.7ZM106.2 106.7 L104.8 107.1 L99.5 111.0 L97.8 111.2 L95.5 110.1 L94.2 110.2 L93.6 111.0 L93.7 112.0 L95.3 113.8 L99.5 115.9 L101.5 116.7 L102.9 116.5 L105.5 113.8 L108.2 112.7 L109.3 111.5 L109.3 110.2 L108.6 108.8 L106.2 106.7ZM82.8 103.2 L76.5 103.2 L73.0 104.3 L71.3 105.8 L71.2 108.2 L72.0 109.3 L73.2 109.6 L77.2 108.3 L78.5 108.4 L79.4 109.5 L79.3 112.2 L79.8 113.2 L80.8 113.9 L82.2 113.7 L84.6 111.5 L85.8 108.0 L85.1 104.8 L84.2 103.8 L82.8 103.2ZM58.2 101.2 L56.0 101.0 L54.0 101.7 L51.9 103.2 L49.8 105.9 L49.2 107.2 L49.2 108.7 L51.8 111.4 L53.5 112.0 L55.5 111.6 L59.0 107.8 L60.2 103.2 L59.6 102.0 L58.2 101.2ZM20.2 76.0 L19.0 76.1 L18.2 77.0 L17.7 81.5 L16.5 84.8 L17.7 91.8 L18.7 95.2 L17.1 97.5 L16.5 102.8 L18.0 108.5 L18.8 109.8 L19.8 110.3 L21.2 109.4 L22.7 104.8 L24.2 102.5 L25.0 98.0 L24.2 96.6 L21.0 96.0 L20.7 95.5 L23.8 94.4 L25.2 92.9 L25.7 91.5 L26.1 86.5 L25.2 83.8 L24.8 79.5 L22.0 76.9 L20.2 76.0ZM36.8 100.0 L33.0 100.4 L30.5 100.2 L29.3 101.0 L28.9 102.8 L29.2 108.2 L29.8 109.5 L30.8 109.8 L31.8 109.4 L36.4 105.8 L38.3 101.8 L38.0 100.8 L36.8 100.0ZM106.2 89.4 L104.8 89.3 L103.8 89.8 L103.3 90.8 L103.8 91.8 L107.2 94.7 L110.8 96.8 L115.0 101.8 L116.0 102.2 L116.8 101.9 L117.3 100.8 L117.0 99.2 L114.0 93.1 L110.5 90.9 L106.2 89.4ZM30.2 82.0 L28.5 83.0 L27.9 85.8 L29.1 89.5 L30.5 92.0 L31.2 95.2 L32.0 96.4 L36.2 98.0 L40.8 98.7 L42.5 97.9 L45.8 95.0 L46.7 93.2 L46.2 91.8 L44.8 91.2 L38.8 91.0 L34.6 88.8 L34.0 88.0 L32.8 84.5 L31.3 82.5 L30.2 82.0ZM68.2 89.2 L65.8 90.0 L62.2 93.4 L61.3 95.0 L61.8 96.2 L66.5 98.2 L67.6 97.2 L68.2 94.5 L69.5 93.8 L70.8 94.3 L73.1 96.8 L74.2 97.0 L75.5 96.5 L76.0 95.0 L75.1 93.5 L71.2 90.4 L68.2 89.2ZM90.2 71.7 L88.8 72.1 L87.2 73.6 L86.3 75.8 L86.4 77.5 L88.7 80.0 L92.8 82.3 L94.2 82.3 L95.1 81.0 L94.5 75.0 L93.4 73.5 L90.2 71.7ZM55.2 68.7 L53.8 69.0 L53.0 70.2 L52.9 74.5 L53.3 76.5 L54.5 78.1 L56.0 79.0 L58.0 79.3 L60.0 78.8 L61.1 78.0 L61.7 76.8 L61.2 73.8 L59.7 71.8 L55.2 68.7ZM126.8 56.5 L124.2 56.9 L123.1 58.2 L122.6 63.0 L123.2 67.5 L122.2 70.8 L124.0 73.6 L128.5 75.2 L129.8 74.2 L131.3 68.8 L130.8 59.8 L129.8 57.7 L126.8 56.5ZM20.0 56.7 L18.4 57.5 L17.1 60.0 L17.1 68.0 L18.8 70.0 L23.2 72.6 L25.2 72.8 L26.3 71.8 L26.0 70.1 L21.0 66.5 L20.1 65.0 L20.0 63.5 L21.4 58.5 L21.0 57.3 L20.0 56.7ZM108.0 52.2 L106.0 52.6 L103.4 54.2 L101.4 56.5 L101.5 58.2 L102.8 59.0 L106.0 58.9 L107.9 59.5 L112.2 62.9 L117.2 68.3 L119.0 68.4 L119.8 67.0 L119.7 64.2 L119.0 62.2 L117.0 59.8 L116.7 55.8 L112.8 53.6 L108.0 52.2ZM84.0 53.5 L81.8 53.5 L80.3 56.2 L79.2 56.9 L77.0 56.8 L74.2 54.4 L72.8 55.0 L72.5 56.5 L73.4 58.0 L75.8 60.0 L78.5 61.6 L80.5 61.7 L83.0 60.3 L86.8 56.2 L86.5 54.4 L84.0 53.5ZM22.5 37.0 L19.8 37.5 L18.0 40.2 L17.9 48.5 L18.3 49.8 L19.2 50.4 L20.5 50.1 L23.8 47.1 L29.8 48.0 L30.6 47.8 L31.2 47.0 L30.8 45.0 L28.0 40.9 L25.0 38.0 L22.5 37.0ZM95.0 39.2 L92.2 39.4 L90.5 41.0 L87.9 46.8 L87.9 48.2 L88.8 49.3 L90.5 49.6 L94.7 48.2 L96.5 47.1 L98.4 45.0 L98.9 43.5 L98.5 42.0 L96.5 39.8 L95.0 39.2ZM67.8 37.7 L65.8 38.0 L63.3 40.8 L62.9 45.0 L63.5 47.3 L65.2 48.1 L71.0 48.1 L75.9 46.2 L76.8 44.2 L76.2 42.2 L74.5 41.6 L70.2 43.3 L69.0 43.2 L68.5 42.2 L68.9 39.0 L67.8 37.7ZM48.2 35.4 L46.2 35.4 L44.0 37.3 L40.0 38.8 L38.8 40.8 L39.5 43.0 L41.0 44.0 L42.5 43.9 L43.2 43.1 L43.9 41.0 L44.8 40.5 L49.2 41.1 L53.2 40.4 L53.7 39.2 L53.0 38.0 L48.2 35.4ZM69.5 26.4 L67.5 26.8 L64.5 29.9 L63.0 29.8 L60.5 27.8 L58.8 27.6 L52.8 29.4 L52.0 30.1 L51.8 31.0 L52.8 32.1 L58.8 35.0 L66.2 32.6 L70.2 32.5 L71.5 31.6 L71.8 29.8 L71.0 27.6 L69.5 26.4ZM99.5 18.5 L95.5 18.6 L93.5 19.4 L91.0 19.5 L89.8 20.0 L88.2 22.5 L86.3 24.5 L85.5 26.4 L83.0 28.6 L82.7 30.0 L83.3 31.2 L90.0 34.9 L91.5 34.9 L92.9 34.2 L93.8 33.0 L94.2 30.0 L95.5 27.5 L94.2 23.8 L94.5 22.2 L95.8 22.5 L98.0 26.5 L99.5 27.4 L100.8 26.9 L103.0 23.5 L105.8 23.2 L106.6 22.5 L106.4 21.0 L104.8 19.7 L99.5 18.5ZM47.0 19.2 L37.5 19.2 L35.5 19.9 L34.0 21.2 L33.3 23.0 L33.8 25.0 L35.5 28.0 L38.2 30.8 L39.5 31.3 L40.9 30.8 L42.4 28.8 L44.4 24.5 L48.5 22.1 L48.6 20.2 L47.0 19.2ZM79.5 17.7 L71.5 18.3 L70.3 19.2 L70.2 20.8 L77.5 26.9 L83.4 25.5 L84.8 23.8 L84.5 20.5 L82.7 18.8 L79.5 17.7Z"/></g><path class="r-river" d="M24.0 25.0 L26.0 26.5 L28.7 28.4 L32.0 30.7 L35.5 33.2 L39.3 36.0 L43.1 39.0 L46.7 42.1 L50.1 45.3 L53.2 48.6 L56.2 52.3 L59.2 56.2 L62.1 60.2 L65.1 64.2 L68.0 68.3 L71.0 72.2 L74.1 75.9 L77.2 79.5 L80.4 82.9 L83.7 86.4 L86.9 89.7 L90.2 93.0 L93.4 96.3 L96.7 99.5 L99.9 102.8 L103.2 106.1 L106.8 109.6 L110.4 113.1 L114.0 116.6 L117.4 119.8 L120.5 122.7 L123.1 125.1 L125.0 127.0"/><path class="r-lane" d="M11.7 114.2 L11.8 111.8 L11.9 108.7 L12.0 105.0 L12.2 100.9 L12.3 96.5 L12.4 92.0 L12.5 87.4 L12.5 83.0 L12.4 78.5 L12.2 73.8 L11.9 68.9 L11.7 63.9 L11.4 59.0 L11.3 54.3 L11.3 49.7 L11.5 45.6 L11.8 41.7 L12.0 37.9 L12.4 34.3 L12.8 30.9 L13.5 27.8 L14.5 24.8 L15.8 22.3 L17.5 20.0 L19.7 18.1 L22.3 16.6 L25.2 15.4 L28.4 14.5 L31.9 13.7 L35.6 13.2 L39.3 12.8 L43.2 12.5 L47.2 12.4 L51.6 12.6 L56.1 13.1 L60.8 13.7 L65.6 14.3 L70.3 14.9 L75.0 15.3 L79.4 15.5 L84.0 15.5 L88.7 15.3 L93.6 15.0 L98.4 14.6 L102.8 14.2 L106.8 13.9 L110.2 13.6 L112.8 13.4"/><path class="r-lane" d="M20.0 129.6 L29.2 120.5 L42.1 107.4 L57.7 91.8 L74.5 75.0 L91.3 58.1 L106.9 42.5 L119.8 29.5 L129.0 20.3"/><path class="r-lane" d="M35.8 138.3 L38.2 138.2 L41.3 138.1 L45.0 138.0 L49.1 137.8 L53.5 137.7 L58.0 137.6 L62.6 137.5 L67.0 137.5 L71.5 137.6 L76.2 137.8 L81.1 138.1 L86.1 138.3 L91.0 138.6 L95.7 138.7 L100.3 138.7 L104.4 138.5 L108.3 138.2 L112.1 138.0 L115.7 137.6 L119.1 137.2 L122.2 136.5 L125.2 135.5 L127.7 134.2 L130.0 132.5 L131.9 130.3 L133.4 127.7 L134.6 124.8 L135.5 121.6 L136.3 118.1 L136.8 114.4 L137.2 110.7 L137.5 106.8 L137.6 102.8 L137.4 98.4 L136.9 93.9 L136.3 89.2 L135.7 84.4 L135.1 79.7 L134.7 75.0 L134.5 70.6 L134.5 66.0 L134.7 61.3 L135.0 56.4 L135.4 51.6 L135.8 47.2 L136.1 43.2 L136.4 39.8 L136.6 37.2"/><circle class="r-base b" cx="15.0" cy="135.0" r="14"/><circle class="r-base r" cx="133.0" cy="17.0" r="14"/><circle class="r-t b" cx="34.7" cy="137.7" r="1.9"/><circle class="r-t b" cx="32.1" cy="117.8" r="1.9"/><circle class="r-t b" cx="11.7" cy="114.2" r="1.9"/><circle class="r-t b" cx="42.8" cy="137.5" r="1.3"/><circle class="r-t b" cx="69.2" cy="135.2" r="1.3"/><circle class="r-t b" cx="105.0" cy="139.7" r="1.3"/><circle class="r-t b" cx="36.5" cy="113.0" r="1.3"/><circle class="r-t b" cx="50.5" cy="101.9" r="1.3"/><circle class="r-t b" cx="21.8" cy="131.9" r="1.3"/><circle class="r-t b" cx="58.5" cy="86.0" r="1.3"/><circle class="r-t b" cx="11.7" cy="107.1" r="1.3"/><circle class="r-t b" cx="15.1" cy="83.0" r="1.3"/><circle class="r-t b" cx="9.8" cy="45.6" r="1.3"/><circle class="r-t r" cx="135.9" cy="36.8" r="1.9"/><circle class="r-t r" cx="115.9" cy="33.3" r="1.9"/><circle class="r-t r" cx="112.8" cy="13.4" r="1.9"/><circle class="r-t r" cx="136.2" cy="44.3" r="1.3"/><circle class="r-t r" cx="133.3" cy="67.7" r="1.3"/><circle class="r-t r" cx="138.7" cy="105.0" r="1.3"/><circle class="r-t r" cx="111.3" cy="37.9" r="1.3"/><circle class="r-t r" cx="97.7" cy="48.9" r="1.3"/><circle class="r-t r" cx="130.5" cy="23.9" r="1.3"/><circle class="r-t r" cx="89.5" cy="64.9" r="1.3"/><circle class="r-t r" cx="104.8" cy="13.5" r="1.3"/><circle class="r-t r" cx="79.4" cy="15.9" r="1.3"/><circle class="r-t r" cx="43.2" cy="11.2" r="1.3"/><circle class="r-nexus b" cx="15.0" cy="135.0" r="4.2"/><circle class="r-nexus r" cx="133.0" cy="17.0" r="4.2"/></g>
+</defs></svg>
+
+<header class="nav"><div class="wrap">
+  <a class="mark" href="#top"><i></i><span>Allocation Before the Clock</span></a>
+  <nav aria-label="Main"><ul>
+    <li><a href="#findings" data-en="Findings">发现</a></li>
+    <li><a href="#t1" >T1 / Faker</a></li>
+    <li><a href="#dataset" data-en="Dataset">数据集</a></li>
+    <li><a href="#paper" data-en="Paper">论文</a></li>
+  </ul></nav>
+  <div class="tools">
+    <button class="chip" id="langbtn" type="button" aria-label="Switch to English">EN</button>
+    
+    <a class="btn" href="assets/paper.pdf" data-en="Download the paper">下载论文</a>
+  </div>
+</div></header>
+
+<main id="top">
+<section class="hero" style="padding-top:clamp(32px,6vh,80px)">
+  <div class="disc" aria-hidden="true"><svg class="magic" viewBox="0 0 200 200" aria-hidden="true"><g fill="none" stroke="currentColor"><circle cx="100" cy="100" r="98" stroke-width=".7"/><circle cx="100" cy="100" r="94.5" stroke-width=".35" opacity=".7"/><g class="spin"><circle cx="100" cy="100" r="90" stroke-width="1.6" stroke-dasharray=".4 5.2" stroke-linecap="round"/><circle cx="100" cy="100" r="86" stroke-width=".5" stroke-dasharray="14 3 2 3" opacity=".8"/></g><g class="spin2" opacity=".6" stroke="#785A28"><polygon points="100,2 184.9,149 15.1,149" stroke-width=".5"/><polygon points="100,198 15.1,51 184.9,51" stroke-width=".5"/></g></g></svg><div class="mapclip"><svg viewBox="-16 -16 182 182" role="img" aria-label="">
+      <use href="#rift"/>
+      <circle class="ring" cx="99.9" cy="102.8" r="15"/><circle class="ring b" cx="99.9" cy="102.8" r="15"/>
+      <circle class="ring" cx="50" cy="45.3" r="15" style="animation-delay:.9s"/><circle class="ring b" cx="50" cy="45.3" r="15" style="animation-delay:2.7s"/>
+    </svg></div></div>
+  <div class="wrap"><div class="hero-copy">
+    <h1 class="rv" data-en="Allocation Before&lt;br&gt;the Clock">资源刷新之前,<br>队伍已在分配人手</h1>
+    <p class="titleline rv" style="--d:1" data-en="Graph, Set and Game Theory of Professional League of Legends Objective Setups">Allocation Before the Clock</p>
+    <p class="sub rv" style="--d:2" data-en="Before every dragon and baron, each pro team silently decides who walks to the pit, who holds a lane, and when to commit. We measured those decisions.">每一次龙、大龙刷新之前,职业战队的五个人都在无声地决定:谁走到坑边,谁守住一条线,什么时候压上去。我们把这些决定量了出来。</p>
+    <div class="rv cta" style="--d:2"><a class="btn" href="#map" data-en="Start with one map">从一张地图开始看</a><a class="btn alt" href="#dataset" data-en="Jump to the dataset">直接看数据集</a></div>
+    <p class="authors rv" style="--d:3">Zheng Gao · Zhenyu Liu · Yifan Yang · Xiaoyu Li</p><p class="aff rv" style="--d:3"><span data-en="UNSW Sydney · Corresponding author: Zheng Gao">UNSW Sydney · 通讯作者:Zheng Gao</span> · <a href="mailto:zheng.gao1@unsw.edu.au">zheng.gao1@unsw.edu.au</a></p>
+    <p class="small hero-note rv" style="--d:3" data-en="Full title: Allocation Before the Clock: Graph, Set and Game Theory of Professional League of Legends Objective Setups">论文全名:Allocation Before the Clock: Graph, Set and Game Theory of Professional League of Legends Objective Setups</p>
+  </div></div>
+</section>
+
+<section id="question"><div class="wrap">
+  <div class="grid s-grid">
+    <p class="statement rv" data-en="Both teams know when the dragon and baron spawn, to the second. The difference is made in the minute before: how ten players move, who arrives first, who stays away.">刷新时间双方都知道到秒。真正拉开差距的,是刷新前那一分钟:十个人怎么走,谁先到,谁不去。</p>
+    <ul class="clock rv" style="--d:1" aria-label="Spawn clock">
+      <li><i></i><b>5:00</b><span data-en="First Dragon">第一条元素龙</span></li>
+      <li><i></i><b>8:00</b><span data-en="Void Grubs">虚空巢虫</span></li>
+      <li><i></i><b>15:00</b><span data-en="Rift Herald">峡谷先锋</span></li>
+      <li><i></i><b>20:00</b><span data-en="Atakhan">亚塔坎</span></li>
+      <li><i></i><b>25:00</b><span data-en="Baron Nashor">纳什男爵</span></li>
+    </ul>
+  </div>
+  <figure class="plate rv" style="--d:2"><img src="assets/figs/fig01_teaser.webp" width="1717" height="872" alt="One baron setup: map split by who arrives first, arrival times, players at the pit" data-en="One baron setup: map split by who arrives first, arrival times, players at the pit">
+  <figcaption class="small" data-en="One real setup: game 4 of the Worlds 2025 final, first baron, 60 s after the spawn, T1 (blue) against KT Rolster (red). The left panel colours the map by who can get there first.">一次真实的站位:2025 全球总决赛第 4 局,第一条大龙刷新后 60 秒,T1(蓝)对 KT Rolster(红)。左图把地图按“谁先走到”涂成两种颜色。</figcaption></figure>
+</div></section>
+
+<section id="map"><div class="wrap">
+  <div class="grid show">
+    <div class="intro">
+      <h2 class="rv" data-en="One map, one idea: the “setup”">一张地图,看懂“站位”</h2>
+      <p class="lead rv" style="--d:1" data-en="This is a simplified map drawn from real walkable cells (not game artwork). Pick an objective to see where its pit is. A &lt;b&gt;setup&lt;/b&gt; is how a team’s five players are spread over this map just before and after it spawns.">下面是我们用真实的“可走区域”画的简化地图(不是游戏美术)。点一个资源,看它的坑在哪里。<b>“站位”</b>就是在它刷新前后,一支队伍的五个人在这张地图上怎么分布。</p>
+      <ul class="sel" id="objsel" aria-label="Objectives"></ul>
+    </div>
+    <div class="stage">
+      <div class="disc"><svg class="magic" viewBox="0 0 200 200" aria-hidden="true"><g fill="none" stroke="currentColor"><circle cx="100" cy="100" r="98" stroke-width=".7"/><circle cx="100" cy="100" r="94.5" stroke-width=".35" opacity=".7"/><g class="spin"><circle cx="100" cy="100" r="90" stroke-width="1.6" stroke-dasharray=".4 5.2" stroke-linecap="round"/><circle cx="100" cy="100" r="86" stroke-width=".5" stroke-dasharray="14 3 2 3" opacity=".8"/></g><g class="spin2" opacity=".6" stroke="#785A28"><polygon points="100,2 184.9,149 15.1,149" stroke-width=".5"/><polygon points="100,198 15.1,51 184.9,51" stroke-width=".5"/></g></g></svg><div class="mapclip"><svg viewBox="-26 -26 202 202" role="img" aria-label="Simplified top-down map of the Summoner's Rift made from walkable cells">
+          <use href="#rift"/>
+          <g id="pitg"><circle class="pitfill" r="15"/><circle class="pitring" r="15"/><circle class="pitdot" r="2.2"/></g>
+          <g class="maplabels">
+          <text x="24" y="143" data-en="Blue base">蓝方基地</text>
+          <text x="126" y="10" text-anchor="end" data-en="Red base">红方基地</text>
+          <text x="19" y="76" text-anchor="start" data-en="Top">上路</text>
+          <text x="87" y="140" text-anchor="middle" data-en="Bot">下路</text>
+          <text x="97" y="62" data-en="Mid">中路</text>
+          <text x="80" y="92" data-en="River">河道</text>
+          <text x="52" y="22" text-anchor="middle" data-en="Baron · Herald · Grubs">大龙 · 先锋 · 巢虫</text>
+          <text x="100" y="125" text-anchor="middle" data-en="Dragon">元素龙</text>
+          <text x="124" y="108" text-anchor="start" data-en="Atakhan">亚塔坎</text>
+          </g>
+          <g class="sitering"><circle cx="50.1" cy="45.3" r="15"/><circle cx="99.9" cy="102.8" r="15"/><circle cx="114" cy="109.7" r="15"/></g>
+        </svg></div></div>
+      <div class="legend" aria-hidden="false">
+        <span><i style="background:var(--blue)"></i><b data-en="Blue team’s towers">蓝方的塔</b></span>
+        <span><i style="background:var(--red)"></i><b data-en="Red team’s towers">红方的塔</b></span>
+        <span><i style="background:var(--ink);opacity:.25"></i><b data-en="Circle = “at the pit” (about a tenth of the map width)">圆圈 = “坑边”(约占地图宽度的十分之一)</b></span>
+      </div>
+      <div class="fact" id="objfact"></div>
+    </div>
+    <div class="three threewrap">
+      <div class="rv">
+        <h3 data-en="Who goes to the pit?">谁去坑边?</h3> <p data-en="How many players are standing next to the objective? None, two, or four?">有几个人走到了资源旁边。零个、两个,还是四个?</p></div>
+      <div class="rv" style="--d:1">
+        <h3 data-en="Who holds somewhere else?">谁守着别的地方?</h3> <p data-en="A lane or tower elsewhere. Staying there on purpose means trading it for the objective.">另一边的线、另一个目标——有人故意留在那里,就是在“用别处换”。</p></div>
+      <div class="rv" style="--d:2">
+        <h3 data-en="When do they commit?">什么时候压上?</h3> <p data-en="In place before the spawn, or arriving after it? A few seconds early often decides who takes it.">刷新前就守好,还是刷新后才赶到?早到几秒,常常就决定了谁拿资源。</p></div>
+    </div>
+  </div>
+</div></section>
+
+<div class="band" id="numbers"><div class="wrap">
+  <dl class="nums">
+    <div class="rv"><dt data-en="games (MSI 2025 + Worlds 2025)">场比赛(MSI 2025 + Worlds 2025)</dt><dd>164</dd></div>
+    <div class="rv" style="--d:1"><dt data-en="objective spawns (dragons, baron, grubs…)">次资源刷新(龙、大龙、巢虫……)</dt><dd>1,516</dd></div>
+    <div class="rv" style="--d:2"><dt data-en="team setups, covering 1,497 of the spawns (19 spawns have no tracks)">个队伍站位,覆盖 1,497 次刷新(另 19 次没有追踪)</dt><dd>2,994</dd></div>
+    <div class="rv" style="--d:3"><dt data-en="teams, 60 series">支战队,60 个系列赛</dt><dd>19</dd></div>
+  </dl>
+</div></div>
+
+<section id="method"><div class="wrap">
+  <div class="grid how-head">
+    <h2 class="rv" data-en="How we measured it">我们怎么量出来的</h2>
+    <p class="lead rv" style="--d:1" data-en="We do not have live in-game positions. We have the official broadcast, and Riot’s official positions once a minute. We stitched the two together. Open each step to see how.">我们没有游戏内部的实时位置。我们有的是官方转播的画面,和 Riot 每分钟一次的官方位置。我们把这两样接起来。点开每一步看看。</p>
+  </div>
+  <div class="acc" role="group" aria-label="Measurement pipeline">
+    <button class="pan" type="button" style="background:var(--tint-1);color:var(--tint-1-ink)" aria-expanded="false">
+      <span class="lab" data-en="Broadcast minimap">直播小地图</span>
+      <span class="body"><span class="h3" data-en="Broadcast minimap">直播小地图</span><p data-en="&lt;b&gt;Every broadcast has a minimap in the corner.&lt;/b&gt; Each of the ten players is a small icon. We use pictures only, no audio. The video is never released, only the coordinates read from it.&lt;br&gt;&lt;br&gt;Source: the official Riot esports broadcasts. 164 games from MSI 2025 and Worlds 2025."><b>每局直播右下角都有一张小地图。</b>十名选手各是一个小头像。我们只用画面、不用声音。视频本身不会发布,只发布从中读出来的坐标。<br><br>来源:Riot 官方电竞频道的转播。涵盖 MSI 2025 和 Worlds 2025 共 164 局。</p></span></button>
+    <button class="pan" type="button" style="background:var(--tint-2);color:var(--tint-2-ink)" aria-expanded="false">
+      <span class="lab" data-en="Match the clock">对齐比赛时钟</span>
+      <span class="body"><span class="h3" data-en="Match the clock">对齐比赛时钟</span><p data-en="&lt;b&gt;First we read the match clock on screen,&lt;/b&gt; so every video second maps to a game second. Pauses and replays are detected and dropped.&lt;br&gt;&lt;br&gt;The clock is misread in a median of just 0.06% of frames; about 79% of the footage is live play."><b>先读出画面上的比赛时钟,</b>把视频的每一秒对应到游戏里的每一秒。暂停、回放会被识别出来并剔除。<br><br>时钟读错的比例中位数只有 0.06%;画面里平均约 79% 的时间是正在进行的比赛。</p></span></button>
+    <button class="pan" type="button" style="background:var(--tint-3);color:var(--tint-3-ink)" aria-expanded="false">
+      <span class="lab" data-en="Find the ten players">找出十名选手</span>
+      <span class="body"><span class="h3" data-en="Find the ten players">找出十名选手</span><p data-en="&lt;b&gt;Then we recognise each champion’s icon.&lt;/b&gt; Some frames are wrong, so we add common sense: a champion can only move along walkable paths. That joins the frame-by-frame guesses into tracks.&lt;br&gt;&lt;br&gt;Result: two positions per second, about 5.76 million rows. Around 78% are directly seen and around 21% inferred."><b>再认出每个英雄的头像。</b>每一帧都会有猜错的,所以我们加了一条常识:英雄只能沿着地图上能走的路移动。这样一帧帧的猜测就能连成一条条轨迹。<br><br>结果:每秒 2 个位置,约 576 万行。其中约 78% 是直接“看到”的,约 21% 是推算出来的。</p></span></button>
+    <button class="pan" type="button" style="background:var(--tint-4);color:var(--tint-4-ink)" aria-expanded="false">
+      <span class="lab" data-en="Check against Riot">和 Riot 官方对账</span>
+      <span class="body"><span class="h3" data-en="Check against Riot">和 Riot 官方对账</span><p data-en="&lt;b&gt;We check it against Riot’s official positions.&lt;/b&gt; Riot gives true positions once a minute. We hold half of those minutes out and use them only for checking.&lt;br&gt;&lt;br&gt;Median error is 177 units on a map about 14,820 wide, roughly 1.2%. 78.5% of positions are within 600 units. &lt;b&gt;Honestly:&lt;/b&gt; it gets worse in crowded fights, and formations match Riot’s exactly only 53.8% of the time, so every main result was re-checked another way."><b>用 Riot 官方的位置来对账。</b>官方每分钟给一次真实位置。我们留出一半的分钟不用,只拿来检查。<br><br>误差中位数 177 个单位,地图宽约 14,820,所以大约只差 1.2%。78.5% 的位置在 600 单位以内。<b>坦白说:</b>拥挤的团战里会变差,队形和官方完全一致的只有 53.8%,所以我们的每个主要结论都另外复核过。</p></span></button>
+    <button class="pan" type="button" style="background:var(--tint-5);color:var(--tint-5-ink)" aria-expanded="false">
+      <span class="lab" data-en="Turn into setups">变成“站位”</span>
+      <span class="body"><span class="h3" data-en="Turn into setups">变成“站位”</span><p data-en="&lt;b&gt;Finally the tracks become setups.&lt;/b&gt; Around each spawn, from 120 s before to 180 s after, we take a snapshot every 15 s, 21 in all: who is at the pit, how fast can how many arrive, how do players group?&lt;br&gt;&lt;br&gt;1,497 of the 1,516 spawns were tracked; two teams each makes 2,994 team setups, times 21 snapshots, 56,220 in all."><b>最后把轨迹变成“站位”。</b>围绕每次刷新,从刷新前 120 秒到刷新后 180 秒,每 15 秒拍一张快照,共 21 张:谁在坑边?几个人多快能赶到?队形怎么分组?<br><br>1,516 次刷新里有 1,497 次追踪到了,每次两支队伍,共 2,994 个“队伍站位”,乘以 21 张快照,一共 56,220 张。</p></span></button>
+  </div>
+</div></section>
+
+<section id="findings" class="find"><div class="wrap">
+  <div class="grid f-head">
+    <h2 class="rv" data-en="What we found">我们发现了什么</h2>
+    <p class="lead rv" style="--d:1" data-en="Four things, in plain words. Each has a chart drawn from the real data.">四件事,用大白话讲。每一件下面都有真实数据画的图。</p>
+  </div>
+
+  <div class="grid finding">
+    <div class="txt">
+      <span class="bignum rv" aria-hidden="true">+34.8</span>
+      <h3 class="rv" style="--d:1" data-en="Teams that are behind leave the pit empty more often">落后的队伍,更常让坑边空着</h3> <p class="rv" style="--d:2" data-en="After the spawn, teams that are behind in gold leave the pit empty far more often than teams that are ahead. At the first baron, 45 s in, the gap is 34.8 percentage points.">刷新之后,落后(经济)的队伍坑边没人的比例,比领先的队伍高得多。在第一条大龙刷新后 45 秒,高出 34.8 个百分点。</p> <p class="rv" style="--d:3" data-en="A “percentage point” is just the difference of two percentages. Before the spawn the states look alike; the gap opens afterwards. We re-checked it several ways and the direction never changed.">“百分点”就是两个百分比相减。刷新之前三种状态看起来差不多;差距是刷新之后才冒出来的。我们用了好几种方式复核,方向都一样。</p>
+    </div>
+    <div class="viz">
+      <div class="chart">
+        <h4 data-en="Trailing minus leading: gap in empty pits">落后减领先:坑边没人的比例差</h4><p data-en="The pale capsule is the 95% interval. Bigger means trailing teams leave the pit empty more often.">亮色胶囊是 95% 区间。数字越大,落后队伍越常让坑边空着。</p>
+        <ul class="bars"><li><div class="row"><span data-en="First baron · 45 s after spawn">第一条大龙 · 刷新后 45 秒</span><b>+34.8</b></div><div class="track"><div class="fill" style="--w:58.0%"></div><div class="whisk" style="--lo:31.2%;--hi:83.3%"></div></div></li><li><div class="row"><span data-en="Respawned dragons · 15 s after">复活的元素龙 · 刷新后 15 秒</span><b>+33.7</b></div><div class="track"><div class="fill" style="--w:56.2%"></div><div class="whisk" style="--lo:41.5%;--hi:69.2%"></div></div></li><li><div class="row"><span data-en="Atakhan · 45 s after spawn">亚塔坎 · 刷新后 45 秒</span><b>+30.4</b></div><div class="track"><div class="fill" style="--w:50.7%"></div><div class="whisk" style="--lo:25.0%;--hi:77.5%"></div></div></li><li><div class="row"><span data-en="Baron, re-checked on Riot’s own data · 60 s">大龙,用 Riot 官方数据复核 · 60 秒</span><b>+19.7</b></div><div class="track"><div class="fill" style="--w:32.8%"></div><div class="whisk" style="--lo:19.0%;--hi:49.8%"></div></div></li><li><div class="row"><span data-en="Rift Herald · 75 s before spawn">峡谷先锋 · 刷新前 75 秒</span><b>+12.3</b></div><div class="track"><div class="fill" style="--w:20.5%"></div><div class="whisk" style="--lo:5.7%;--hi:35.0%"></div></div></li></ul>
+        <div class="axis"><span>0</span><span data-en="percentage points">百分点</span><span>60</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid finding flip">
+    <div class="txt">
+      <h3 class="rv" style="--d:1" data-en="Whoever arrives first usually takes it">先走到的人,通常拿到资源</h3> <p class="rv" style="--d:2" data-en="For each spawn we noted which side first had three players at the pit. That side took the river objectives about 8 times in 10 and the baron about 7 in 10.">我们记录每次刷新里,哪一方先凑齐三个人到坑边。这一方在河道资源上大约拿下 8 成,在大龙上约 7 成。</p> <p class="rv" style="--d:3" data-en="Atakhan is the exception: the first arrival takes it only half the time. And the median first arrival is 30 s after the spawn: it is settled after the clock, not before it.">亚塔坎是个例外:先到的一方只拿到一半。还有一点:中位数是刷新之后 30 秒才有一方凑够三人。胜负是在“钟声之后”才定的。</p>
+    </div>
+    <div class="viz">
+      <div class="chart">
+        <h4 data-en="Share where the first side to three players took the objective">先凑齐三人的一方拿到资源的比例</h4><p data-en="Sample sizes in brackets.">括号里是样本数。</p>
+        <ul class="bars"><li><div class="row"><span data-en="First dragon (36)">第一条元素龙 (36)</span><b>81%</b></div><div class="track"><div class="fill" style="--w:81.0%"></div></div></li><li><div class="row"><span data-en="Respawned dragons (264)">复活的元素龙 (264)</span><b>80%</b></div><div class="track"><div class="fill" style="--w:80.0%"></div></div></li><li><div class="row"><span data-en="Rift Herald (62)">峡谷先锋 (62)</span><b>77%</b></div><div class="track"><div class="fill" style="--w:77.0%"></div></div></li><li><div class="row"><span data-en="Baron Nashor (80)">纳什男爵 (80)</span><b>68%</b></div><div class="track"><div class="fill" style="--w:68.0%"></div></div></li><li><div class="row"><span data-en="Atakhan (106)">亚塔坎 (106)</span><b>51%</b></div><div class="track"><div class="fill" style="--w:51.0%"></div></div></li></ul>
+        <div class="axis"><span>0%</span><span>50%</span><span>100%</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid viewer" id="patterns">
+    <div class="vtxt">
+      <h3 class="rv" data-en="Six recurring setups, recovered on resampled data">六种常见站位,重新抽样也能找回</h3> <p class="rv" style="--d:1" data-en="We let a model find recurring formations by itself. It found six. Pick one and drag the time to see how the five players group. (Positions are schematic; only “who is with whom” is a real result.)">我们让一个模型自己去找队形的“套路”。它找到六种。选一种,拖动时间,看五个人怎么走。(位置只是示意,只有“谁和谁在一起”是真实结果。)</p>
+      <div class="pats" id="pats" role="group" aria-label="Patterns"></div>
+      <div class="pdesc" id="pdesc"></div>
+      <div class="weights" id="pweights"></div>
+    </div>
+    <div class="vstage">
+      <div class="disc"><svg class="magic" viewBox="0 0 200 200" aria-hidden="true"><g fill="none" stroke="currentColor"><circle cx="100" cy="100" r="98" stroke-width=".7"/><circle cx="100" cy="100" r="94.5" stroke-width=".35" opacity=".7"/><g class="spin"><circle cx="100" cy="100" r="90" stroke-width="1.6" stroke-dasharray=".4 5.2" stroke-linecap="round"/><circle cx="100" cy="100" r="86" stroke-width=".5" stroke-dasharray="14 3 2 3" opacity=".8"/></g><g class="spin2" opacity=".6" stroke="#785A28"><polygon points="100,2 184.9,149 15.1,149" stroke-width=".5"/><polygon points="100,198 15.1,51 184.9,51" stroke-width=".5"/></g></g></svg><div class="mapclip"><svg viewBox="-26 -26 202 202" role="img" aria-label="Schematic of five players grouping around a pit">
+          <use href="#rift"/>
+          <g id="pitg2"><circle class="pitfill" r="15" cx="50.1" cy="45.3"/><circle class="pitring" r="15" cx="50.1" cy="45.3"/><circle class="pitdot" r="2.2" cx="50.1" cy="45.3"/></g>
+          <g id="players"></g>
+        </svg></div></div>
+      <div class="slider"><label for="tslider"><span id="tlabel"></span></label>
+        <input id="tslider" type="range" min="0" max="12" step="1" value="8" aria-label="Time relative to the spawn"></div>
+      <p class="read" id="pread"></p>
+      <p class="small" data-en="Refitting the whole model on resampled data (resampling whole series) recovers the six setups, with agreement of about 0.82 (1 means identical). That is comparable to re-running TAGNet’s clustering step, about 0.81.">把整个模型放到重新抽样(按系列赛重抽)的数据上再拟合一遍,六种站位仍然能找回,一致性约 0.82(1 表示完全相同)。这和重新运行 TAGNet 聚类那一步的 0.81 相当。</p>
+    </div>
+  </div>
+
+  <div class="grid field" id="why">
+    <h3 class="rv" data-en="Teams weigh fights and travel, not the prize">队伍在乎打架与路程,不在乎资源本身</h3>
+    <div class="rt">
+      <p class="rv" style="--d:1" data-en="We built a game model to read teams’ choices: each team picks how many players to send, how many to hold elsewhere, and whether to be early. Teams respond to how a fight would go, the walk to the pit and the cost of each extra player, and hardly to the objective’s own value (weight 0.018, where pure win-chance would be 1). Forcing the weight to 1 fits far worse (about 60 log-likelihood points).">我们建了一个“博弈模型”,用来读队伍的选择:每支队伍在“去几个人、守几个人、早到还是晚到”之间挑一个。结果显示,队伍的选择对打架的胜负、走过去的路程、每多派一个人的代价有反应,对资源本身的价值几乎没有反应(权重 0.018;若只看胜率应为 1)。把权重强行设成 1,拟合会差得多(约 60 个对数似然点)。</p>
+      <div class="chart">
+        <h4 data-en="The “trailing teams stay away” gap (percentage points)">“落后队伍更不到坑边”的差距(百分点)</h4><p data-en="The model reproduces only about a quarter, mostly from game state (players alive, gold, travel). The four price channels add only about 0.5 points on top. A candid negative result.">模型只复现了约四分之一,而且主要来自比赛局势(存活人数、经济、路程)。四种“价格因素”加在一起只多贡献约 0.5 个百分点。这是一个坦白的负面结果。</p>
+        <ul class="bars"><li><div class="row"><span data-en="Observed">实际观察到</span><b>19.2</b></div><div class="track"><div class="fill" style="--w:64.0%"></div><div class="whisk" style="--lo:50.3%;--hi:79.7%"></div></div></li><li><div class="row"><span data-en="Model with the four price channels">模型(含四种价格因素)</span><b>4.7</b></div><div class="track"><div class="fill" style="--w:15.7%"></div><div class="whisk" style="--lo:13.3%;--hi:22.3%"></div></div></li><li><div class="row"><span data-en="Model with channels off (game state only)">模型(关掉价格因素,只有局势)</span><b>5.1</b></div><div class="track"><div class="fill" style="--w:17.0%"></div><div class="whisk" style="--lo:14.0%;--hi:21.3%"></div></div></li></ul>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="grid field" id="tagnet">
+    <h3 class="rv" data-en="What we learned compared with TAGNet (Counter-Strike 2)">和 TAGNet(反恐精英 2)相比,我们学到了什么</h3>
+    <div class="rt">
+      <p class="rv" data-en="TAGNet studies defensive setups in Counter-Strike 2, and inspired this work. It treated tactical setups as something that can be grouped automatically. Taking that idea to League of Legends, a few things need extra care:">TAGNet 是研究《反恐精英 2》防守站位的论文,也是我们的灵感来源。它第一次把“战术站位”当成可以自动归类的东西来研究。我们把同样的想法搬到《英雄联盟》,发现要做好得多注意几件事:</p>
+      <div class="cmp">
+        <div class="rv"><p data-en="&lt;b&gt;The map has walls.&lt;/b&gt; Straight-line distance treats two players on either side of a wall as close. We use walking distance on a map of 12,944 walkable cells."><b>地图有墙。</b> 直线距离会把隔着一堵墙的两个人当成“很近”。我们用沿路走的距离,在一张 12,944 个可走格子的地图上算。</p></div>
+        <div class="rv" style="--d:1"><p data-en="&lt;b&gt;Results should survive resampling.&lt;/b&gt; Refitting our whole model on resampled data recovers the six setups at about 0.82; re-running only TAGNet’s clustering step gives about 0.81. On this point we are no better than it."><b>结果要经得起重新抽样。</b> 我们把整个模型在重抽样的数据上重新拟合,六种站位一致性约 0.82;只重跑 TAGNet 的聚类那一步约 0.81,两者相当。我们在这一点上并不比它强。</p></div>
+        <div class="rv" style="--d:2"><p data-en="&lt;b&gt;How you average deserves care.&lt;/b&gt; The same gap gives p=0.046 averaged per team, p=0.052 weighted by exposure and p=0.078 within teams. The size is nearly identical; only the 0.05 line moves. It is a caution about averaging choices, not a claim that anyone did it wrong."><b>取平均的方式值得留意。</b> 同一个差距,按“每队平均”算 p=0.046,按场次加权 p=0.052,同队内比较 p=0.078。差距的大小几乎一样,只是有没有跨过 0.05 这条线。这是对“怎么平均”的一个提醒,不是说谁做错了。</p></div>
+        <div class="rv" style="--d:3"><p data-en="&lt;b&gt;Team “fingerprints” need error bars.&lt;/b&gt; Each team has only 31–394 setups, and most differences between teams are still buried in noise."><b>队伍“指纹”要带误差线。</b> 每支队伍只有 31–394 次站位,队伍之间的差别大多还淹没在噪声里。</p></div>
+      </div>
+      <div class="chart">
+        <h4 data-en="One gap, three estimators">同一个差距,三种算法</h4><p data-en="How many points less often trailing teams have three or more players at the pit 60 s after the spawn. Capsules are 95% intervals.">落后队伍在刷新后 60 秒“三人以上到坑边”的比例低多少(百分点)。胶囊是 95% 区间。</p>
+        <ul class="bars"><li><div class="row"><span data-en="Per-team average (TAGNet’s choice) p = 0.046">按每队平均(TAGNet 的做法) p = 0.046</span><b>6.4</b></div><div class="track"><div class="fill" style="--w:53.3%"></div><div class="whisk" style="--lo:0.8%;--hi:93.3%"></div></div></li><li><div class="row"><span data-en="Weighted by exposure p = 0.052">按场次加权 p = 0.052</span><b>4.1</b></div><div class="track"><div class="fill" style="--w:34.2%"></div><div class="whisk" style="--lo:0.0%;--hi:68.3%"></div></div></li><li><div class="row"><span data-en="Within the same team p = 0.078">同一支队伍内比较 p = 0.078</span><b>6.1</b></div><div class="track"><div class="fill" style="--w:50.8%"></div><div class="whisk" style="--lo:0.0%;--hi:82.5%"></div></div></li></ul>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="math"><div class="wrap">
+  <div class="grid math-head">
+    <h2 class="rv" data-en="The maths we used">用了哪些数学</h2>
+    <p class="lead rv" style="--d:1" data-en="No formulas needed: the paper borrows five mathematical tools, each answering a very plain question.">不用公式也能讲清楚:这篇论文借了五样数学工具,每一样都对应一个很直观的问题。</p>
+  </div>
+  <ul class="maths">
+    <li class="rv" style="--d:0"><span class="ringbullet"></span><h3 data-en="Graph theory">图论</h3><p data-en="Treat the map as a road network. Shortest walking distances decide who arrives first and whose “territory” is larger.">把地图看成一张路网。沿路走的最短路程,决定了谁先到、谁的“地盘”更大。</p></li><li class="rv" style="--d:1"><span class="ringbullet"></span><h3 data-en="Set partitions">集合划分</h3><p data-en="Five players can be split into groups in 52 ways. Each way is one “formation”.">五个人分成几小堆,一共有 52 种分法。每一种分法就是一种“队形”。</p></li><li class="rv" style="--d:2"><span class="ringbullet"></span><h3 data-en="Hidden Markov model">隐马尔可夫模型</h3><p data-en="How does a formation change over time? A few hidden “playbooks” switch quietly behind it, and the model finds them.">队形怎样随时间变化?背后有几种“套路”在悄悄切换,模型把它们找出来。</p></li><li class="rv" style="--d:3"><span class="ringbullet"></span><h3 data-en="Game theory (quantal response)">博弈论(量化反应均衡)</h3><p data-en="Each team weighs gains and costs and picks how many players to send. They do not always choose the best option, which is what the model describes.">每支队伍权衡得失,挑一个“派几个人”。它们不一定每次都选最优,这正是模型描述的。</p></li><li class="rv" style="--d:4"><span class="ringbullet"></span><h3 data-en="Lanchester laws">兰彻斯特定律</h3><p data-en="How numbers decide fights: the larger side usually wins more easily and the smaller side loses more.">人数怎样决定团战:人多的一方通常赢得更轻松,少的一方损失更重。</p></li>
+  </ul>
+</div></section>
+
+<section id="t1" style="padding:0"><div class="t1"><div class="wrap">
+  <h2 class="rv" data-en="T1 and Faker: what the data says, and what it cannot">T1 与 Faker:数据说了什么,没说什么</h2>
+  <p class="lead sub rv" style="--d:1" data-en="T1 won the Worlds 2025 final and Faker is the legendary mid laner. The fans’ question: can we see what makes them “special” in the data? We tested three claims under the same rules. The answers are modest, and we state them as they are.">T1 是 2025 全球总决赛的冠军,Faker 是传奇的中单。粉丝最关心的问题是:能不能在数据里看见他们“特别”的地方?我们按同一套规则查了三个说法,结果有点出人意料,也很克制。</p>
+  <div class="t1cols">
+    <div class="t1c rv"><span class="big">−469</span>
+      <h3 data-en="“Faker controls the map”">“Faker 控制地图”</h3> <p data-en="&lt;b&gt;A little.&lt;/b&gt; In the minute before spawns, T1’s mid laner (432 setups in games Faker started) stands on average 469 units closer to the pit than other mid laners (interval −709 to −275), about 3% of the map width. Arrival order is slightly earlier too. That describes position; it does not prove “map control”."><b>有一点点。</b>在资源刷新前一分钟,T1 的中单(Faker 首发的比赛,432 次站位)离坑的路程比别的中单平均近 469 个单位(区间 −709 到 −275),约为地图宽度的 3%。到坑边的先后顺序也略靠前。这是描述,不是证明“控图”。</p></div>
+    <div class="t1c rv" style="--d:1"><span class="big">−0.002</span>
+      <h3 data-en="“T1 does not panic when behind”">“T1 落后也不慌”</h3> <p data-en="&lt;b&gt;T1 behaves like everyone else.&lt;/b&gt; Sending fewer players when behind is common to all teams: T1’s trailing-minus-leading gap is −0.194, other teams’ −0.192, a difference of −0.002 (interval −0.133 to 0.149)."><b>T1 和别的队伍一样。</b>落后时少派人去坑边,是所有队伍的共同规律:T1 的“落后减领先”差距是 −0.194,其他队伍是 −0.192,两者之差 −0.002(区间 −0.133 到 0.149)。</p></div>
+    <div class="t1c rv" style="--d:2"><span class="big">−0.002</span>
+      <h3 data-en="“T1 wins fights at equal numbers”">“T1 同人数时更会打团”</h3> <p data-en="&lt;b&gt;Cannot see it.&lt;/b&gt; Across 399 fights involving T1, the actual result differs from the model’s prediction by just −0.002 (interval −0.045 to 0.046), essentially zero. That does not mean no edge, only that this measurement does not show one."><b>看不出来。</b>在 399 场有 T1 参与的团战里,实际结果和模型预测的差只有 −0.002(区间 −0.045 到 0.046),几乎是零。这不代表他们没有优势,只代表这个测量里看不出。</p></div>
+  </div>
+  <div class="cant rv">
+    <h3 data-en="What this data cannot measure">这份数据量不了的</h3><ul><li data-en="Champion pool depth, draft mind games">英雄池深度、BP 阶段的心理战</li><li data-en="In-team voice communication and shot-calling">队内语音沟通、临场指挥</li><li data-en="Vision, cooldowns, wave states">视野、技能冷却、兵线状态</li><li data-en="Individual player skill: the dataset has no player names, only roles and teams, and tracking has error">某个选手的个人能力:数据集里没有选手名字,只有位置和队伍,追踪本身也有误差</li></ul>
+  </div>
+  <p class="small tfacts" data-en="Background (not from this study; sources Wikipedia and gol.gg): Faker is the first player with six Worlds titles. T1 beat KT Rolster 3-2 in the 2025 final and became the first team with three in a row (2023–2025); at MSI 2025 they lost 2-3 to Gen.G and finished runner-up.">背景(不是本研究的数据,来源 Wikipedia、gol.gg):Faker 是第一位拿下六座世界赛冠军的选手;T1 在 2025 年总决赛 3-2 击败 KT Rolster,成为首支三连冠球队(2023–2025);MSI 2025 他们 2-3 惜败 Gen.G 获得亚军。</p>
+</div></div></section>
+
+<section id="dataset"><div class="wrap">
+  <div class="grid ds-head">
+    <h2 class="rv" data-en="The dataset: everything we can release">数据集:全部公开的部分</h2>
+    <p class="lead rv" style="--d:1" data-en="We release the coordinates read from video, the cleaned setup tables, and the code to reproduce every number in the paper. We do not release video, frames or audio, nor Riot’s raw data.">我们发布从视频里读出来的坐标、整理好的站位表,以及复现论文每一个数字的代码。不发布视频、画面、声音,也不发布 Riot 的原始数据。</p>
+  </div>
+  <div class="grid dgrid">
+    <div class="dleft">
+      <dl class="kv">
+        <div><dt data-en="Default build size">默认版本大小</dt><dd>≈ 87 MB</dd></div>
+        <div><dt data-en="Track rows">轨迹行数</dt><dd>5,758,940</dd></div>
+        <div><dt data-en="Data licence (planned)">数据许可(计划)</dt><dd>CC BY-SA 4.0</dd></div>
+        <div><dt data-en="Code licence">代码许可</dt><dd>MIT</dd></div>
+      </dl>
+      <h3 data-en="What is inside">里面有什么</h3>
+      <div class="tablewrap"><table>
+        <thead><tr><th data-en="Part">内容</th><th data-en="What it is">是什么</th><th data-en="Size / format">规模 / 格式</th></tr></thead>
+        <tbody>
+        <tr><td data-en="Tracks">位置轨迹</td><td data-en="One position per player every 0.5 s, and whether it was seen or inferred">每名选手每 0.5 秒一个位置,以及这个位置是“看到的”还是“推算的”</td><td>5,758,940 rows · parquet</td></tr>
+        <tr><td data-en="Setups">站位快照</td><td data-en="Each team at 21 moments around every spawn: who is at the pit, how fast players could arrive, how they group">每支队伍在每次刷新前后 21 个时间点的站位:谁在坑边、几个人多快能到、队形怎么分组</td><td>56,220 rows × 68 cols · parquet</td></tr>
+        <tr><td data-en="Spawn table">资源刷新表</td><td data-en="When each objective spawned, who killed it, and where (1,516 spawns, 1,497 of them with tracks)">每次刷新的时间、被谁击杀、在哪里(1,516 次,其中 1,497 次有追踪轨迹)</td><td>1,516 rows · csv</td></tr>
+        <tr><td data-en="Fights">团战表</td><td data-en="Players involved, kills and location of each fight">每场团战的人数、击杀、位置</td><td>2,325 rows · parquet</td></tr>
+        <tr><td data-en="Derived tables">派生表</td><td data-en="Event values, “who arrived first”, and the six patterns with their probabilities">事件价值、“谁先到”、六种站位的概率与说明</td><td>csv · parquet · json</td></tr>
+        <tr><td data-en="Map and calibration">地图与校准</td><td data-en="The walkable map (12,944 cells), a minimap calibration per game, and the video-to-game-clock alignment">可走区域(12,944 格)、每局小地图校准、视频与比赛时钟对齐</td><td>csv</td></tr>
+        <tr><td data-en="Game lists">场次清单</td><td data-en="164 core games, plus metadata and video pointers (not videos) for 2,853 pro games in 2023–2026">164 局核心比赛,以及 2023–2026 共 2,853 局职业比赛的元数据和视频“指针”(不含视频)</td><td>csv</td></tr>
+        <tr><td data-en="Code">代码</td><td data-en="Scripts that rebuild everything from public sources">从公开来源重建一切的脚本</td><td>python · MIT</td></tr>
+        </tbody></table></div>
+      <h3 data-en="How the files are laid out">文件怎么摆放</h3>
+      <pre class="tree" aria-label="Folder layout">release/
+  manifests/   games, objective_spawns.csv, vod pointers
+  alignment/   clock alignment (video time -&gt; game time)
+  minimap/     minimap_calibration.csv
+  navgraph/    nav_nodes.csv  (the walkable map)
+  tracks/      minimap_tracks_2fps.parquet
+  derived/     team_setup_snapshots.parquet, fights.parquet,
+               event_values.csv, arrival_race.csv,
+               hasse_posteriors_K6.parquet, hasse_patterns_K6.json
+  results/     the summary tables and figures behind the paper
+  code/        scripts to rebuild everything</pre>
+      <h3 data-en="How to load it (Python)">怎么读它(Python)</h3>
+      <pre><code>import pandas as pd
+
+# one row = one team at one moment around one spawn
+setups = pd.read_parquet(&quot;derived/team_setup_snapshots.parquet&quot;)
+
+# first baron, 45 s after the spawn, teams that are behind in gold
+baron = setups[(setups.objective == &quot;BARON_NASHOR&quot;)
+               &amp; (setups.idx == 1) &amp; (setups.offset_s == 45)]
+behind = baron[baron.gold_diff &lt; 0]
+print(&quot;pit empty:&quot;, (behind.k_pit == 0).mean())   # k_pit = players at the pit
+
+# the raw tracks: 2 positions per second per champion
+tracks = pd.read_parquet(&quot;tracks/minimap_tracks_2fps.parquet&quot;)
+one_game = tracks[tracks.RiotPlatformGameId == tracks.RiotPlatformGameId.iloc[0]]</code></pre>
+      <p class="small" data-en="A rough look only, not the paper’s full method; column names are in the LAYOUT notes shipped with the dataset.">这只是一个粗略的看法,不是论文的完整方法;列名见数据集里的 LAYOUT 说明。</p>
+    </div>
+    <div class="dright">
+      <h3 data-en="Not included">不包含</h3>
+      <ul class="terms"><li data-en="Video, frames and audio (YouTube’s and Riot’s terms do not allow redistribution)">视频、画面、声音(YouTube 和 Riot 的规定不允许再发布)</li><li data-en="Riot’s raw match data, Oracle’s Elixir and PandaSkill raw data">Riot 的原始比赛数据、Oracle’s Elixir、PandaSkill 的原始数据</li><li data-en="Player names or accounts (roles and teams only)">选手名字或账号(只有位置和队伍)</li></ul>
+      <h3 data-en="Licence and terms">许可与使用条件</h3>
+      <ul class="terms"><li data-en="Data: CC BY-SA 4.0 (planned). Code: MIT.">数据:CC BY-SA 4.0(计划)。代码:MIT。</li><li data-en="Credit us and Leaguepedia (some tables derive from it, so share-alike applies).">要署名我们和 Leaguepedia(部分表格来自它,需相同方式共享)。</li><li data-en="Please use non-commercially and respect Riot’s rights in the game data.">请只做非商业使用,尊重 Riot 对游戏数据的权利。</li><li data-en="Do not try to identify players.">不要试图识别选手身份。</li><li data-en="This is the project’s plan, not legal advice; a few third-party terms are still being confirmed, and the LICENSING file shipped with the data is authoritative at release.">这是项目的计划,不是法律意见;个别第三方条款仍在最终确认,发布时以数据集自带的 LICENSING 为准。</li><li data-en="Riot notice: this project is not endorsed by Riot Games and does not reflect the views of Riot Games.">Riot 声明:本项目与 Riot Games 无关,Riot Games 不为其背书。</li></ul>
+      <h3 data-en="Good for, and not for">适合和不适合</h3>
+      <ul class="terms"><li data-en="Good for: studying setups before objectives, benchmarking tracking and formation methods, modelling team behaviour, reproducing the paper.">适合:研究资源前的站位、测试追踪与队形方法、建模队伍行为、复现论文。</li><li data-en="Not for: rating or scouting individual players, betting, claims about other patches or rule sets, anything needing video.">不适合:评价或球探某个选手、博彩、其他版本或规则的结论、任何需要视频的事。</li></ul>
+      <h3 data-en="How to cite">怎么引用</h3>
+      <p class="small" data-en="There is no DOI yet; please cite the entries below.">暂时没有 DOI,请引用下面的条目。</p>
+      <pre><code>@misc{allocation_before_the_clock,
+  title  = {Allocation Before the Clock: Graph, Set and Game Theory
+            of Professional League of Legends Objective Setups},
+  author = {Gao, Zheng and Liu, Zhenyu and Yang, Yifan and Li, Xiaoyu},
+  institution = {UNSW Sydney},
+  year   = {2026},
+  note   = {Preprint. Corresponding author: Zheng Gao
+            (zheng.gao1@unsw.edu.au).},
+  url    = {https://zhenggao-30.github.io/lol-setups/}
+}
+
+@dataset{setups_before_spawns,
+  title     = {Setups Before Spawns: tracked positions and team set-ups
+               before neutral objectives in professional League of Legends},
+  author    = {Gao, Zheng and Liu, Zhenyu and Yang, Yifan and Li, Xiaoyu},
+  institution = {UNSW Sydney},
+  year      = {2026},
+  version   = {v1.0},
+  publisher = {GitHub},
+  url       = {https://github.com/ZhengGao-30/lol-setups}
+}</code></pre>
+      <div class="dl">
+        <a class="btn alt" href="https://github.com/ZhengGao-30/lol-setups/tree/main/data" data-en="Download the dataset">下载数据集</a>
+        <a class="btn alt" href="https://github.com/ZhengGao-30/lol-setups" data-en="Code">代码</a>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="paper"><div class="wrap">
+  <div class="grid paper-head">
+    <h2 class="rv" data-en="The paper">论文</h2>
+    <div class="abs"><p class="rv" style="--d:1" data-en="&lt;b&gt;The abstract in plain words.&lt;/b&gt; Before every objective, a pro team decides how many players go to the pit, how many hold a lane, and when to commit. The closest earlier work is TAGNet for Counter-Strike 2. We take a different view: a setup is an allocation of players on a walled map. Over all 164 games of MSI and Worlds 2025, trailing teams leave the pit empty more often; our model finds six setups that are recovered on resampled data; and teams’ choices respond to fights, travel and the cost of committing players, but hardly to the objective’s own value. We release the tracks, setups and code."><b>用大白话说摘要。</b>每次资源刷新之前,职业战队都要决定几个人去坑边、几个人守线、什么时候压上。此前最接近的研究是针对《反恐精英 2》的 TAGNet。我们换了一个角度:把站位看成“在有墙的地图上分配人手”。在 MSI 和 Worlds 2025 的全部 164 局里,落后的队伍更常让坑边没人;我们的模型找到了六种站位,在重新抽样的数据上仍能找回;队伍的选择对打架、路程和投入人手的代价有反应,对资源本身的价值几乎没有反应。我们公开轨迹、站位表和代码。</p>
+      <div class="pdfrow"><a class="btn" href="assets/paper.pdf" data-en="Read the full paper (PDF)">阅读完整论文(PDF)</a><span class="small" data-en="Restyled single-column version.">已更新为重新排版的单栏版本</span></div>
+    </div>
+  </div>
+  <div class="gal" role="region" aria-label="Figures">
+    <div class="tabs" role="tablist"><button type="button" role="tab" aria-selected="false" data-en="One setup, in full">一次站位的全貌</button><button type="button" role="tab" aria-selected="false" data-en="Is the measurement sound?">测量靠谱吗</button><button type="button" role="tab" aria-selected="false" data-en="Trailing teams stay further from the pit">落后的队伍离坑更远</button><button type="button" role="tab" aria-selected="false" data-en="The gap opens after the spawn">差距出现在刷新之后</button><button type="button" role="tab" aria-selected="false" data-en="The six setup patterns">六种站位</button><button type="button" role="tab" aria-selected="false" data-en="Are the patterns recovered on resampled data?">重抽样后还能找回吗</button><button type="button" role="tab" aria-selected="false" data-en="How much does the game model reproduce?">博弈模型复现了多少</button><button type="button" role="tab" aria-selected="false" data-en="Team “fingerprints”">队伍的“指纹”</button><button type="button" role="tab" aria-selected="false" data-en="First come, first served?">先到先得吗</button><button type="button" role="tab" aria-selected="false" data-en="T1 and Faker">T1 与 Faker</button></div>
+    <div>
+      <div class="frame"><img src="assets/figs/fig01_teaser.webp" alt="一次站位的全貌" data-en="One setup, in full" width="1800" height="900"><img src="assets/figs/fig02_measurement.webp" alt="测量靠谱吗" data-en="Is the measurement sound?" width="1800" height="900"><img src="assets/figs/fig05_curves.webp" alt="落后的队伍离坑更远" data-en="Trailing teams stay further from the pit" width="1800" height="900"><img src="assets/figs/fig06_contrasts.webp" alt="差距出现在刷新之后" data-en="The gap opens after the spawn" width="1800" height="900"><img src="assets/figs/fig09_patterns.webp" alt="六种站位" data-en="The six setup patterns" width="1800" height="900"><img src="assets/figs/fig10_stability.webp" alt="重抽样后还能找回吗" data-en="Are the patterns recovered on resampled data?" width="1800" height="900"><img src="assets/figs/fig13_qre.webp" alt="博弈模型复现了多少" data-en="How much does the game model reproduce?" width="1800" height="900"><img src="assets/figs/fig14_fingerprints.webp" alt="队伍的“指纹”" data-en="Team “fingerprints”" width="1800" height="900"><img src="assets/figs/fig15_arrival.webp" alt="先到先得吗" data-en="First come, first served?" width="1800" height="900"><img src="assets/figs/figA_t1_faker.webp" alt="T1 与 Faker" data-en="T1 and Faker" width="1800" height="900"></div>
+      <div class="cap" aria-live="polite"><div  hidden><p data-en="Game 4 of the Worlds 2025 final, first baron, 60 s after the spawn: T1 (blue) against KT Rolster (red). Left: the map coloured by who can get there first. Right: how fast each team can bring players, and how many are at the pit.">2025 全球总决赛第 4 局,第一条大龙刷新后 60 秒,T1(蓝)对 KT Rolster(红)。左边把地图按“谁先走到”涂成两种颜色,右边几张小图显示每队多快能凑齐几个人、坑边有几个人。</p></div><div  hidden><p data-en="Clock alignment, position error against Riot’s official data, how crowding hurts it, and how well our formations match Riot’s. The dotted line is 600 game units.">时钟对齐、位置误差(对照 Riot 官方数据)、人多时会不会变差、队形和官方是否一致。虚线是 600 个游戏单位。</p></div><div  hidden><p data-en="Top: share of setups with nobody at the pit. Bottom: average players at the pit. Before the spawn the three gold states look alike; after it, trailing teams send far fewer players.">上图是“坑边没有人”的比例,下图是坑边的平均人数。刷新之前三种经济状态看起来差不多,刷新之后落后的队伍明显更少有人到场。</p></div><div  hidden><p data-en="Trailing minus leading teams, by objective and time. Dots mark cells where the sign holds at three pit radii and survives multiple-testing control.">落后队伍减领先队伍,按资源种类和时间画成格子。圆点表示三种“坑边半径”下方向一致、并通过了多重检验。</p></div><div  hidden><p data-en="Each row is one pattern’s typical formation over 13 time points (darker = more gathered); on the right, how often it appears in the three objective classes.">每一行是一种站位在 13 个时间点的“典型队形”(颜色越深越聚拢),右边是它在三类资源里出现的比例。</p></div><div  hidden><p data-en="Refitting on resampled data: agreement for our six setups is comparable to re-running TAGNet’s clustering step (about 0.82 against 0.81).">对重抽样的数据重新拟合:我们的六种站位和重跑 TAGNet 聚类步骤的一致性相当(约 0.82 对 0.81)。</p></div><div  hidden><p data-en="The game model reproduces about a quarter of the “trailing teams stay away” gap, almost all of it from game state; the four price channels add only about 0.5 points.">博弈模型复现了约四分之一的“落后队伍更不愿到坑边”,而且几乎都来自比赛局势;四种“价格因素”只多贡献约 0.5 个百分点。</p></div><div  hidden><p data-en="How often each team uses each pattern (T1 in red). The intervals are wide: few setups per team.">各队使用六种站位的比例,红色是 T1。置信区间很宽:每支队伍的样本不多。</p></div><div  hidden><p data-en="The side that first gets three players to the pit usually takes the river objectives; Atakhan is the exception, close to a coin flip.">先凑齐三个人的一方,通常拿到河道资源;亚塔坎是个例外,几乎是五五开。</p></div><div  hidden><p data-en="(Appendix) The T1 and Faker measurements behind the spotlight above.">(附录)T1 和 Faker 的几项测量,详见上面的聚光灯。</p></div></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="faq" class="faq"><div class="wrap faq-wrap">
+  <h2 class="rv" data-en="Frequently asked questions">常见问题</h2>
+  <div class="cards"><div class="card" style="--i:0"><span class="tab" data-en="Scope">范围</span><button type="button" aria-expanded="false" data-en="Why only MSI 2025 and Worlds 2025?">为什么只看 MSI 2025 和 Worlds 2025?</button><div class="ans" data-en="&lt;p&gt;Because both events use the same objective rules (three grubs per camp, Atakhan), so they can be compared fairly. Older events had different rules; we only describe them and did not track them.&lt;/p&gt;&lt;p&gt;The findings therefore apply to this rule set and these two international events, not to other patches or leagues.&lt;/p&gt;"><p>因为这两个比赛用同一套资源规则(每个营地 3 只巢虫、有亚塔坎),放在一起才能公平比较。更早的比赛规则不同,我们只做了描述,没有追踪。</p><p>所以结论只适用于这一套规则、这两场国际赛事,不能直接推广到别的版本或联赛。</p></div></div><div class="card" style="--i:1"><span class="tab" data-en="Accuracy">准确度</span><button type="button" aria-expanded="false" data-en="Positions are read off a broadcast minimap. How accurate?">位置是从直播小地图“看”出来的,准吗?</button><div class="ans" data-en="&lt;p&gt;Checked against Riot’s once-a-minute official positions on minutes we held out: median error 177 units on a map about 14,820 wide, a little over 1%; 78.5% of positions are within 600 units.&lt;/p&gt;&lt;p&gt;Formations match Riot’s exactly only about 54% of the time, so every headline result was re-checked at three radii, against Riot’s own frames, and without interpolated positions.&lt;/p&gt;"><p>和 Riot 官方每分钟一次的真实位置对账(留出来没用过的分钟):误差中位数 177 个单位,而地图宽约 14,820,也就是 1% 出头;78.5% 的位置误差在 600 单位以内。</p><p>但队形和官方完全一致的只有约 54%,所以所有主要结论都用“三种半径方向一致”“用官方数据复核”“去掉插值位置再算一遍”来检验过。</p></div></div><div class="card" style="--i:2"><span class="tab" data-en="Players">选手</span><button type="button" aria-expanded="false" data-en="Can it rate individual players?">能用它来评价某个选手吗?</button><div class="ans" data-en="&lt;p&gt;No. The dataset has no player names, only roles (top, jungle, mid, bot, support) and teams, and tracking has error. The T1/Faker section is descriptive only.&lt;/p&gt;"><p>不适合。数据集里没有选手名字,只有位置(上、野、中、下、辅)和队伍;追踪也有误差。T1/Faker 的部分只是描述性的参考。</p></div></div><div class="card" style="--i:0"><span class="tab" data-en="Cause">因果</span><button type="button" aria-expanded="false" data-en="Are trailing teams “giving up”?">落后的队伍是“放弃”了吗?</button><div class="ans" data-en="&lt;p&gt;We measure that pits are more often empty when a team is behind, not why. Vision, cooldowns and voice comms are unobserved, so this is a statement about behaviour, not about intent.&lt;/p&gt;"><p>我们只测到“落后时坑边更常没人”,没有测到原因。视野、技能冷却、语音沟通都看不到,所以这是一个行为上的事实,不是对心理的判断。</p></div></div><div class="card" style="--i:1"><span class="tab" data-en="Use">商用</span><button type="button" aria-expanded="false" data-en="Can I use the data freely?">数据能随便用吗?</button><div class="ans" data-en="&lt;p&gt;Planned licences: data CC BY-SA 4.0, code MIT. Attribution is required, and because some tables derive from Leaguepedia, redistribution must be share-alike. We also ask for non-commercial use, out of respect for Riot’s rights in the game data.&lt;/p&gt;&lt;p&gt;These terms are still being finalised; the dataset page will be authoritative at release.&lt;/p&gt;"><p>计划的许可:数据 CC BY-SA 4.0,代码 MIT。需要署名,并且(因为数据里有 Leaguepedia 的内容)再发布时要相同方式共享。另外,我们请求大家只做非商业使用,尊重 Riot 对游戏数据的权利。</p><p>这一部分还在最终确认中,发布前以数据集页面为准。</p></div></div><div class="card" style="--i:2"><span class="tab" data-en="Get it">下载</span><button type="button" aria-expanded="false" data-en="Where to download? How to cite?">哪里下载?怎么引用?</button><div class="ans" data-en="&lt;p&gt;Data and code are on GitHub: &lt;a href=&quot;https://github.com/ZhengGao-30/lol-setups&quot;&gt;github.com/ZhengGao-30/lol-setups&lt;/a&gt; (data in &lt;a href=&quot;https://github.com/ZhengGao-30/lol-setups/tree/main/data&quot;&gt;data/&lt;/a&gt;). The paper PDF can be downloaded from this page. There is no DOI yet; the BibTeX is in the dataset section.&lt;/p&gt;"><p>数据和代码都在 GitHub:<a href="https://github.com/ZhengGao-30/lol-setups">github.com/ZhengGao-30/lol-setups</a>(数据在 <a href="https://github.com/ZhengGao-30/lol-setups/tree/main/data">data/</a>)。论文 PDF 可在本页下载。暂时没有 DOI;BibTeX 见数据集一节。</p></div></div></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div class="bigmark" aria-hidden="true"><div class="rings"><svg class="magic" viewBox="0 0 200 200" aria-hidden="true"><g fill="none" stroke="currentColor"><circle cx="100" cy="100" r="98" stroke-width=".7"/><circle cx="100" cy="100" r="94.5" stroke-width=".35" opacity=".7"/><g class="spin"><circle cx="100" cy="100" r="90" stroke-width="1.6" stroke-dasharray=".4 5.2" stroke-linecap="round"/><circle cx="100" cy="100" r="86" stroke-width=".5" stroke-dasharray="14 3 2 3" opacity=".8"/></g><g class="spin2" opacity=".6" stroke="#785A28"><polygon points="100,2 184.9,149 15.1,149" stroke-width=".5"/><polygon points="100,198 15.1,51 184.9,51" stroke-width=".5"/></g></g></svg></div><span class="word">Allocation<br>Before the Clock</span></div>
+  <div class="grid foot-cols">
+    <div class="c1"><h3 data-en="Site">网站</h3><ul>
+      <li><a href="#findings" data-en="Findings">发现</a></li><li><a href="#t1">T1 / Faker</a></li><li><a href="#faq" data-en="FAQ">常见问题</a></li></ul></div>
+    <div class="c2"><h3 data-en="Dataset">数据集</h3><ul>
+      <li><a href="#dataset" data-en="Contents and formats">内容与格式</a></li><li><a href="#dataset" data-en="Licence and use">许可与用法</a></li><li><a href="#dataset" data-en="How to cite">如何引用</a></li></ul></div>
+    <div class="c3"><h3 data-en="Paper">论文</h3><ul>
+      <li><a href="assets/paper.pdf" data-en="PDF (draft)">PDF(草稿)</a></li><li><a href="#paper" data-en="Figures">图集</a></li></ul></div>
+    <div class="c4"><h3 data-en="Project">项目</h3><ul>
+      <li>Zheng Gao · Zhenyu Liu</li><li>Yifan Yang · Xiaoyu Li</li><li>UNSW Sydney</li><li><a href="mailto:zheng.gao1@unsw.edu.au">zheng.gao1@unsw.edu.au</a></li></ul></div>
+    <div class="addr"><p data-en="Corresponding author: Zheng Gao. All numbers come from the paper’s value table.">通讯作者:Zheng Gao。所有数字取自论文的数值表。</p></div>
+  </div>
+  <div class="legal">
+    <p data-en="This is a research project page, not endorsed by Riot Games. No Riot artwork is used; the map is drawn from walkable-cell data. League of Legends is a trademark of Riot Games.">本网站是研究项目页面,与 Riot Games 无关,Riot Games 不为其背书。没有使用任何 Riot 的游戏美术;地图由可走区域数据绘制。英雄联盟是 Riot Games 的商标。</p>
+    <a class="btn" href="#top" data-en="Back to top">回到顶部</a>
+  </div>
+</div></footer>
+
+<script type="application/json" id="mapdata">{"pits": {"ATAKHAN": [114.02, 109.74000000000001], "BARON_NASHOR": [50.07, 45.290000000000006], "DRAGON": [99.87, 102.75], "ELDER": [99.29, 105.16], "HORDE": [47.9, 48.620000000000005], "RIFTHERALD": [46.96, 50.86]}, "b": [[100, "I", 34.68, 137.7], [100, "I", 32.1, 117.83], [100, "I", 11.72, 114.17], [100, "T", 42.81, 137.47], [100, "T", 69.19, 135.17], [100, "T", 105.04, 139.71], [100, "T", 36.51, 113.03999999999999], [100, "T", 50.48, 101.88], [100, "T", 21.77, 131.93], [100, "T", 58.46, 86.03999999999999], [100, "T", 11.69, 107.13], [100, "T", 15.12, 83.01], [100, "T", 9.81, 45.59], [200, "I", 135.94, 36.81], [200, "I", 115.93, 33.31], [200, "I", 112.75, 13.370000000000005], [200, "T", 136.24, 44.28], [200, "T", 133.27, 67.74], [200, "T", 138.66, 104.95], [200, "T", 111.34, 37.93000000000001], [200, "T", 97.67, 48.870000000000005], [200, "T", 130.52, 23.879999999999995], [200, "T", 89.55, 64.9], [200, "T", 104.81, 13.5], [200, "T", 79.43, 15.889999999999986], [200, "T", 43.18, 11.25]]}</script>
+<script type="application/json" id="patdata">[{"name": {"zh": "各守一方", "en": "Hold your posts"}, "desc": {"zh": "早期河道资源里最常见的站位。下路两人靠在一起,上单、打野、中单各守各的,从刷新前到刷新后几乎不变,是六种里最“死板”的。", "en": "The most common setup at early river objectives. Bot and support stay together, the other three each stay at their own post, and little changes from before to after the spawn. The most rigid of the six."}, "w": [25, 1, 0], "path": ["BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M"]}, {"name": {"zh": "守家,偶尔靠拢", "en": "Home, then regroup"}, "desc": {"zh": "也多见于早期河道资源。和上一种很像,但会在“五人全分开”和“下路二人靠拢”之间来回切换。", "en": "Also typical of early river objectives. Much like the previous one, but it flips back and forth between “all five apart” and “bot pair together”."}, "w": [19, 1, 1], "path": ["BS | T | J | M", "T | J | M | B | S", "BS | T | J | M", "T | J | M | B | S", "BS | T | J | M", "T | J | M | B | S", "T | J | M | B | S", "T | J | M | B | S", "BS | T | J | M", "T | J | M | B | S", "T | J | M | B | S", "T | J | M | B | S", "BS | T | J | M"]}, {"name": {"zh": "分开与双人切换", "en": "Spread and pair"}, "desc": {"zh": "亚塔坎之前最常见。大部分时间五个人分开,有时下路二人靠拢,到刷新时才有一点聚拢。", "en": "The most common setup before Atakhan. Mostly five players apart, sometimes the bot pair together, with only a little gathering at the spawn."}, "w": [14, 33, 18], "path": ["BS | T | J | M", "BS | T | J | M", "T | J | M | B | S", "T | J | M | B | S", "BS | T | J | M", "T | J | M | B | S", "T | J | M | B | S", "BS | T | J | M", "BS | T | J | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "BS | T | J | M"]}, {"name": {"zh": "先散后聚三人", "en": "Spread, then three"}, "desc": {"zh": "早期河道资源和亚塔坎都会用。刚开始分散,刷新前后慢慢收拢,最后是打野、下路、辅助三个人靠在一起。", "en": "Used for early river objectives and Atakhan. Starts spread out, closes up around the spawn, and ends with jungle, bot and support together."}, "w": [23, 29, 16], "path": ["BS | T | J | M", "T | J | M | B | S", "T | J | M | B | S", "T | J | M | B | S", "T | J | M | B | S", "T | J | M | B | S", "BS | T | J | M", "BS | T | J | M", "BS | T | J | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JBS | T | M"]}, {"name": {"zh": "四人聚拢,灵活", "en": "Gather four, fluid"}, "desc": {"zh": "后期资源(大龙、长生龙)的主流。刷新那一刻,除了上单,四个人都聚在坑边附近;队形变得很快,不那么死板。", "en": "The main setup for late objectives (baron, elder). At the spawn everyone but the top laner is gathered near the pit, and the shape changes quickly."}, "w": [10, 11, 38], "path": ["JBS | T | M", "JMBS | T", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JMBS | T", "JBS | T | M", "MBS | T | J", "JMBS | T", "JBS | T | M"]}, {"name": {"zh": "四人聚拢,更早", "en": "Gather four, early"}, "desc": {"zh": "亚塔坎和后期资源都会用。比上一种更早聚拢,而且聚拢以后一直保持,是最“惯性小”的一种。", "en": "Used for Atakhan and late objectives. Gathers earlier than the previous one and then stays gathered; the least inert of the six."}, "w": [9, 26, 27], "path": ["JBS | T | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JBS | T | M", "JMBS | T", "JMBS | T", "JMBS | T", "JMBS | T", "JMBS | T", "JMBS | T"]}]</script>
+<script src="assets/app.js"></script>
+</body>
+</html>
